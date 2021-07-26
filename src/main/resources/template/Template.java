@@ -45,13 +45,17 @@ public class ${class_name} {
     }
     
     private Result<?> handleTestCase(final Integer i, final FastScanner sc) {
-        int ans = 0;
-        return new Result<>(i, List.of(ans));
+        return new Result<>(i, List.of(""));
     }
     
     public void solve() {
         try (final FastScanner sc = new FastScanner(this.in)) {
-            final int numberOfTestCases = sc.nextInt();
+            final int numberOfTestCases;
+            if (this.sample) {
+                numberOfTestCases = sc.nextInt();
+            } else {
+                numberOfTestCases = 1;
+            }
             final List<Result<?>> results
                     = Stream.iterate(1, i -> i <= numberOfTestCases, i -> i + 1)
                             .map(i -> handleTestCase(i, sc))
