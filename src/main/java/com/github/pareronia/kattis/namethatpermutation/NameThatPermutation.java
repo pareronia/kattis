@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
+import java.math.BigInteger;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -23,6 +24,7 @@ import java.util.function.Supplier;
  * Name That Permutation
  * @see <a href="https://open.kattis.com/problems/namethatpermutation">https://open.kattis.com/problems/namethatpermutation</a>
  */
+// TODO Modular arithmetic?
 public class NameThatPermutation {
 
     private final boolean sample;
@@ -44,27 +46,28 @@ public class NameThatPermutation {
         System.out.println(supplier.get());
     }
     
-    private long fact(final int n) {
+    private BigInteger fact(final int n) {
         if (n == 1) {
-            return 1L;
+            return BigInteger.ONE;
         }
-        return n * fact(n - 1);
+        return BigInteger.valueOf(n).multiply(fact(n - 1));
     }
     
     private Result<?> handleTestCase(final Integer i, final FastScanner sc) {
         final int n = sc.nextInt();
-        final int k = sc.nextInt();
+        final BigInteger k = new BigInteger(sc.next());
         final List<Integer> avail = new ArrayList<>();
         for (int j = 0; j < n; j++) {
             avail.add(j + 1);
         }
         final List<Integer> p = new ArrayList<>();
-        long fact = fact(n);
-        int kk = k;
+        BigInteger fact = fact(n);
+        BigInteger kk = k;
         for (int j = 0; j < n; j++) {
-            fact /= (n - j);
-            p.add(avail.remove((int) (kk / fact)));
-            kk %= fact;
+            fact = fact.divide(BigInteger.valueOf(n - j));
+            final BigInteger[] divMod = kk.divideAndRemainder(fact);
+            p.add(avail.remove(divMod[0].intValue()));
+            kk = divMod[1];
         }
         final String ans = p.stream()
                 .map(String::valueOf)
