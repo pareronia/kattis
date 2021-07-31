@@ -147,6 +147,14 @@ public class ${class_name} {
             return Integer.parseInt(next());
         }
         
+        public int[] nextIntArray(int n) {
+            final int[] a = new int[n];
+            for (int i = 0; i < n; i++) {
+               
+            }
+            return a;
+        }
+        
         @SuppressWarnings("unused")
         public long nextLong() {
             return Long.parseLong(next());
