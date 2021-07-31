@@ -147,6 +147,7 @@ public class ${class_name} {
             return Integer.parseInt(next());
         }
         
+        @SuppressWarnings("unused")
         public int[] nextIntArray(int n) {
             final int[] a = new int[n];
             for (int i = 0; i < n; i++) {

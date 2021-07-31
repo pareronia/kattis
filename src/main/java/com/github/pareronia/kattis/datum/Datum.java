@@ -155,6 +155,7 @@ public class Datum {
             return Integer.parseInt(next());
         }
         
+        @SuppressWarnings("unused")
         public int[] nextIntArray(final int n) {
             final int[] a = new int[n];
             for (int i = 0; i < n; i++) {
