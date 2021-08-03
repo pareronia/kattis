@@ -1,5 +1,6 @@
 package com.github.pareronia.kattis.namethatpermutation;
 
+import static com.github.pareronia.kattis.namethatpermutation.NameThatPermutation.Factorial.bigFact;
 import static java.util.Arrays.asList;
 import static java.util.stream.Collectors.joining;
 
@@ -16,7 +17,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.StringTokenizer;
 import java.util.function.Supplier;
 
@@ -46,13 +49,6 @@ public class NameThatPermutation {
         System.out.println(supplier.get());
     }
     
-    private BigInteger fact(final int n) {
-        if (n == 1) {
-            return BigInteger.ONE;
-        }
-        return BigInteger.valueOf(n).multiply(fact(n - 1));
-    }
-    
     private Result<?> handleTestCase(final Integer i, final FastScanner sc) {
         final int n = sc.nextInt();
         final BigInteger k = new BigInteger(sc.next());
@@ -61,7 +57,7 @@ public class NameThatPermutation {
             avail.add(j + 1);
         }
         final List<Integer> p = new ArrayList<>();
-        BigInteger fact = fact(n);
+        BigInteger fact = bigFact(n);
         BigInteger kk = k;
         for (int j = 0; j < n; j++) {
             fact = fact.divide(BigInteger.valueOf(n - j));
@@ -201,5 +197,51 @@ public class NameThatPermutation {
         public List<T> getValues() {
             return values;
         }
+    }
+    public static final class Factorial<N extends Number> {
+    	private static final Map<Integer, Integer> INT = new HashMap<>();
+    	private static final Map<Integer, Long> LONG = new HashMap<>();
+    	
+    	static {
+    		INT.put(0, 1);
+    		INT.put(1, 1);
+    		INT.put(2, 2);
+    		INT.put(3, 6);
+    		INT.put(4, 24);
+    		INT.put(5, 120);
+    		INT.put(6, 720);
+    		INT.put(7, 5_040);
+    		INT.put(8, 40_320);
+    		INT.put(9, 362_880);
+    		INT.put(10, 3_628_800);
+    		INT.put(11, 39_916_800);
+    		INT.put(12, 479_001_600);
+    		LONG.put(13, 6_227_020_800L);
+    		LONG.put(14, 87_178_291_200L);
+    		LONG.put(15, 1_307_674_368_000L);
+    		LONG.put(16, 20_922_789_888_000L);
+    		LONG.put(17, 355_687_428_096_000L);
+    		LONG.put(18, 6_402_373_705_728_000L);
+    		LONG.put(19, 121_645_100_408_832_000L);
+    		LONG.put(20, 2_432_902_008_176_640_000L);
+    	}
+    	
+    	@SuppressWarnings("unchecked")
+		public static <N extends Number> N fact(final int n) {
+    		if (n <= 12) {
+    			return (N) INT.get(n);
+    		} else if (n <= 20) {
+    			return (N) LONG.get(n);
+    		} else {
+				return (N) bigFact(n);
+    		}
+        }
+    	
+    	public static BigInteger bigFact(int n) {
+    		if (n <= 20) {
+    			return BigInteger.valueOf(fact(n).longValue());
+    		}
+    		return BigInteger.valueOf(n).multiply(bigFact(n - 1));
+    	}
     }
 }
