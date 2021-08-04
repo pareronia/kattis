@@ -15,8 +15,10 @@ import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Deque;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Objects;
@@ -39,6 +41,7 @@ public class HotSpot {
     private static final char RED = 'R';
     private static final char GREEN = 'G';
     private static final char BLUE = 'B';
+    private static final char EMPTY = '.';
     
     private final boolean sample;
     private final InputStream in;
@@ -51,7 +54,6 @@ public class HotSpot {
         this.out = out;
     }
     
-    @SuppressWarnings("unused")
     private void log(final Supplier<Object> supplier) {
         if (!sample) {
             return;
@@ -90,17 +92,16 @@ public class HotSpot {
     }
     
     private int bfs(final Board board) {
-        final PriorityQueue<State> queue = new PriorityQueue<>();
+        final PriorityQueue<State> queue1 = new PriorityQueue<>();
+        final Deque<State> queue = new ArrayDeque<>();
         State state = State.of(board, 0);
         queue.add(state);
         final Set<Board> seen = new HashSet<>();
         seen.add(board);
         int cnt = 0;
-        int maxSize = 0;
         while (!queue.isEmpty()) {
             state = queue.poll();
-            maxSize = Math.max(maxSize, queue.size());
-            if (state.board.getRed().distanceFromHome() == 0) {
+            if (state.board.redIsHome()) {
                 cnt = state.jumps;
                 break;
             }
@@ -112,31 +113,18 @@ public class HotSpot {
                 }
             }
         }
-        final String maxSizeS = String.valueOf(maxSize);
-        log(() -> maxSizeS);
         return cnt;
     }
     
     private Result<?> handleTestCase(final Integer i, final FastScanner sc) {
         final char [][] g = new char[ROWS][COLS];
-        Robot RR = null;
-        final Set<Robot> R = new HashSet<>();
         for (int r = 0; r < ROWS; r++) {
             final String row = sc.next();
             for (int c = 0; c < COLS; c++) {
                 g[r][c] = row.charAt(c);
-                if (g[r][c] == RED) {
-                    RR = Robot.red(r, c);
-                    R.add(Robot.red(r, c));
-                } else if (g[r][c] == GREEN) {
-                    R.add(Robot.green(r, c));
-                } else if (g[r][c] == BLUE) {
-                    R.add(Robot.blue(r, c));
-                }
             }
         }
-        printGrid(g);
-        final Board board = Board.of(RR, R);
+        final Board board = Board.from(g);
         final int ans = bfs(board);
         return new Result<>(i, List.of(ans));
     }
@@ -280,47 +268,65 @@ public class HotSpot {
     }
     
     private static final class Board {
-        private final Robot red;
         private final Set<Robot> robots;
+        private final char[][] grid;
         
-        private Board(final Robot red, final Set<Robot> robots) {
-            this.red = red;
-            this.robots = robots;
+        public Board(char[][] grid) {
+        	this.grid = grid;
+        	this.robots = allRobots();
         }
 
-        public static Board of(final Robot red, final Set<Robot> robots) {
-            return new Board(red, robots);
+        public static Board from(char[][] grid) {
+        	return new Board(grid);
         }
         
         public Board doMove(final Move move) {
-            final Set<Robot> newRobots = new HashSet<>(this.robots);
-            newRobots.remove(move.getRobot());
-            newRobots.add(move.getRobot().withPosition(move.getTo()));
-            final Robot newRed = newRobots.stream()
-                    .filter(Robot::isRed).findFirst().orElseThrow();
-            return new Board(newRed, newRobots);
+        	final char[][] newGrid = copyGrid();
+        	final Position oldPosition = move.getRobot().getPosition();
+        	final Position newPosition = move.getTo();
+			newGrid[oldPosition.getRow()][oldPosition.getCol()] = EMPTY;
+			newGrid[newPosition.getRow()][newPosition.getCol()] = move.getRobot().getColor().getValue();
+			return Board.from(newGrid);
+        }
+        
+        private char[][] copyGrid() {
+        	final char[][] copy = new char[ROWS][COLS];
+        	for (int r = 0; r < this.grid.length; r++) {
+        		copy[r] = Arrays.copyOf(this.grid[r], COLS);
+			}
+			return copy;
         }
         
         private Set<Robot> allRobots() {
-            final Set<Robot> allRobots = new HashSet<>(this.robots);
-            allRobots.add(red);
+        	final Set<Robot> allRobots = new HashSet<>();
+        	for (int r = 0; r < ROWS; r++) {
+        		for (int c = 0; c < COLS; c++) {
+                    if (this.grid[r][c] == RED) {
+                        allRobots.add(Robot.red(r, c));
+                    } else if (this.grid[r][c] == GREEN) {
+                    	allRobots.add(Robot.green(r, c));
+                    } else if (this.grid[r][c] == BLUE) {
+                    	allRobots.add(Robot.blue(r, c));
+                    }
+				}
+			}
             return Collections.unmodifiableSet(allRobots);
         }
         
         public List<Move> validMoves() {
-            return allRobots().stream()
+            return this.robots.stream()
                 .flatMap(r -> Stream.of(
-                        this.jumpUp(r),
-                        this.jumpDown(r),
-                        this.jumpLeft(r),
-                        this.jumpRight(r),
-                        this.doubleJumpUp(r),
-                        this.doubleJumpDown(r),
-                        this.doubleJumpLeft(r),
-                        this.doubleJumpRight(r))
-                .filter(Optional::isPresent)
-                .map(Optional::get)
-                .map(p -> Move.of(r, p)))
+							this.jumpUp(r),
+							this.jumpDown(r),
+							this.jumpLeft(r),
+							this.jumpRight(r),
+							this.doubleJumpUp(r),
+							this.doubleJumpDown(r),
+							this.doubleJumpLeft(r),
+							this.doubleJumpRight(r))
+                		.filter(Optional::isPresent)
+                		.map(Optional::get)
+                		.map(p -> Move.of(r, p)))
                 .filter(this::isValid)
                 .collect(toList());
         }
@@ -416,8 +422,7 @@ public class HotSpot {
         }
         
         private boolean hasRobot(final Position position) {
-            return this.robots.stream()
-                    .anyMatch(r -> r.getPosition().equals(position));
+        	return this.grid[position.getRow()][position.getCol()] != EMPTY;
         }
         
         private boolean isFree(final Position position) {
@@ -425,52 +430,54 @@ public class HotSpot {
         }
         
         private boolean hasRedRobot(final Position position) {
-            return this.red.getPosition().equals(position);
+        	return this.grid[position.getRow()][position.getCol()] == RED;
         }
         
         private boolean hasBlueRobot(final Position position) {
-            return this.blueRobots().stream()
-                    .anyMatch(r -> r.getPosition().equals(position));
+        	return this.grid[position.getRow()][position.getCol()] == BLUE;
         }
         
-        private Set<Robot> blueRobots() {
-            return this.robots.stream().filter(Robot::isBlue).collect(toSet());
-        }
+		@Override
+		public int hashCode() {
+			final int prime = 31;
+			int result = 1;
+			result = prime * result + Arrays.deepHashCode(grid);
+			return result;
+		}
 
-        @Override
-        public int hashCode() {
-            return Objects.hash(robots);
-        }
-
-        @Override
-        public boolean equals(final Object obj) {
-            if (this == obj) {
-                return true;
-            }
-            if (obj == null) {
-                return false;
-            }
-            if (getClass() != obj.getClass()) {
-                return false;
-            }
-            final Board other = (Board) obj;
-            return Objects.equals(robots, other.robots);
-        }
-
-        @Override
-        public String toString() {
-            final StringBuilder builder = new StringBuilder();
-            builder.append("Board [red=").append(red).append(", robots=").append(robots).append("]");
-            return builder.toString();
-        }
+		@Override
+		public boolean equals(Object obj) {
+			if (this == obj) {
+				return true;
+			}
+			if (!(obj instanceof Board)) {
+				return false;
+			}
+			Board other = (Board) obj;
+			return Arrays.deepEquals(grid, other.grid);
+		}
 
         public Robot getRed() {
-            return this.red;
+        	return this.robots.stream().filter(Robot::isRed).findFirst().orElseThrow();
+        }
+        
+        public boolean redIsHome() {
+        	return this.grid[0][0] == RED;
         }
     }
     
     private enum Color {
-        RED, GREEN, BLUE;
+        RED('R'), GREEN('G'), BLUE('B');
+    	
+    	private final char value;
+
+		private Color(char value) {
+			this.value = value;
+		}
+
+		public char getValue() {
+			return value;
+		}
     }
 
     private static final class Position {
@@ -564,10 +571,6 @@ public class HotSpot {
             return new Robot(Color.BLUE, Position.of(row, col));
         }
         
-        public Robot withPosition(final Position position) {
-            return new Robot(this.color, position);
-        }
-        
         public Integer distanceFromHome() {
             return this.position.manhattanDistance(Position.of(0, 0));
         }
@@ -603,8 +606,11 @@ public class HotSpot {
             return position;
         }
         
-        
-        public boolean isRed() {
+        public Color getColor() {
+			return color;
+		}
+
+		public boolean isRed() {
             return this.color == Color.RED;
         }
         
