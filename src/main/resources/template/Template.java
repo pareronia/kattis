@@ -151,7 +151,7 @@ public class ${class_name} {
         public int[] nextIntArray(int n) {
             final int[] a = new int[n];
             for (int i = 0; i < n; i++) {
-               
+                a[i] = nextInt();
             }
             return a;
         }
