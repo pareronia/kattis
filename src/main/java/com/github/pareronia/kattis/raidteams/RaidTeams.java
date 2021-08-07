@@ -50,70 +50,55 @@ public class RaidTeams {
         System.out.println(supplier.get());
     }
     
-    private Comparator<Player> bySkillAndPlayerName(final int skill) {
-        return (p1, p2) -> {
-            final int sk1 = skill == 1 ? p1.skill1 : (skill == 2 ? p1.skill2 : p1.skill3);
-            final int sk2 = skill == 1 ? p2.skill1 : (skill == 2 ? p2.skill2 : p2.skill3);
-            if (sk1 == sk2) {
-                return p1.name.compareTo(p2.name);
+    private Comparator<int[]> bySkillAndPlayerName(final int skill, final String[] names) {
+        return (o1, o2) -> {
+            final int compareSkills
+                    = ((Integer) o1[skill]).compareTo(o2[skill]);
+            if (compareSkills != 0) {
+                return -1 * compareSkills;
             }
-            if (sk1 < sk2) {
-                return 1;
-            } else {
-                return -1;
-            }
+            return (names[o1[0]]).compareTo(names[o2[0]]);
         };
-    }
-    
-    private static final class Player {
-        private final String name;
-        private final int skill1;
-        private final int skill2;
-        private final int skill3;
-    
-        public Player(final String name,
-                        final int skill1, final int skill2, final int skill3) {
-            this.name = name;
-            this.skill1 = skill1;
-            this.skill2 = skill2;
-            this.skill3 = skill3;
-        }
     }
     
     private Result<?> handleTestCase(final Integer i, final FastScanner sc) {
         final int n = sc.nextInt();
-        final Player[] sk1 = new Player[n];
-        final Player[] sk2 = new Player[n];
-        final Player[] sk3 = new Player[n];
+        final String[] names = new String[n];
+        final int[][] sk1 = new int[n][4], sk2 = new int[n][4], sk3 = new int[n][4];
         for (int j = 0; j < n; j++) {
-            final Player p = new Player(sc.next(), sc.nextInt(),
-                                        sc.nextInt(), sc.nextInt());
-            sk1[j] = p;
-            sk2[j] = p;
-            sk3[j] = p;
+            names[j] = sc.next();
+            sk1[j][0] = j;
+            sk2[j][0] = j;
+            sk3[j][0] = j;
+            for (int k = 1; k < 4; k++) {
+                final int sk = sc.nextInt();
+                sk1[j][k] = sk;
+                sk2[j][k] = sk;
+                sk3[j][k] = sk;
+            }
         }
-        Arrays.sort(sk1, bySkillAndPlayerName(1));
-        Arrays.sort(sk2, bySkillAndPlayerName(2));
-        Arrays.sort(sk3, bySkillAndPlayerName(3));
-        final Set<String> seen = new HashSet<>();
+        Arrays.sort(sk1, bySkillAndPlayerName(1, names));
+        Arrays.sort(sk2, bySkillAndPlayerName(2, names));
+        Arrays.sort(sk3, bySkillAndPlayerName(3, names));
+        final Set<Integer> seen = new HashSet<>();
         int idx1 = 0, idx2 = 0, idx3 = 0;
         final List<String> anss = new ArrayList<>();
         int cnt = 0;
         while (cnt < n / 3) {
-            String p1 = null, p2 = null, p3 = null;
+            Integer p1 = null, p2 = null, p3 = null;
             do {
-                p1 = sk1[idx1++].name;
+                p1 = sk1[idx1++][0];
             } while (idx1 < n && seen.contains(p1));
             seen.add(p1);
             do {
-                p2 = sk2[idx2++].name;
+                p2 = sk2[idx2++][0];
             } while (idx2 < n && seen.contains(p2));
             seen.add(p2);
             do {
-                p3 = sk3[idx3++].name;
+                p3 = sk3[idx3++][0];
             } while (idx3 < n && seen.contains(p3));
             seen.add(p3);
-            anss.add(List.of(p1, p2, p3).stream()
+            anss.add(List.of(names[p1], names[p2], names[p3]).stream()
                     .sorted()
                     .collect(joining(" ")));
             cnt++;
