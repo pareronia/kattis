@@ -16,7 +16,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Deque;
 import java.util.HashSet;
@@ -69,98 +68,55 @@ public class CoastLength {
                         .replace('0', ' ')));
     }
     
-    private void checkSea(final int[][] g) {
-        for (int r = 0; r < g.length; r++) {
-            for (int c = 0; c < g[0].length; c++) {
-                if (g[r][c] != WATER) {
+    private int bfs(final int[][] g) {
+        int cnt = 0;
+        final Deque<Pair<Integer, Integer>> queue = new ArrayDeque<>();
+        queue.add(Pair.of(0,  0));
+        final Set<Pair<Integer, Integer>> seen = new HashSet<>();
+        seen.add(queue.peek());
+        while (!queue.isEmpty()) {
+            final Pair<Integer, Integer> sq = queue.poll();
+            if (g[sq.getOne()][sq.getTwo()] == WATER) {
+                g[sq.getOne()][sq.getTwo()] = SEA;
+            }
+            for (final Pair<Integer, Integer> rc : NSEW) {
+                final int rr = sq.getOne() + rc.getOne();
+                final int cc = sq.getTwo() + rc.getTwo();
+                if (rr < 0 || rr >= g.length
+                        || cc < 0 || cc >= g[0].length) {
                     continue;
                 }
-                if (r == 0 || c == 0 || r == g.length - 1 || c == g[0].length - 1) {
-                    g[r][c] = SEA;
+                if (g[rr][cc] == SEA) {
                     continue;
                 }
-                final Deque<List<Pair<Integer, Integer>>> queue = new ArrayDeque<>();
-                final Pair<Integer, Integer> sq = Pair.of(r, c);
-                queue.add(List.of(sq));
-                final Set<Pair<Integer, Integer>> seen = new HashSet<>();
-                seen.add(sq);
-                while (!queue.isEmpty()) {
-                    final List<Pair<Integer, Integer>> pp = queue.poll();
-                    final Pair<Integer, Integer> last = pp.get(pp.size() - 1);
-                    final Integer lastr = last.getOne();
-                    final Integer lastc = last.getTwo();
-                    if (lastr == 0 || lastc == 0
-                            || lastr == g.length - 1 || lastc == g[0].length - 1
-                            || g[lastr][lastc] == SEA) {
-                        for (int k = 0; k < pp.size() - 1; k++) {
-                            g[pp.get(k).getOne()][pp.get(k).getTwo()] = SEA;
-                        }
-                        continue;
-                    }
-                    for (final Pair<Integer, Integer> rc : NSEW) {
-                        final int rr = lastr + rc.getOne();
-                        final int cc = lastc + rc.getTwo();
-                        if (rr < 0 || rr >= g.length
-                                || cc < 0 || cc >= g[0].length) {
-                            continue;
-                        }
-                        if (g[rr][cc] != LAND) {
-                            final Pair<Integer, Integer> newsq = Pair.of(rr, cc);
-                            if (!seen.contains(newsq)) {
-                                final List<Pair<Integer, Integer>> newpp = new ArrayList<>(pp);
-                                seen.add(newsq);
-                                newpp.add(newsq);
-                                queue.add(newpp);
-                            }
-                        }
-                    }
+                if (g[rr][cc] == LAND) {
+                    cnt++;
+                    continue;
+                }
+                final Pair<Integer, Integer> p = Pair.of(rr, cc);
+                if (!seen.contains(p)) {
+                    seen.add(p);
+                    queue.add(p);
                 }
             }
         }
+        return cnt;
     }
     
     private Result<?> handleTestCase(final Integer i, final FastScanner sc) {
         final int n = sc.nextInt();
         final int m = sc.nextInt();
-        final int[][] g = new int[n][m];
+        final int[][] g = new int[n + 2][m + 2];
         for (int r = 0; r < n; r++) {
             final String row = sc.next();
             for (int c = 0; c < m; c++) {
-                g[r][c] = row.charAt(c) == '0' ? WATER : LAND;
+                g[r + 1][c + 1] = row.charAt(c) == '0' ? WATER : LAND;
             }
         }
-        checkSea(g);
-        log(() -> i);
-        printGrid(g);
-        int ans = 0;
-        for (int r = 0; r < n; r++) {
-            for (int c = 0; c < m; c++) {
-                if (g[r][c] != 1) {
-                    continue;
-                }
-                if (r == 0) {
-                    ans++;
-                }
-                if (r == n - 1) {
-                    ans++;
-                }
-                if (c == 0) {
-                    ans++;
-                }
-                if (c == m - 1) {
-                    ans++;
-                }
-                for (final Pair<Integer, Integer> rc : NSEW) {
-                    final int rr = r + rc.getOne();
-                    final int cc = c + rc.getTwo();
-                    if (rr < 0 || rr >= n || cc < 0 || cc >= m) {
-                        continue;
-                    }
-                    if (g[rr][cc] == SEA) {
-                        ans++;
-                    }
-                }
-            }
+        final int ans = bfs(g);
+        if (m < 100) {
+            log(() -> i);
+            printGrid(g);
         }
         return new Result<>(i, List.of(ans));
     }
