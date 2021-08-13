@@ -1,7 +1,6 @@
 package com.github.pareronia.kattis.natrij;
 
 import static java.util.Arrays.asList;
-import static java.util.stream.Collectors.toList;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
@@ -14,11 +13,9 @@ import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
 import java.util.function.Supplier;
-import java.util.stream.Stream;
 
 /**
  * Natrij
@@ -46,10 +43,10 @@ public class Natrij {
     }
     
     private int toSeconds(final String s) {
-        final int[] ss = Arrays.stream(s.split(":"))
-                .mapToInt(Integer::valueOf)
-                .toArray();
-        return ss[0] * 3_600 + ss[1] * 60 + ss[2];
+        final String[] ss = s.split(":");
+        return Integer.valueOf(ss[0]) * 3_600
+                + Integer.valueOf(ss[1]) * 60
+                + Integer.valueOf(ss[2]);
     }
     
     private String toHMS(final int ss) {
@@ -59,7 +56,7 @@ public class Natrij {
         return String.format("%02d:%02d:%02d", h, m, s);
     }
     
-    private Result<?> handleTestCase(final Integer i, final FastScanner sc) {
+    private void handleTestCase(final Integer i, final FastScanner sc) {
         final String s1 = sc.next();
         final String s2 = sc.next();
         final int ss1 = toSeconds(s1);
@@ -68,7 +65,7 @@ public class Natrij {
             ss2 += 24 * 3_600;
         }
         final String ans = toHMS(ss2 - ss1);
-        return new Result<>(i, List.of(ans));
+        this.out.println(ans);
     }
     
     public void solve() {
@@ -79,20 +76,12 @@ public class Natrij {
             } else {
                 numberOfTestCases = 1;
             }
-            final List<Result<?>> results
-                    = Stream.iterate(1, i -> i <= numberOfTestCases, i -> i + 1)
-                            .map(i -> handleTestCase(i, sc))
-                            .collect(toList());
-            output(results);
+            for (int i = 0; i < numberOfTestCases; i++) {
+                handleTestCase(i, sc);
+            }
         }
     }
 
-    private void output(final List<Result<?>> results) {
-        results.forEach(r -> {
-            r.getValues().stream().map(Object::toString).forEach(this.out::println);
-        });
-    }
-    
     public static void main(final String[] args) throws IOException, URISyntaxException {
         final boolean sample = isSample();
         final InputStream is;
@@ -191,21 +180,6 @@ public class Natrij {
             } catch (final IOException e) {
                 // ignore
             }
-        }
-    }
-    
-    private static final class Result<T> {
-        @SuppressWarnings("unused")
-        private final int number;
-        private final List<T> values;
-        
-        public Result(final int number, final List<T> values) {
-            this.number = number;
-            this.values = values;
-        }
-
-        public List<T> getValues() {
-            return values;
         }
     }
 }
