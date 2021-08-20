@@ -1,31 +1,22 @@
 package com.github.pareronia.kattis.paths;
 
 import static java.util.Arrays.asList;
-import static java.util.Collections.emptyList;
-import static java.util.stream.Collectors.summingLong;
-import static java.util.stream.Collectors.toList;
-import static java.util.stream.Collectors.toSet;
 
-import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;
+import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Deque;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.StringTokenizer;
 import java.util.function.Supplier;
-import java.util.stream.Stream;
 
 /**
  * Paths
@@ -52,68 +43,68 @@ public class Paths {
         System.out.println(supplier.get());
     }
     
-    private static final class MutableList {
-        public static <T> List<T> of(final T t) {
-            return new ArrayList<>(List.of(t));
-        }
+    private long bfs(final int n, final int k, final List<Integer>[] adj,
+            final int[] c, final int start) {
         
-        public static <T> List<T> merge(final List<T> l1, final List<T> l2) {
-            l1.addAll(l2);
-            return l1;
-        }
-    }
-    
-    private long bfs(final Map<Integer, List<Integer>> map, final int[] c,
-            final Integer start) {
-        
-        final Deque<List<Integer>> queue = new ArrayDeque<>();
-        queue.add(List.of(start));
+        final Deque<int[]> queue = new ArrayDeque<>();
+        int[] node = new int[k + 1];
+        node[0] = start;
+        queue.add(node);
         long cnt = 0;
         while (!queue.isEmpty()) {
-            final List<Integer> path = queue.poll();
-            if (path.size() > 1) {
+            node = queue.poll();
+            node[c[node[0]]] = 1;
+            int colors = 0;
+            for (int j = 1; j < node.length; j++) {
+                colors += node[j];
+            }
+            if (colors > 1) {
                 cnt++;
             }
-            final Set<Integer> colors = path.stream()
-                    .map(v -> c[v])
-                    .collect(toSet());
-            final Integer last = path.get(path.size() - 1);
-            final List<Integer> neighbours
-                    = map.getOrDefault(last, emptyList());
-            for (final Integer n : neighbours) {
-                if (!path.contains(n) && !colors.contains(c[n])) {
-                    final List<Integer> newPath = new ArrayList<>();
-                    newPath.addAll(path);
-                    newPath.add(n);
-                    queue.add(newPath);
+            if (colors == k) {
+                continue;
+            }
+            for (final Integer a : adj[node[0]]) {
+                if (node[c[a]] == 0) {
+                    final int[] newNode = Arrays.copyOf(node, node.length);
+                    newNode[0] = a;
+                    queue.add(newNode);
                 }
             }
         }
         return cnt;
     }
     
-    private Result<?> handleTestCase(final Integer i, final FastScanner sc) {
+    @SuppressWarnings("unchecked")
+    private void handleTestCase(final Integer i, final FastScanner sc) throws IOException {
         final int n = sc.nextInt();
         final int m = sc.nextInt();
-        sc.nextInt();
+        final int k = sc.nextInt();
         final int[] c = new int[n + 1];
         for (int j = 1; j <= n; j++) {
             c[j] = sc.nextInt();
         }
-        final Map<Integer, List<Integer>> map = new HashMap<>();
+        final List<Integer>[] adj = new ArrayList[n + 1];
+        for (int j = 0; j <= n; j++) {
+            adj[j] = new ArrayList<>();
+        }
         for (int j = 0; j < m; j++) {
            final int v1 = sc.nextInt();
            final int v2 = sc.nextInt();
-           map.merge(v1, MutableList.of(v2), MutableList::merge);
-           map.merge(v2, MutableList.of(v1), MutableList::merge);
+           adj[v1].add(v2);
+           adj[v2].add(v1);
         }
-        final Long ans = map.keySet().stream()
-                .map(v -> bfs(map, c, v))
-                .collect(summingLong(Long::valueOf));
-        return new Result<>(i, List.of(ans));
+        long ans = 0;
+        for (int j = 1; j <= n; j++) {
+            if (adj[j].isEmpty()) {
+                continue;
+            }
+            ans += bfs(n, k, adj, c, j);
+        }
+        this.out.println(ans);
     }
     
-    public void solve() {
+    public void solve() throws IOException {
         try (final FastScanner sc = new FastScanner(this.in)) {
             final int numberOfTestCases;
             if (this.sample) {
@@ -121,20 +112,12 @@ public class Paths {
             } else {
                 numberOfTestCases = 1;
             }
-            final List<Result<?>> results
-                    = Stream.iterate(1, i -> i <= numberOfTestCases, i -> i + 1)
-                            .map(i -> handleTestCase(i, sc))
-                            .collect(toList());
-            output(results);
+            for (int i = 0; i < numberOfTestCases; i++) {
+                handleTestCase(i, sc);
+            }
         }
     }
 
-    private void output(final List<Result<?>> results) {
-        results.forEach(r -> {
-            r.getValues().stream().map(Object::toString).forEach(this.out::println);
-        });
-    }
-    
     public static void main(final String[] args) throws IOException, URISyntaxException {
         final boolean sample = isSample();
         final InputStream is;
@@ -189,56 +172,57 @@ public class Paths {
     }
     
     private static final class FastScanner implements Closeable {
-        private final BufferedReader br;
-        private StringTokenizer st;
-        
+        final private int BUFFER_SIZE = 1 << 16;
+        private final DataInputStream din;
+        private final byte[] buffer;
+        private int bufferPointer, bytesRead;
+ 
         public FastScanner(final InputStream in) {
-            this.br = new BufferedReader(new InputStreamReader(in));
-            st = new StringTokenizer("");
+            din = new DataInputStream(in);
+            buffer = new byte[BUFFER_SIZE];
+            bufferPointer = bytesRead = 0;
         }
-        
-        public String next() {
-            while (!st.hasMoreTokens()) {
-                try {
-                    st = new StringTokenizer(br.readLine());
-                } catch (final IOException e) {
-                    throw new RuntimeException(e);
-                }
+ 
+        public int nextInt() throws IOException {
+            int ret = 0;
+            byte c = read();
+            while (c <= ' ') {
+                c = read();
             }
-            return st.nextToken();
+            final boolean neg = (c == '-');
+            if (neg) {
+                c = read();
+            }
+            do {
+                ret = ret * 10 + c - '0';
+            } while ((c = read()) >= '0' && c <= '9');
+ 
+            if (neg) {
+                return -ret;
+            }
+            return ret;
         }
-    
-        public int nextInt() {
-            return Integer.parseInt(next());
+ 
+        private void fillBuffer() throws IOException {
+            bytesRead = din.read(buffer, bufferPointer = 0, BUFFER_SIZE);
+            if (bytesRead == -1) {
+                buffer[0] = -1;
+            }
         }
-        
-        @SuppressWarnings("unused")
-        public long nextLong() {
-            return Long.parseLong(next());
+ 
+        private byte read() throws IOException {
+            if (bufferPointer == bytesRead) {
+                fillBuffer();
+            }
+            return buffer[bufferPointer++];
         }
-
+ 
         @Override
-        public void close() {
-            try {
-                this.br.close();
-            } catch (final IOException e) {
-                // ignore
+        public void close() throws IOException {
+            if (din == null) {
+                return;
             }
-        }
-    }
-    
-    private static final class Result<T> {
-        @SuppressWarnings("unused")
-        private final int number;
-        private final List<T> values;
-        
-        public Result(final int number, final List<T> values) {
-            this.number = number;
-            this.values = values;
-        }
-
-        public List<T> getValues() {
-            return values;
+            din.close();
         }
     }
 }
