@@ -1,8 +1,6 @@
 package com.github.pareronia.kattis.flowshop;
 
 import static java.util.Arrays.asList;
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
@@ -15,11 +13,9 @@ import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 import java.util.function.Supplier;
-import java.util.stream.Stream;
 
 /**
  * Flow Shop
@@ -46,7 +42,7 @@ public class FlowShop {
         System.out.println(supplier.get());
     }
     
-    private Result<?> handleTestCase(final Integer i, final FastScanner sc) {
+    private void handleTestCase(final Integer i, final FastScanner sc) {
         final int n = sc.nextInt();
         final int m = sc.nextInt();
         final int[][] s = new int[n][m];
@@ -55,7 +51,7 @@ public class FlowShop {
                 s[j][k] = sc.nextInt();
             }
         }
-        final List<Integer> ans = new ArrayList<>();
+        final int[] ans = new int[n];
         final int tt[] = new int[m];
         for (int j = 0; j < n; j++) {
             for (int k = 0; k < m; k++) {
@@ -74,9 +70,9 @@ public class FlowShop {
                 }
                 tt[k] = ready + todo + extra;
             }
-            ans.add(tt[m - 1]);
+            ans[j] = tt[m - 1];
         }
-        return new Result<>(i, List.of(ans.stream().map(String::valueOf).collect(joining(" "))));
+        new Output(this.out).print(ans).println();
     }
     
     public void solve() {
@@ -87,20 +83,12 @@ public class FlowShop {
             } else {
                 numberOfTestCases = 1;
             }
-            final List<Result<?>> results
-                    = Stream.iterate(1, i -> i <= numberOfTestCases, i -> i + 1)
-                            .map(i -> handleTestCase(i, sc))
-                            .collect(toList());
-            output(results);
+            for (int i = 0; i < numberOfTestCases; i++) {
+                handleTestCase(i, sc);
+            }
         }
     }
 
-    private void output(final List<Result<?>> results) {
-        results.forEach(r -> {
-            r.getValues().stream().map(Object::toString).forEach(this.out::println);
-        });
-    }
-    
     public static void main(final String[] args) throws IOException, URISyntaxException {
         final boolean sample = isSample();
         final InputStream is;
@@ -154,6 +142,29 @@ public class FlowShop {
         }
     }
     
+    private static final class Output {
+        private final PrintStream out;
+        
+        public Output(final PrintStream out) {
+            this.out = out;
+        }
+
+        public Output print(final int... a) {
+            for (int j = 0; j < a.length; j++) {
+                if (j > 0) {
+                    this.out.print(" ");
+                }
+                this.out.print(a[j]);
+            }
+            return this;
+        }
+        
+        public Output println() {
+            this.out.println();
+            return this;
+        }
+    }
+    
     private static final class FastScanner implements Closeable {
         private final BufferedReader br;
         private StringTokenizer st;
@@ -199,21 +210,6 @@ public class FlowShop {
             } catch (final IOException e) {
                 // ignore
             }
-        }
-    }
-    
-    private static final class Result<T> {
-        @SuppressWarnings("unused")
-        private final int number;
-        private final List<T> values;
-        
-        public Result(final int number, final List<T> values) {
-            this.number = number;
-            this.values = values;
-        }
-
-        public List<T> getValues() {
-            return values;
         }
     }
 }
