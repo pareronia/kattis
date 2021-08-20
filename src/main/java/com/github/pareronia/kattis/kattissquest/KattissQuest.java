@@ -1,14 +1,12 @@
 package com.github.pareronia.kattis.kattissquest;
 
 import static java.util.Arrays.asList;
-import static java.util.stream.Collectors.toList;
 
-import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;
+import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
@@ -17,9 +15,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.PriorityQueue;
-import java.util.StringTokenizer;
 import java.util.function.Supplier;
-import java.util.stream.Stream;
 
 /**
  * Kattis's Quest
@@ -46,33 +42,32 @@ public class KattissQuest {
         System.out.println(supplier.get());
     }
     
-    private Result<?> handleTestCase(final Integer i, final FastScanner sc) {
+    private void handleTestCase(final Integer i, final FastScanner sc) throws IOException {
         final int n = sc.nextInt();
-        final PriorityQueue<Pair<Integer, Integer>> q = new PriorityQueue<>(
+        final PriorityQueue<int[]> q = new PriorityQueue<>(
                 (p1, p2) -> {
-                    final int byEnergy = p1.getOne().compareTo(p2.getOne());
+                    final int byEnergy = Integer.compare(p1[0], p2[0]);
                     if (byEnergy == 0) {
-                        return -1 * p1.getTwo().compareTo(p2.getTwo());
+                        return -1 * Integer.compare(p1[1], p2[1]);
                     }
                     return -1 * byEnergy;
                 }
         );
-        final List<Integer> anss = new ArrayList<>();
         for (int j = 0; j < n; j++) {
-            final String c = sc.next();
-            if ("add".equals(c)) {
-                final int e = sc.nextInt();
-                final int g = sc.nextInt();
-                q.add(Pair.of(e, g));
+            final String[] c = sc.readLine().split(" ");
+            if ("add".equals(c[0])) {
+                final int e = Integer.parseInt(c[1]);
+                final int g = Integer.parseInt(c[2]);
+                q.add(new int[] { e, g });
             } else {
-                int x = sc.nextInt();
+                int x = Integer.parseInt(c[1]);
                 int ans = 0;
-                Pair<Integer, Integer> qq = null;
-                final List<Pair<Integer, Integer>> tmp = new ArrayList<>();
+                int[] qq = null;
+                final List<int[]> tmp = new ArrayList<>();
                 do {
                     for (int k = 0; k < q.size(); k++) {
                         qq = q.poll();
-                        if (qq.getOne() > x) {
+                        if (qq[0] > x) {
                             tmp.add(qq);
                             qq = null;
                         } else {
@@ -80,18 +75,17 @@ public class KattissQuest {
                         }
                     }
                     if (qq != null) {
-                        x -= qq.getOne();
-                        ans += qq.getTwo();
+                        x -= qq[0];
+                        ans += qq[1];
                     }
                 } while (!q.isEmpty() && x > 0);
                 tmp.forEach(q::add);
-                anss.add(ans);
+                this.out.println(ans);
             }
         }
-        return new Result<>(i, anss);
     }
     
-    public void solve() {
+    public void solve() throws IOException {
         try (final FastScanner sc = new FastScanner(this.in)) {
             final int numberOfTestCases;
             if (this.sample) {
@@ -99,20 +93,12 @@ public class KattissQuest {
             } else {
                 numberOfTestCases = 1;
             }
-            final List<Result<?>> results
-                    = Stream.iterate(1, i -> i <= numberOfTestCases, i -> i + 1)
-                            .map(i -> handleTestCase(i, sc))
-                            .collect(toList());
-            output(results);
+            for (int i = 0; i < numberOfTestCases; i++) {
+                handleTestCase(i, sc);
+            }
         }
     }
 
-    private void output(final List<Result<?>> results) {
-        results.forEach(r -> {
-            r.getValues().stream().map(Object::toString).forEach(this.out::println);
-        });
-    }
-    
     public static void main(final String[] args) throws IOException, URISyntaxException {
         final boolean sample = isSample();
         final InputStream is;
@@ -167,94 +153,74 @@ public class KattissQuest {
     }
     
     private static final class FastScanner implements Closeable {
-        private final BufferedReader br;
-        private StringTokenizer st;
-        
+        final private int BUFFER_SIZE = 1 << 16;
+        private final DataInputStream din;
+        private final byte[] buffer;
+        private int bufferPointer, bytesRead;
+ 
         public FastScanner(final InputStream in) {
-            this.br = new BufferedReader(new InputStreamReader(in));
-            st = new StringTokenizer("");
+            din = new DataInputStream(in);
+            buffer = new byte[BUFFER_SIZE];
+            bufferPointer = bytesRead = 0;
         }
-        
-        public String next() {
-            while (!st.hasMoreTokens()) {
-                try {
-                    st = new StringTokenizer(br.readLine());
-                } catch (final IOException e) {
-                    throw new RuntimeException(e);
+ 
+        public String readLine() throws IOException {
+            final byte[] buf = new byte[64]; // line length
+            int cnt = 0, c;
+            while ((c = read()) != -1) {
+                if (c == '\n') {
+                    if (cnt != 0) {
+                        break;
+                    } else {
+                        continue;
+                    }
                 }
+                buf[cnt++] = (byte)c;
             }
-            return st.nextToken();
+            return new String(buf, 0, cnt);
         }
-    
-        public int nextInt() {
-            return Integer.parseInt(next());
-        }
-        
-        @SuppressWarnings("unused")
-        public int[] nextIntArray(final int n) {
-            final int[] a = new int[n];
-            for (int i = 0; i < n; i++) {
-                a[i] = nextInt();
+ 
+        public int nextInt() throws IOException {
+            int ret = 0;
+            byte c = read();
+            while (c <= ' ') {
+                c = read();
             }
-            return a;
+            final boolean neg = (c == '-');
+            if (neg) {
+                c = read();
+            }
+            do {
+                ret = ret * 10 + c - '0';
+            } while ((c = read()) >= '0' && c <= '9');
+ 
+            if (neg) {
+                return -ret;
+            }
+            return ret;
         }
-        
-        @SuppressWarnings("unused")
-        public long nextLong() {
-            return Long.parseLong(next());
+ 
+        private void fillBuffer() throws IOException {
+            bytesRead = din.read(buffer, bufferPointer = 0,
+                                 BUFFER_SIZE);
+            if (bytesRead == -1) {
+                buffer[0] = -1;
+            }
         }
-
+ 
+        private byte read() throws IOException {
+            if (bufferPointer == bytesRead) {
+                fillBuffer();
+            }
+            return buffer[bufferPointer++];
+        }
+ 
         @Override
-        public void close() {
-            try {
-                this.br.close();
-            } catch (final IOException e) {
-                // ignore
+        public void close() throws IOException {
+            if (din == null) {
+                return;
             }
-        }
-    }
-    
-    private static final class Result<T> {
-        @SuppressWarnings("unused")
-        private final int number;
-        private final List<T> values;
-        
-        public Result(final int number, final List<T> values) {
-            this.number = number;
-            this.values = values;
-        }
-
-        public List<T> getValues() {
-            return values;
-        }
-    }
-
-    private static final class Pair<L, R> {
-        private final L one;
-        private final R two;
-
-        private Pair(final L one, final R two) {
-            this.one = one;
-            this.two = two;
-        }
-
-        public static <L, R> Pair<L, R> of(final L one, final R two) {
-            return new Pair<>(one, two);
-        }
-
-        @Override
-        public String toString() {
-            final StringBuilder builder = new StringBuilder();
-            builder.append("Pair [one=").append(one).append(", two=").append(two).append("]");
-            return builder.toString();
-        }
-
-        public L getOne() {
-            return one;
-        }
-        
-        public R getTwo() {
-            return two;
+            din.close();
         }
     }
 }
