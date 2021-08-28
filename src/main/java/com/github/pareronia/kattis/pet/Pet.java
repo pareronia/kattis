@@ -1,7 +1,6 @@
 package com.github.pareronia.kattis.pet;
 
 import static java.util.Arrays.asList;
-import static java.util.stream.Collectors.toList;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
@@ -16,8 +15,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.StringTokenizer;
-import java.util.function.Supplier;
-import java.util.stream.Stream;
 
 /**
  * Pet
@@ -36,15 +33,7 @@ public class Pet {
         this.out = out;
     }
     
-    @SuppressWarnings("unused")
-    private void log(final Supplier<Object> supplier) {
-        if (!sample) {
-            return;
-        }
-        System.out.println(supplier.get());
-    }
-    
-    private Result<?> handleTestCase(final Integer i, final FastScanner sc) {
+    private void handleTestCase(final Integer i, final FastScanner sc) {
         int max = 0;
         int maxScore = 0;
         for (int j = 1; j <= 5; j++) {
@@ -57,7 +46,10 @@ public class Pet {
                 max = j;
             }
         }
-        return new Result<>(i, List.of(String.format("%d %d", max, maxScore)));
+        this.out.print(max);
+        this.out.print(" ");
+        this.out.print(maxScore);
+        this.out.println();
     }
     
     public void solve() {
@@ -68,20 +60,12 @@ public class Pet {
             } else {
                 numberOfTestCases = 1;
             }
-            final List<Result<?>> results
-                    = Stream.iterate(1, i -> i <= numberOfTestCases, i -> i + 1)
-                            .map(i -> handleTestCase(i, sc))
-                            .collect(toList());
-            output(results);
+            for (int i = 1; i <= numberOfTestCases; i++) {
+                handleTestCase(i, sc);
+            }
         }
     }
 
-    private void output(final List<Result<?>> results) {
-        results.forEach(r -> {
-            r.getValues().stream().map(Object::toString).forEach(this.out::println);
-        });
-    }
-    
     public static void main(final String[] args) throws IOException, URISyntaxException {
         final boolean sample = isSample();
         final InputStream is;
@@ -159,11 +143,6 @@ public class Pet {
             return Integer.parseInt(next());
         }
         
-        @SuppressWarnings("unused")
-        public long nextLong() {
-            return Long.parseLong(next());
-        }
-
         @Override
         public void close() {
             try {
@@ -171,21 +150,6 @@ public class Pet {
             } catch (final IOException e) {
                 // ignore
             }
-        }
-    }
-    
-    private static final class Result<T> {
-        @SuppressWarnings("unused")
-        private final int number;
-        private final List<T> values;
-        
-        public Result(final int number, final List<T> values) {
-            this.number = number;
-            this.values = values;
-        }
-
-        public List<T> getValues() {
-            return values;
         }
     }
 }
