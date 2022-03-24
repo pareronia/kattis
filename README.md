@@ -87,6 +87,7 @@ https://open.kattis.com/
 | knightjump | [Knight Jump](https://open.kattis.com/problems/knightjump) | [Java](src/main/java/com/github/pareronia/kattis/knightjump/KnightJump.java) |
 | ladder | [Ladder](https://open.kattis.com/problems/ladder) | [Java](src/main/java/com/github/pareronia/kattis/ladder/Ladder.java) |
 | lyklagangriti | [Keystrokes](https://open.kattis.com/problems/lyklagangriti) | [Java](src/main/java/com/github/pareronia/kattis/lyklagangriti/Keystrokes.java) |
+| minimumscalar | [Minimum Scalar Product](https://open.kattis.com/problems/minimumscalar) | [Java](src/main/java/com/github/pareronia/kattis/minimumscalar/MinimumScalarProduct.java) |
 | namethatpermutation | [Name That Permutation](https://open.kattis.com/problems/namethatpermutation) | [Java](src/main/java/com/github/pareronia/kattis/namethatpermutation/NameThatPermutation.java) |
 | nastyhacks | [Nasty Hacks](https://open.kattis.com/problems/nastyhacks) | [Java](src/main/java/com/github/pareronia/kattis/nastyhacks/NastyHacks.java) |
 | natrij | [Natrij](https://open.kattis.com/problems/natrij) | [Java](src/main/java/com/github/pareronia/kattis/natrij/Natrij.java) |
