@@ -75,6 +75,7 @@ https://open.kattis.com/
 | industrialspy | [An Industrial Spy](https://open.kattis.com/problems/industrialspy) | [Java](src/main/java/com/github/pareronia/kattis/industrialspy/AnIndustrialSpy.java) |
 | isithalloween | [IsItHalloween.com](https://open.kattis.com/problems/isithalloween) | [Java](src/main/java/com/github/pareronia/kattis/isithalloween/IsItHalloweencom.java) |
 | jackolanternjuxtaposition | [Jack-O'-Lantern Juxtaposition](https://open.kattis.com/problems/jackolanternjuxtaposition) | [Java](src/main/java/com/github/pareronia/kattis/jackolanternjuxtaposition/JackOLanternJuxtaposition.java) |
+| jobexpenses | [Job Expenses](https://open.kattis.com/problems/jobexpenses) | [Java](src/main/java/com/github/pareronia/kattis/jobexpenses/JobExpenses.java) |
 | jollyjumpers | [Jolly Jumpers](https://open.kattis.com/problems/jollyjumpers) | [Java](src/main/java/com/github/pareronia/kattis/jollyjumpers/JollyJumpers.java) |
 | kattissquest | [Kattis's Quest](https://open.kattis.com/problems/kattissquest) | [Java](src/main/java/com/github/pareronia/kattis/kattissquest/KattissQuest.java) |
 | keyboardd | [Keyboardd](https://open.kattis.com/problems/keyboardd) | [Java](src/main/java/com/github/pareronia/kattis/keyboardd/Keyboardd.java) |
