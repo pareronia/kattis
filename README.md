@@ -109,6 +109,7 @@ https://open.kattis.com/
 | reversebinary | [Reversed Binary Numbers](https://open.kattis.com/problems/reversebinary) | [Java](src/main/java/com/github/pareronia/kattis/reversebinary/ReversedBinaryNumbers.java) |
 | rockpaperscissors | [Rock-Paper-Scissors Tournament](https://open.kattis.com/problems/rockpaperscissors) | [Java](src/main/java/com/github/pareronia/kattis/rockpaperscissors/RockPaperScissorsTournament.java) |
 | server | [Server](https://open.kattis.com/problems/server) | [Java](src/main/java/com/github/pareronia/kattis/server/Server.java) |
+| shatteredcake | [Shattered Cake](https://open.kattis.com/problems/shatteredcake) | [Java](src/main/java/com/github/pareronia/kattis/shatteredcake/ShatteredCake.java) |
 | shortsell | [Short Sell](https://open.kattis.com/problems/shortsell) | [Java](src/main/java/com/github/pareronia/kattis/shortsell/ShortSell.java) |
 | sibice | [Sibice](https://open.kattis.com/problems/sibice) | [Java](src/main/java/com/github/pareronia/kattis/sibice/Sibice.java) |
 | sidewayssorting | [Sideways Sorting](https://open.kattis.com/problems/sidewayssorting) | [Java](src/main/java/com/github/pareronia/kattis/sidewayssorting/SidewaysSorting.java) |
