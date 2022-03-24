@@ -45,6 +45,7 @@ https://open.kattis.com/
 | cups | [Stacking Cups](https://open.kattis.com/problems/cups) | [Java](src/main/java/com/github/pareronia/kattis/cups/StackingCups.java) |
 | cursethedarkness | [Curse the Darkness](https://open.kattis.com/problems/cursethedarkness) | [Java](src/main/java/com/github/pareronia/kattis/cursethedarkness/CurseTheDarkness.java) |
 | datum | [Datum](https://open.kattis.com/problems/datum) | [Java](src/main/java/com/github/pareronia/kattis/datum/Datum.java) |
+| detaileddifferences | [Detailed Differences](https://open.kattis.com/problems/detaileddifferences) | [Java](src/main/java/com/github/pareronia/kattis/detaileddifferences/DetailedDifferences.java) |
 | dicecup | [Dice Cup](https://open.kattis.com/problems/dicecup) | [Java](src/main/java/com/github/pareronia/kattis/dicecup/DiceCup.java) |
 | echoechoecho | [Echo Echo Echo](https://open.kattis.com/problems/echoechoecho) | [Java](src/main/java/com/github/pareronia/kattis/echoechoecho/EchoEchoEcho.java) |
 | eenymeeny | [Eeny Meeny](https://open.kattis.com/problems/eenymeeny) | [Java](src/main/java/com/github/pareronia/kattis/eenymeeny/EenyMeeny.java) |
