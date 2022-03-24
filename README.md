@@ -32,6 +32,7 @@ https://open.kattis.com/
 | carousel | [Carousel Rides](https://open.kattis.com/problems/carousel) | [Java](src/main/java/com/github/pareronia/kattis/carousel/CarouselRides.java) |
 | carrots | [Solving for Carrots](https://open.kattis.com/problems/carrots) | [Java](src/main/java/com/github/pareronia/kattis/carrots/SolvingForCarrots.java) |
 | cetvrta | [Cetvrta](https://open.kattis.com/problems/cetvrta) | [Java](src/main/java/com/github/pareronia/kattis/cetvrta/Cetvrta.java) |
+| chanukah | [Chanukah Challenge](https://open.kattis.com/problems/chanukah) | [Java](src/main/java/com/github/pareronia/kattis/chanukah/ChanukahChallenge.java) |
 | chartingprogress | [Charting Progress](https://open.kattis.com/problems/chartingprogress) | [Java](src/main/java/com/github/pareronia/kattis/chartingprogress/ChartingProgress.java) |
 | chopin | [Chopin](https://open.kattis.com/problems/chopin) | [Java](src/main/java/com/github/pareronia/kattis/chopin/Chopin.java) |
 | coast | [Coast Length](https://open.kattis.com/problems/coast) | [Java](src/main/java/com/github/pareronia/kattis/coast/CoastLength.java) |
