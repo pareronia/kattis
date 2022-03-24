@@ -16,6 +16,7 @@ https://open.kattis.com/
 | apaxiaaans | [Apaxiaaaaaaaaaaaans!](https://open.kattis.com/problems/apaxiaaans) | [Java](src/main/java/com/github/pareronia/kattis/apaxiaaans/Apaxiaaaaaaaaaaaans.java) |
 | apples | [Falling Apples](https://open.kattis.com/problems/apples) | [Java](src/main/java/com/github/pareronia/kattis/apples/FallingApples.java) |
 | autori | [Autori](https://open.kattis.com/problems/autori) | [Java](src/main/java/com/github/pareronia/kattis/autori/Autori.java) |
+| avion | [Avion](https://open.kattis.com/problems/avion) | [Java](src/main/java/com/github/pareronia/kattis/avion/Avion.java) |
 | babylonian | [Babylonian Numbers](https://open.kattis.com/problems/babylonian) | [Java](src/main/java/com/github/pareronia/kattis/babylonian/BabylonianNumbers.java) |
 | backspace | [BackSpace](https://open.kattis.com/problems/backspace) | [Java](src/main/java/com/github/pareronia/kattis/backspace/BackSpace.java) |
 | baloni | [Baloni](https://open.kattis.com/problems/baloni) | [Java](src/main/java/com/github/pareronia/kattis/baloni/Baloni.java) |
