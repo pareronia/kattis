@@ -53,6 +53,7 @@ https://open.kattis.com/
 | faktor | [Faktor](https://open.kattis.com/problems/faktor) | [Java](src/main/java/com/github/pareronia/kattis/faktor/Faktor.java) |
 | fallingapart | [Falling Apart](https://open.kattis.com/problems/fallingapart) | [Java](src/main/java/com/github/pareronia/kattis/fallingapart/FallingApart.java) |
 | filip | [Filip](https://open.kattis.com/problems/filip) | [Java](src/main/java/com/github/pareronia/kattis/filip/Filip.java) |
+| findingana | [Finding An A](https://open.kattis.com/problems/findingana) | [Java](src/main/java/com/github/pareronia/kattis/findingana/FindingAnA.java) |
 | fizzbuzz | [FizzBuzz](https://open.kattis.com/problems/fizzbuzz) | [Java](src/main/java/com/github/pareronia/kattis/fizzbuzz/FizzBuzz.java) |
 | flowshop | [Flow Shop](https://open.kattis.com/problems/flowshop) | [Java](src/main/java/com/github/pareronia/kattis/flowshop/FlowShop.java) |
 | fodelsedagsmemorisering | [Birthday Memorization](https://open.kattis.com/problems/fodelsedagsmemorisering) | [Java](src/main/java/com/github/pareronia/kattis/fodelsedagsmemorisering/BirthdayMemorization.java) |
