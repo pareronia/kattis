@@ -120,6 +120,7 @@ https://open.kattis.com/
 | shortsell | [Short Sell](https://open.kattis.com/problems/shortsell) | [Java](src/main/java/com/github/pareronia/kattis/shortsell/ShortSell.java) |
 | sibice | [Sibice](https://open.kattis.com/problems/sibice) | [Java](src/main/java/com/github/pareronia/kattis/sibice/Sibice.java) |
 | sidewayssorting | [Sideways Sorting](https://open.kattis.com/problems/sidewayssorting) | [Java](src/main/java/com/github/pareronia/kattis/sidewayssorting/SidewaysSorting.java) |
+| simone | [Simone](https://open.kattis.com/problems/simone) | [Java](src/main/java/com/github/pareronia/kattis/simone/Simone.java) |
 | skener | [Skener](https://open.kattis.com/problems/skener) | [Java](src/main/java/com/github/pareronia/kattis/skener/Skener.java) |
 | smil | [SMIL](https://open.kattis.com/problems/smil) | [Java](src/main/java/com/github/pareronia/kattis/smil/SMIL.java) |
 | sortofsorting | [Sort of Sorting](https://open.kattis.com/problems/sortofsorting) | [Java](src/main/java/com/github/pareronia/kattis/sortofsorting/SortOfSorting.java) |
