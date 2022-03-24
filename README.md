@@ -11,6 +11,7 @@ https://open.kattis.com/
 | --- | --- | --- |
 | 4thought | [4 thought](https://open.kattis.com/problems/4thought) | [Java](src/main/java/com/github/pareronia/kattis/_4thought/Thought.java) |
 | addtwonumbers | [](https://open.kattis.com/problems/addtwonumbers) | [Java](src/main/java/com/github/pareronia/kattis/addtwonumbers/AddTwoNumbers.java) |
+| akcija | [Akcija](https://open.kattis.com/problems/akcija) | [Java](src/main/java/com/github/pareronia/kattis/akcija/Akcija.java) |
 | alphabetspam | [Alphabet Spam](https://open.kattis.com/problems/alphabetspam) | [Java](src/main/java/com/github/pareronia/kattis/alphabetspam/AlphabetSpam.java) |
 | amsterdamdistance | [Amsterdam Distance](https://open.kattis.com/problems/amsterdamdistance) | [Java](src/main/java/com/github/pareronia/kattis/amsterdamdistance/AmsterdamDistance.java) |
 | apaxiaaans | [Apaxiaaaaaaaaaaaans!](https://open.kattis.com/problems/apaxiaaans) | [Java](src/main/java/com/github/pareronia/kattis/apaxiaaans/Apaxiaaaaaaaaaaaans.java) |
