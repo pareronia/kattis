@@ -139,5 +139,6 @@ https://open.kattis.com/
 | transitwoes | [Transit Woes](https://open.kattis.com/problems/transitwoes) | [Java](src/main/java/com/github/pareronia/kattis/transitwoes/TransitWoes.java) |
 | tri | [Tri](https://open.kattis.com/problems/tri) | [Java](src/main/java/com/github/pareronia/kattis/tri/Tri.java) |
 | twostones | [Take Two Stones](https://open.kattis.com/problems/twostones) | [Java](src/main/java/com/github/pareronia/kattis/twostones/TakeTwoStones.java) |
+| vajningsplikt | [Right-of-Way](https://open.kattis.com/problems/vajningsplikt) | [Java](src/main/java/com/github/pareronia/kattis/vajningsplikt/RightOfWay.java) |
 | zyxab | [Zyxab](https://open.kattis.com/problems/zyxab) | [Java](src/main/java/com/github/pareronia/kattis/zyxab/Zyxab.java) |
 <!-- @END:Problems -->
