@@ -19,6 +19,7 @@ https://open.kattis.com/
 | autori | [Autori](https://open.kattis.com/problems/autori) | [Java](src/main/java/com/github/pareronia/kattis/autori/Autori.java) |
 | averagecharacter | [Average Character](https://open.kattis.com/problems/averagecharacter) | [Java](src/main/java/com/github/pareronia/kattis/averagecharacter/AverageCharacter.java) |
 | avion | [Avion](https://open.kattis.com/problems/avion) | [Java](src/main/java/com/github/pareronia/kattis/avion/Avion.java) |
+| awkwardparty | [Awkward Party](https://open.kattis.com/problems/awkwardparty) | [Java](src/main/java/com/github/pareronia/kattis/awkwardparty/AwkwardParty.java) |
 | babybites | [Baby Bites](https://open.kattis.com/problems/babybites) | [Java](src/main/java/com/github/pareronia/kattis/babybites/BabyBites.java) |
 | babylonian | [Babylonian Numbers](https://open.kattis.com/problems/babylonian) | [Java](src/main/java/com/github/pareronia/kattis/babylonian/BabylonianNumbers.java) |
 | backspace | [BackSpace](https://open.kattis.com/problems/backspace) | [Java](src/main/java/com/github/pareronia/kattis/backspace/BackSpace.java) |
