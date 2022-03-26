@@ -143,5 +143,6 @@ https://open.kattis.com/
 | twostones | [Take Two Stones](https://open.kattis.com/problems/twostones) | [Java](src/main/java/com/github/pareronia/kattis/twostones/TakeTwoStones.java) |
 | vajningsplikt | [Right-of-Way](https://open.kattis.com/problems/vajningsplikt) | [Java](src/main/java/com/github/pareronia/kattis/vajningsplikt/RightOfWay.java) |
 | wheresmyinternet | [Where's My Internet??](https://open.kattis.com/problems/wheresmyinternet) | [Java](src/main/java/com/github/pareronia/kattis/wheresmyinternet/WheresMyInternet.java) |
+| wordcloud | [Word Cloud](https://open.kattis.com/problems/wordcloud) | [Java](src/main/java/com/github/pareronia/kattis/wordcloud/WordCloud.java) |
 | zyxab | [Zyxab](https://open.kattis.com/problems/zyxab) | [Java](src/main/java/com/github/pareronia/kattis/zyxab/Zyxab.java) |
 <!-- @END:Problems -->
