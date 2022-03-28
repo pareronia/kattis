@@ -54,6 +54,7 @@ https://open.kattis.com/
 | dungeon | [Dungeon master](https://open.kattis.com/problems/dungeon) | [Java](src/main/java/com/github/pareronia/kattis/dungeon/DungeonMaster.java) |
 | echoechoecho | [Echo Echo Echo](https://open.kattis.com/problems/echoechoecho) | [Java](src/main/java/com/github/pareronia/kattis/echoechoecho/EchoEchoEcho.java) |
 | eenymeeny | [Eeny Meeny](https://open.kattis.com/problems/eenymeeny) | [Java](src/main/java/com/github/pareronia/kattis/eenymeeny/EenyMeeny.java) |
+| electionparadox | [Election Paradox](https://open.kattis.com/problems/electionparadox) | [Java](src/main/java/com/github/pareronia/kattis/electionparadox/ElectionParadox.java) |
 | electricaloutlets | [Electrical Outlets](https://open.kattis.com/problems/electricaloutlets) | [Java](src/main/java/com/github/pareronia/kattis/electricaloutlets/ElectricalOutlets.java) |
 | engineeringenglish | [Engineering English](https://open.kattis.com/problems/engineeringenglish) | [Java](src/main/java/com/github/pareronia/kattis/engineeringenglish/EngineeringEnglish.java) |
 | evenup | [Even Up Solitaire](https://open.kattis.com/problems/evenup) | [Java](src/main/java/com/github/pareronia/kattis/evenup/EvenUpSolitaire.java) |
