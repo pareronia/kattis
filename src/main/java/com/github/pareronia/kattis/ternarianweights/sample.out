@@ -1,0 +1,35 @@
+left pan: 1
+right pan: 3
+
+left pan:
+right pan: 3
+
+left pan: 9
+right pan: 27 3
+
+left pan:
+right pan:
+
+left pan: 3
+right pan: 243 9 1
+
+left pan: 3 1
+right pan: 9
+
+left pan: 6561 2187 729 243
+right pan: 19683 27 9 1
+
+left pan: 59049 19683 729 81 27 9
+right pan: 177147 2187 243 1
+
+left pan: 531441 59049 6561 243 27
+right pan: 1594323 2187 729 81 1
+
+left pan: 4782969 177147 27
+right pan: 14348907 531441 59049 19683 729 243 81 9 1
+
+left pan: 43046721 531441 59049 19683 6561 2187 729 81 9
+right pan: 129140163 14348907 177147 243 1
+
+left pan: 129140163 43046721 4782969 177147 2187
+right pan: 1162261467 14348907 531441 6561 729 81 1
