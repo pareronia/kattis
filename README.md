@@ -134,6 +134,7 @@ https://open.kattis.com/
 | symmetricorder | [Symmetric Order](https://open.kattis.com/problems/symmetricorder) | [Java](src/main/java/com/github/pareronia/kattis/symmetricorder/SymmetricOrder.java) |
 | tarifa | [Tarifa](https://open.kattis.com/problems/tarifa) | [Java](src/main/java/com/github/pareronia/kattis/tarifa/Tarifa.java) |
 | temperatureconfusion | [Temperature Confusion](https://open.kattis.com/problems/temperatureconfusion) | [Java](src/main/java/com/github/pareronia/kattis/temperatureconfusion/TemperatureConfusion.java) |
+| ternarianweights | [Ternarian Weights](https://open.kattis.com/problems/ternarianweights) | [Java](src/main/java/com/github/pareronia/kattis/ternarianweights/TernarianWeights.java) |
 | thelastproblem | [The Last Problem](https://open.kattis.com/problems/thelastproblem) | [Java](src/main/java/com/github/pareronia/kattis/thelastproblem/TheLastProblem.java) |
 | thisaintyourgrandpascheckerboard | [This Ain't Your Grandpa's Checkerboard](https://open.kattis.com/problems/thisaintyourgrandpascheckerboard) | [Java](src/main/java/com/github/pareronia/kattis/thisaintyourgrandpascheckerboard/ThisAintYourGrandpasCheckerboard.java) |
 | timeloop | [Stuck In A Time Loop](https://open.kattis.com/problems/timeloop) | [Java](src/main/java/com/github/pareronia/kattis/timeloop/StuckInATimeLoop.java) |

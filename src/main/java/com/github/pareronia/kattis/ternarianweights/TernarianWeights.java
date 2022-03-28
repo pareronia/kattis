@@ -1,7 +1,6 @@
 package com.github.pareronia.kattis.ternarianweights;
 
 import static java.util.Arrays.asList;
-import static java.util.Comparator.reverseOrder;
 import static java.util.stream.Collectors.joining;
 
 import java.io.BufferedReader;
@@ -16,10 +15,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
-import java.util.PriorityQueue;
 import java.util.StringTokenizer;
-import java.util.TreeSet;
+import java.util.stream.IntStream;
 
 /**
  * Ternarian Weights
@@ -37,67 +36,56 @@ public class TernarianWeights {
     }
     
     private void handleTestCase(final Integer i, final FastScanner sc) {
-        final TreeSet<Long> p3 = new TreeSet<>();
-        p3.add(1L);
-        for (int j = 1; j < 30; j++) {
-            p3.add(p3.last() * 3);
-        }
         final int x = sc.nextInt();
-        final State sol = bfs(p3, x);
+        final int[] x3 = toBase3(x);
+        final int[] l = new int[x3.length];
+        for (int j = x3.length - 1; j > 1; j--) {
+            if (x3[j] == 2) {
+                x3[j] = 0;
+                x3[j - 1]++;
+                l[x3.length - 1 - j] = 1;
+            }
+            if (x3[j] == 3) {
+                x3[j] = 0;
+                x3[j - 1]++;
+            }
+        }
+        final String ls = IntStream.range(0, l.length)
+                .map(j -> l.length - 1 - j)
+                .filter(j -> l[j] == 1)
+                .mapToLong(p -> pow3(p)).boxed()
+                .map(Object::toString)
+                .collect(joining(" "));
+        final String rs = IntStream.range(0, x3.length)
+                .filter(j -> x3[j] == 1)
+                .mapToLong(p -> pow3(x3.length - 1 - p)).boxed()
+                .map(Object::toString)
+                .collect(joining(" "));
         final List<String> a = new ArrayList<>();
-        a.add(String.format("left pan: %s", sol.l.stream()
-                .sorted(reverseOrder())
-                .map(Object::toString)
-                .collect(joining(" "))).stripTrailing());
-        a.add(String.format("right pan: %s", sol.r.stream()
-                .sorted(reverseOrder())
-                .map(Object::toString)
-                .collect(joining(" "))).stripTrailing());
+        a.add(("left pan: " + ls).stripTrailing());
+        a.add(("right pan: " + rs).stripTrailing());
         a.add("");
         final String ans = a.stream().collect(joining(System.lineSeparator()));
         this.out.println(ans);
     }
     
-    private List<Long> next(final TreeSet<Long> p3, final long diff) {
-        final Long f = p3.floor(diff);
-        final Long c = p3.ceiling(diff);
-        final List<Long> ans = new ArrayList<>();
-        if (f != null) {
-            ans.add(f);
+    private int[] toBase3(long n) {
+        final int[] a = new int[25];
+        Arrays.fill(a, 0);
+        int pos = 24;
+        while (n > 0) {
+           a[pos--] = (int) (n % 3);
+           n /= 3;
         }
-        if (c != null) {
-            ans.add(c);
-        }
-        return ans;
+        return a;
     }
     
-    private State bfs(final TreeSet<Long> p3, final int x) {
-        final State start = new State(p3, new ArrayList<>(), new ArrayList<>(), x);
-        final PriorityQueue<State> q = new PriorityQueue<>();
-        q.add(start);
-        while (!q.isEmpty()) {
-            final State curr = q.poll();
-            if (curr.diff == 0) {
-                return curr;
-            }
-            for (final Long y : next(curr.p3, curr.diff)) {
-                final List<Long> lnewl = new ArrayList<>(curr.l);
-                lnewl.add(y);
-                final List<Long> lnewr = new ArrayList<>(curr.r);
-                final TreeSet<Long> lnewp3 = new TreeSet<>(curr.p3);
-                lnewp3.remove(y);
-                final State lstate = new State(lnewp3, lnewl, lnewr, x);
-                q.add(lstate);
-                final List<Long> rnewl = new ArrayList<>(curr.l);
-                final List<Long> rnewr = new ArrayList<>(curr.r);
-                rnewr.add(y);
-                final TreeSet<Long> rnewp3 = new TreeSet<>(curr.p3);
-                rnewp3.remove(y);
-                final State rstate = new State(rnewp3, rnewl, rnewr, x);
-                q.add(rstate);
-            }
+    private long pow3(final int n) {
+        long ans = 1;
+        for (int i = 0; i < n; i++) {
+            ans *= 3;
         }
-        throw new IllegalStateException("Unsolvable");
+        return ans;
     }
     
     public void solve() {
@@ -193,38 +181,6 @@ public class TernarianWeights {
             } catch (final IOException e) {
                 // ignore
             }
-        }
-    }
-    
-    private static class State implements Comparable<State> {
-        private final TreeSet<Long> p3;
-        private final List<Long> l;
-        private final List<Long> r;
-        private final int x;
-        private final long diff;
-        
-        public State(final TreeSet<Long> p3, final List<Long> l, final List<Long> r, final int x) {
-            this.p3 = p3;
-            this.l = l;
-            this.r = r;
-            this.x = x;
-            this.diff = diff();
-        }
-        
-        public long diff() {
-            long diff = x;
-            for (int i = 0; i < l.size(); i++) {
-                diff += l.get(i);
-            }
-            for (int i = 0; i < r.size(); i++) {
-                diff -= r.get(i);
-            }
-            return Math.abs(diff);
-        }
-
-        @Override
-        public int compareTo(final State other) {
-            return Long.compare(this.diff, other.diff);
         }
     }
 }
