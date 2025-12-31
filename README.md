@@ -13,6 +13,7 @@ https://open.kattis.com/
 | addtwonumbers | [](https://open.kattis.com/problems/addtwonumbers) | [Java](src/main/java/com/github/pareronia/kattis/addtwonumbers/AddTwoNumbers.java) |
 | akcija | [Akcija](https://open.kattis.com/problems/akcija) | [Java](src/main/java/com/github/pareronia/kattis/akcija/Akcija.java) |
 | aleidibio | [Á leið í bíó](https://open.kattis.com/problems/aleidibio) | [Java](src/main/java/com/github/pareronia/kattis/aleidibio/ALeidiBio.java) |
+| alphabetsoup | [Alphabet Soup](https://open.kattis.com/problems/alphabetsoup) | [Java](src/main/java/com/github/pareronia/kattis/alphabetsoup/AlphabetSoup.java) |
 | alphabetspam | [Alphabet Spam](https://open.kattis.com/problems/alphabetspam) | [Java](src/main/java/com/github/pareronia/kattis/alphabetspam/AlphabetSpam.java) |
 | amsterdamdistance | [Amsterdam Distance](https://open.kattis.com/problems/amsterdamdistance) | [Java](src/main/java/com/github/pareronia/kattis/amsterdamdistance/AmsterdamDistance.java) |
 | apaxiaaans | [Apaxiaaaaaaaaaaaans!](https://open.kattis.com/problems/apaxiaaans) | [Java](src/main/java/com/github/pareronia/kattis/apaxiaaans/Apaxiaaaaaaaaaaaans.java) |
