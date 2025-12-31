@@ -135,6 +135,7 @@ https://open.kattis.com/
 | smil | [SMIL](https://open.kattis.com/problems/smil) | [Java](src/main/java/com/github/pareronia/kattis/smil/SMIL.java) |
 | sortofsorting | [Sort of Sorting](https://open.kattis.com/problems/sortofsorting) | [Java](src/main/java/com/github/pareronia/kattis/sortofsorting/SortOfSorting.java) |
 | speedlimit | [Speed Limit](https://open.kattis.com/problems/speedlimit) | [Java](src/main/java/com/github/pareronia/kattis/speedlimit/SpeedLimit.java) |
+| stafur | [Stafur](https://open.kattis.com/problems/stafur) | [Java](src/main/java/com/github/pareronia/kattis/stafur/Stafur.java) |
 | stockbroker | [Daydreaming Stockbroker](https://open.kattis.com/problems/stockbroker) | [Java](src/main/java/com/github/pareronia/kattis/stockbroker/DaydreamingStockbroker.java) |
 | stopwatch | [Stopwatch](https://open.kattis.com/problems/stopwatch) | [Java](src/main/java/com/github/pareronia/kattis/stopwatch/Stopwatch.java) |
 | stringmatching | [String Matching](https://open.kattis.com/problems/stringmatching) | [Java](src/main/java/com/github/pareronia/kattis/stringmatching/StringMatching.java) |
