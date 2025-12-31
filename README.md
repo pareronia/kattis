@@ -100,6 +100,7 @@ https://open.kattis.com/
 | oddecho | [Odd Echo](https://open.kattis.com/problems/oddecho) | [Java](src/main/java/com/github/pareronia/kattis/oddecho/OddEcho.java) |
 | oddities | [Oddities](https://open.kattis.com/problems/oddities) | [Java](src/main/java/com/github/pareronia/kattis/oddities/Oddities.java) |
 | ofugsnuid | [Reverse](https://open.kattis.com/problems/ofugsnuid) | [Java](src/main/java/com/github/pareronia/kattis/ofugsnuid/Reverse.java) |
+| ovissa | [Ã“vissa](https://open.kattis.com/problems/ovissa) | [Java](src/main/java/com/github/pareronia/kattis/ovissa/Óvissa.java) |
 | pairingsocks | [Pairing Socks](https://open.kattis.com/problems/pairingsocks) | [Java](src/main/java/com/github/pareronia/kattis/pairingsocks/PairingSocks.java) |
 | password | [Password Hacking](https://open.kattis.com/problems/password) | [Java](src/main/java/com/github/pareronia/kattis/password/PasswordHacking.java) |
 | paths | [Paths](https://open.kattis.com/problems/paths) | [Java](src/main/java/com/github/pareronia/kattis/paths/Paths.java) |
