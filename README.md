@@ -90,6 +90,7 @@ https://open.kattis.com/
 | keyboardd | [Keyboardd](https://open.kattis.com/problems/keyboardd) | [Java](src/main/java/com/github/pareronia/kattis/keyboardd/Keyboardd.java) |
 | knightjump | [Knight Jump](https://open.kattis.com/problems/knightjump) | [Java](src/main/java/com/github/pareronia/kattis/knightjump/KnightJump.java) |
 | ladder | [Ladder](https://open.kattis.com/problems/ladder) | [Java](src/main/java/com/github/pareronia/kattis/ladder/Ladder.java) |
+| leggjasaman | [Leggja saman](https://open.kattis.com/problems/leggjasaman) | [Java](src/main/java/com/github/pareronia/kattis/leggjasaman/LeggjaSaman.java) |
 | lyklagangriti | [Keystrokes](https://open.kattis.com/problems/lyklagangriti) | [Java](src/main/java/com/github/pareronia/kattis/lyklagangriti/Keystrokes.java) |
 | minimumscalar | [Minimum Scalar Product](https://open.kattis.com/problems/minimumscalar) | [Java](src/main/java/com/github/pareronia/kattis/minimumscalar/MinimumScalarProduct.java) |
 | namethatpermutation | [Name That Permutation](https://open.kattis.com/problems/namethatpermutation) | [Java](src/main/java/com/github/pareronia/kattis/namethatpermutation/NameThatPermutation.java) |
