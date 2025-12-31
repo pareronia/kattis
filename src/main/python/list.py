@@ -7,7 +7,7 @@ import sys
 
 
 def get_problem_info(file: str):
-    with open(file, 'r') as f:
+    with open(file, 'r', encoding="utf-8") as f:
         lines = f.readlines()
         for i, line in enumerate(lines):
             if line.startswith("/**"):
@@ -37,9 +37,9 @@ def create_table(infos: dict) -> list[str]:
 
 
 def add_table(table: list[str], file_name: str):
-    with open(file_name, 'r') as f:
+    with open(file_name, 'r', encoding="utf-8") as f:
         tmp = f.read()
-    with open(file_name, 'w') as f:
+    with open(file_name, 'w', encoding="utf-8") as f:
         in_table = False
         for line in tmp.splitlines():
             if line.startswith("<!-- @BEGIN:Problems"):
