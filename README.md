@@ -61,6 +61,7 @@ https://open.kattis.com/
 | everywhere | [I've Been Everywhere, Man](https://open.kattis.com/problems/everywhere) | [Java](src/main/java/com/github/pareronia/kattis/everywhere/IveBeenEverywhereMan.java) |
 | faktor | [Faktor](https://open.kattis.com/problems/faktor) | [Java](src/main/java/com/github/pareronia/kattis/faktor/Faktor.java) |
 | fallingapart | [Falling Apart](https://open.kattis.com/problems/fallingapart) | [Java](src/main/java/com/github/pareronia/kattis/fallingapart/FallingApart.java) |
+| fifa | [Framtíðar FIFA](https://open.kattis.com/problems/fifa) | [Java](src/main/java/com/github/pareronia/kattis/fifa/FramtarFIFA.java) |
 | filip | [Filip](https://open.kattis.com/problems/filip) | [Java](src/main/java/com/github/pareronia/kattis/filip/Filip.java) |
 | findingana | [Finding An A](https://open.kattis.com/problems/findingana) | [Java](src/main/java/com/github/pareronia/kattis/findingana/FindingAnA.java) |
 | fizzbuzz | [FizzBuzz](https://open.kattis.com/problems/fizzbuzz) | [Java](src/main/java/com/github/pareronia/kattis/fizzbuzz/FizzBuzz.java) |
