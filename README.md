@@ -139,6 +139,7 @@ https://open.kattis.com/
 | stockbroker | [Daydreaming Stockbroker](https://open.kattis.com/problems/stockbroker) | [Java](src/main/java/com/github/pareronia/kattis/stockbroker/DaydreamingStockbroker.java) |
 | stopwatch | [Stopwatch](https://open.kattis.com/problems/stopwatch) | [Java](src/main/java/com/github/pareronia/kattis/stopwatch/Stopwatch.java) |
 | stringmatching | [String Matching](https://open.kattis.com/problems/stringmatching) | [Java](src/main/java/com/github/pareronia/kattis/stringmatching/StringMatching.java) |
+| superyatzy | [Superyatzy](https://open.kattis.com/problems/superyatzy) | [Java](src/main/java/com/github/pareronia/kattis/superyatzy/Superyatzy.java) |
 | symmetricorder | [Symmetric Order](https://open.kattis.com/problems/symmetricorder) | [Java](src/main/java/com/github/pareronia/kattis/symmetricorder/SymmetricOrder.java) |
 | tarifa | [Tarifa](https://open.kattis.com/problems/tarifa) | [Java](src/main/java/com/github/pareronia/kattis/tarifa/Tarifa.java) |
 | temperatureconfusion | [Temperature Confusion](https://open.kattis.com/problems/temperatureconfusion) | [Java](src/main/java/com/github/pareronia/kattis/temperatureconfusion/TemperatureConfusion.java) |
