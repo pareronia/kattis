@@ -138,6 +138,7 @@ https://open.kattis.com/
 | ternarianweights | [Ternarian Weights](https://open.kattis.com/problems/ternarianweights) | [Java](src/main/java/com/github/pareronia/kattis/ternarianweights/TernarianWeights.java) |
 | thelastproblem | [The Last Problem](https://open.kattis.com/problems/thelastproblem) | [Java](src/main/java/com/github/pareronia/kattis/thelastproblem/TheLastProblem.java) |
 | thisaintyourgrandpascheckerboard | [This Ain't Your Grandpa's Checkerboard](https://open.kattis.com/problems/thisaintyourgrandpascheckerboard) | [Java](src/main/java/com/github/pareronia/kattis/thisaintyourgrandpascheckerboard/ThisAintYourGrandpasCheckerboard.java) |
+| tilhamingju | [Til hamingju](https://open.kattis.com/problems/tilhamingju) | [Java](src/main/java/com/github/pareronia/kattis/tilhamingju/TilHamingju.java) |
 | timeloop | [Stuck In A Time Loop](https://open.kattis.com/problems/timeloop) | [Java](src/main/java/com/github/pareronia/kattis/timeloop/StuckInATimeLoop.java) |
 | toflur | [Töflur](https://open.kattis.com/problems/toflur) | [Java](src/main/java/com/github/pareronia/kattis/toflur/Toflur.java) |
 | transitwoes | [Transit Woes](https://open.kattis.com/problems/transitwoes) | [Java](src/main/java/com/github/pareronia/kattis/transitwoes/TransitWoes.java) |
