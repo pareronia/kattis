@@ -17,6 +17,7 @@ https://open.kattis.com/
 | alphabetspam | [Alphabet Spam](https://open.kattis.com/problems/alphabetspam) | [Java](src/main/java/com/github/pareronia/kattis/alphabetspam/AlphabetSpam.java) |
 | amsterdamdistance | [Amsterdam Distance](https://open.kattis.com/problems/amsterdamdistance) | [Java](src/main/java/com/github/pareronia/kattis/amsterdamdistance/AmsterdamDistance.java) |
 | apaxiaaans | [Apaxiaaaaaaaaaaaans!](https://open.kattis.com/problems/apaxiaaans) | [Java](src/main/java/com/github/pareronia/kattis/apaxiaaans/Apaxiaaaaaaaaaaaans.java) |
+| apaxianparent | [Honour Thy (Apaxian) Parent](https://open.kattis.com/problems/apaxianparent) | [Java](src/main/java/com/github/pareronia/kattis/apaxianparent/HonourThyApaxianParent.java) |
 | apples | [Falling Apples](https://open.kattis.com/problems/apples) | [Java](src/main/java/com/github/pareronia/kattis/apples/FallingApples.java) |
 | autori | [Autori](https://open.kattis.com/problems/autori) | [Java](src/main/java/com/github/pareronia/kattis/autori/Autori.java) |
 | averagecharacter | [Average Character](https://open.kattis.com/problems/averagecharacter) | [Java](src/main/java/com/github/pareronia/kattis/averagecharacter/AverageCharacter.java) |
