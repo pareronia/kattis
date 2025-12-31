@@ -146,6 +146,7 @@ https://open.kattis.com/
 | tarifa | [Tarifa](https://open.kattis.com/problems/tarifa) | [Java](src/main/java/com/github/pareronia/kattis/tarifa/Tarifa.java) |
 | temperatureconfusion | [Temperature Confusion](https://open.kattis.com/problems/temperatureconfusion) | [Java](src/main/java/com/github/pareronia/kattis/temperatureconfusion/TemperatureConfusion.java) |
 | ternarianweights | [Ternarian Weights](https://open.kattis.com/problems/ternarianweights) | [Java](src/main/java/com/github/pareronia/kattis/ternarianweights/TernarianWeights.java) |
+| testingleds | [Testing LEDs](https://open.kattis.com/problems/testingleds) | [Java](src/main/java/com/github/pareronia/kattis/testingleds/TestingLEDs.java) |
 | thelastproblem | [The Last Problem](https://open.kattis.com/problems/thelastproblem) | [Java](src/main/java/com/github/pareronia/kattis/thelastproblem/TheLastProblem.java) |
 | thisaintyourgrandpascheckerboard | [This Ain't Your Grandpa's Checkerboard](https://open.kattis.com/problems/thisaintyourgrandpascheckerboard) | [Java](src/main/java/com/github/pareronia/kattis/thisaintyourgrandpascheckerboard/ThisAintYourGrandpasCheckerboard.java) |
 | tilhamingju | [Til hamingju](https://open.kattis.com/problems/tilhamingju) | [Java](src/main/java/com/github/pareronia/kattis/tilhamingju/TilHamingju.java) |
