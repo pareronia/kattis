@@ -145,6 +145,7 @@ https://open.kattis.com/
 | tri | [Tri](https://open.kattis.com/problems/tri) | [Java](src/main/java/com/github/pareronia/kattis/tri/Tri.java) |
 | twostones | [Take Two Stones](https://open.kattis.com/problems/twostones) | [Java](src/main/java/com/github/pareronia/kattis/twostones/TakeTwoStones.java) |
 | vajningsplikt | [Right-of-Way](https://open.kattis.com/problems/vajningsplikt) | [Java](src/main/java/com/github/pareronia/kattis/vajningsplikt/RightOfWay.java) |
+| velkomin | [Velkomin!](https://open.kattis.com/problems/velkomin) | [Java](src/main/java/com/github/pareronia/kattis/velkomin/Velkomin.java) |
 | wheresmyinternet | [Where's My Internet??](https://open.kattis.com/problems/wheresmyinternet) | [Java](src/main/java/com/github/pareronia/kattis/wheresmyinternet/WheresMyInternet.java) |
 | wordcloud | [Word Cloud](https://open.kattis.com/problems/wordcloud) | [Java](src/main/java/com/github/pareronia/kattis/wordcloud/WordCloud.java) |
 | zyxab | [Zyxab](https://open.kattis.com/problems/zyxab) | [Java](src/main/java/com/github/pareronia/kattis/zyxab/Zyxab.java) |
