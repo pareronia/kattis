@@ -79,6 +79,7 @@ https://open.kattis.com/
 | heimavinna | [Homework](https://open.kattis.com/problems/heimavinna) | [Java](src/main/java/com/github/pareronia/kattis/heimavinna/Homework.java) |
 | hello | [](https://open.kattis.com/problems/hello) | [Java](src/main/java/com/github/pareronia/kattis/hello/Hello.java) |
 | herman | [Herman](https://open.kattis.com/problems/herman) | [Java](src/main/java/com/github/pareronia/kattis/herman/Herman.java) |
+| hillclimbracing | [Hill Climb Racing](https://open.kattis.com/problems/hillclimbracing) | [Java](src/main/java/com/github/pareronia/kattis/hillclimbracing/HillClimbRacing.java) |
 | hipphipp | [Hipp Hipp](https://open.kattis.com/problems/hipphipp) | [Java](src/main/java/com/github/pareronia/kattis/hipphipp/HippHipp.java) |
 | hiptobesquare | [It's Hip to Be Square](https://open.kattis.com/problems/hiptobesquare) | [Java](src/main/java/com/github/pareronia/kattis/hiptobesquare/ItsHipToBeSquare.java) |
 | hissingmicrophone | [Hissing Microphone](https://open.kattis.com/problems/hissingmicrophone) | [Java](src/main/java/com/github/pareronia/kattis/hissingmicrophone/HissingMicrophone.java) |
