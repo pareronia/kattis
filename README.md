@@ -76,6 +76,7 @@ https://open.kattis.com/
 | heimavinna | [Homework](https://open.kattis.com/problems/heimavinna) | [Java](src/main/java/com/github/pareronia/kattis/heimavinna/Homework.java) |
 | hello | [](https://open.kattis.com/problems/hello) | [Java](src/main/java/com/github/pareronia/kattis/hello/Hello.java) |
 | herman | [Herman](https://open.kattis.com/problems/herman) | [Java](src/main/java/com/github/pareronia/kattis/herman/Herman.java) |
+| hipphipp | [Hipp Hipp](https://open.kattis.com/problems/hipphipp) | [Java](src/main/java/com/github/pareronia/kattis/hipphipp/HippHipp.java) |
 | hissingmicrophone | [Hissing Microphone](https://open.kattis.com/problems/hissingmicrophone) | [Java](src/main/java/com/github/pareronia/kattis/hissingmicrophone/HissingMicrophone.java) |
 | hothike | [Hot Hike](https://open.kattis.com/problems/hothike) | [Java](src/main/java/com/github/pareronia/kattis/hothike/HotHike.java) |
 | hotspot | [Hot Spot](https://open.kattis.com/problems/hotspot) | [Java](src/main/java/com/github/pareronia/kattis/hotspot/HotSpot.java) |
