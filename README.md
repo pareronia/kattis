@@ -148,6 +148,7 @@ https://open.kattis.com/
 | tilhamingju | [Til hamingju](https://open.kattis.com/problems/tilhamingju) | [Java](src/main/java/com/github/pareronia/kattis/tilhamingju/TilHamingju.java) |
 | timeloop | [Stuck In A Time Loop](https://open.kattis.com/problems/timeloop) | [Java](src/main/java/com/github/pareronia/kattis/timeloop/StuckInATimeLoop.java) |
 | toflur | [Töflur](https://open.kattis.com/problems/toflur) | [Java](src/main/java/com/github/pareronia/kattis/toflur/Toflur.java) |
+| toktik | [Tok Tik](https://open.kattis.com/problems/toktik) | [Java](src/main/java/com/github/pareronia/kattis/toktik/TokTik.java) |
 | transitwoes | [Transit Woes](https://open.kattis.com/problems/transitwoes) | [Java](src/main/java/com/github/pareronia/kattis/transitwoes/TransitWoes.java) |
 | tri | [Tri](https://open.kattis.com/problems/tri) | [Java](src/main/java/com/github/pareronia/kattis/tri/Tri.java) |
 | twostones | [Take Two Stones](https://open.kattis.com/problems/twostones) | [Java](src/main/java/com/github/pareronia/kattis/twostones/TakeTwoStones.java) |
