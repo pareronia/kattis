@@ -16,6 +16,7 @@ https://open.kattis.com/
 | aleidibio | [Á leið í bíó](https://open.kattis.com/problems/aleidibio) | [Java](src/main/java/com/github/pareronia/kattis/aleidibio/ALeidiBio.java) |
 | alphabetsoup | [Alphabet Soup](https://open.kattis.com/problems/alphabetsoup) | [Java](src/main/java/com/github/pareronia/kattis/alphabetsoup/AlphabetSoup.java) |
 | alphabetspam | [Alphabet Spam](https://open.kattis.com/problems/alphabetspam) | [Java](src/main/java/com/github/pareronia/kattis/alphabetspam/AlphabetSpam.java) |
+| amoebas | [Sheba's Amoebas](https://open.kattis.com/problems/amoebas) | [Java](src/main/java/com/github/pareronia/kattis/amoebas/ShebasAmoebas.java) |
 | amsterdamdistance | [Amsterdam Distance](https://open.kattis.com/problems/amsterdamdistance) | [Java](src/main/java/com/github/pareronia/kattis/amsterdamdistance/AmsterdamDistance.java) |
 | apaxiaaans | [Apaxiaaaaaaaaaaaans!](https://open.kattis.com/problems/apaxiaaans) | [Java](src/main/java/com/github/pareronia/kattis/apaxiaaans/Apaxiaaaaaaaaaaaans.java) |
 | apaxianparent | [Honour Thy (Apaxian) Parent](https://open.kattis.com/problems/apaxianparent) | [Java](src/main/java/com/github/pareronia/kattis/apaxianparent/HonourThyApaxianParent.java) |
