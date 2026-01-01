@@ -26,6 +26,7 @@ https://open.kattis.com/
 | babybites | [Baby Bites](https://open.kattis.com/problems/babybites) | [Java](src/main/java/com/github/pareronia/kattis/babybites/BabyBites.java) |
 | babylonian | [Babylonian Numbers](https://open.kattis.com/problems/babylonian) | [Java](src/main/java/com/github/pareronia/kattis/babylonian/BabylonianNumbers.java) |
 | backspace | [BackSpace](https://open.kattis.com/problems/backspace) | [Java](src/main/java/com/github/pareronia/kattis/backspace/BackSpace.java) |
+| baconeggsandspam | [Bacon, Eggs, and Spam](https://open.kattis.com/problems/baconeggsandspam) | [Java](src/main/java/com/github/pareronia/kattis/baconeggsandspam/BaconEggsAndSpam.java) |
 | baloni | [Baloni](https://open.kattis.com/problems/baloni) | [Java](src/main/java/com/github/pareronia/kattis/baloni/Baloni.java) |
 | base2palindrome | [Base-2 Palindromes](https://open.kattis.com/problems/base2palindrome) | [Java](src/main/java/com/github/pareronia/kattis/base2palindrome/Base2Palindromes.java) |
 | basicprogramming2 | [Basic Programming 2](https://open.kattis.com/problems/basicprogramming2) | [Java](src/main/java/com/github/pareronia/kattis/basicprogramming2/BasicProgramming2.java) |
