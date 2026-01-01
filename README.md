@@ -159,6 +159,7 @@ https://open.kattis.com/
 | transitwoes | [Transit Woes](https://open.kattis.com/problems/transitwoes) | [Java](src/main/java/com/github/pareronia/kattis/transitwoes/TransitWoes.java) |
 | tri | [Tri](https://open.kattis.com/problems/tri) | [Java](src/main/java/com/github/pareronia/kattis/tri/Tri.java) |
 | twostones | [Take Two Stones](https://open.kattis.com/problems/twostones) | [Java](src/main/java/com/github/pareronia/kattis/twostones/TakeTwoStones.java) |
+| usbkeyboard | [USB Keyboard](https://open.kattis.com/problems/usbkeyboard) | [Java](src/main/java/com/github/pareronia/kattis/usbkeyboard/USBKeyboard.java) |
 | vajningsplikt | [Right-of-Way](https://open.kattis.com/problems/vajningsplikt) | [Java](src/main/java/com/github/pareronia/kattis/vajningsplikt/RightOfWay.java) |
 | velkomin | [Velkomin!](https://open.kattis.com/problems/velkomin) | [Java](src/main/java/com/github/pareronia/kattis/velkomin/Velkomin.java) |
 | vidsnuningur | [Viðsnúningur](https://open.kattis.com/problems/vidsnuningur) | [Java](src/main/java/com/github/pareronia/kattis/vidsnuningur/Visnningur.java) |
