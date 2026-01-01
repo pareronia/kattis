@@ -138,6 +138,7 @@ https://open.kattis.com/
 | sidewayssorting | [Sideways Sorting](https://open.kattis.com/problems/sidewayssorting) | [Java](src/main/java/com/github/pareronia/kattis/sidewayssorting/SidewaysSorting.java) |
 | simone | [Simone](https://open.kattis.com/problems/simone) | [Java](src/main/java/com/github/pareronia/kattis/simone/Simone.java) |
 | skener | [Skener](https://open.kattis.com/problems/skener) | [Java](src/main/java/com/github/pareronia/kattis/skener/Skener.java) |
+| skolavslutningen | [Graduation](https://open.kattis.com/problems/skolavslutningen) | [Java](src/main/java/com/github/pareronia/kattis/skolavslutningen/Graduation.java) |
 | smil | [SMIL](https://open.kattis.com/problems/smil) | [Java](src/main/java/com/github/pareronia/kattis/smil/SMIL.java) |
 | sortofsorting | [Sort of Sorting](https://open.kattis.com/problems/sortofsorting) | [Java](src/main/java/com/github/pareronia/kattis/sortofsorting/SortOfSorting.java) |
 | speedlimit | [Speed Limit](https://open.kattis.com/problems/speedlimit) | [Java](src/main/java/com/github/pareronia/kattis/speedlimit/SpeedLimit.java) |
