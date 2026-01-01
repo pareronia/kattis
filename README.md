@@ -160,6 +160,7 @@ https://open.kattis.com/
 | toflur | [Töflur](https://open.kattis.com/problems/toflur) | [Java](src/main/java/com/github/pareronia/kattis/toflur/Toflur.java) |
 | toktik | [Tok Tik](https://open.kattis.com/problems/toktik) | [Java](src/main/java/com/github/pareronia/kattis/toktik/TokTik.java) |
 | transitwoes | [Transit Woes](https://open.kattis.com/problems/transitwoes) | [Java](src/main/java/com/github/pareronia/kattis/transitwoes/TransitWoes.java) |
+| trevligvag | [Nice Path](https://open.kattis.com/problems/trevligvag) | [Java](src/main/java/com/github/pareronia/kattis/trevligvag/NicePath.java) |
 | tri | [Tri](https://open.kattis.com/problems/tri) | [Java](src/main/java/com/github/pareronia/kattis/tri/Tri.java) |
 | twostones | [Take Two Stones](https://open.kattis.com/problems/twostones) | [Java](src/main/java/com/github/pareronia/kattis/twostones/TakeTwoStones.java) |
 | usbkeyboard | [USB Keyboard](https://open.kattis.com/problems/usbkeyboard) | [Java](src/main/java/com/github/pareronia/kattis/usbkeyboard/USBKeyboard.java) |
