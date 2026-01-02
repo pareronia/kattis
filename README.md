@@ -102,6 +102,7 @@ https://open.kattis.com/
 | keyboardd | [Keyboardd](https://open.kattis.com/problems/keyboardd) | [Java](src/main/java/com/github/pareronia/kattis/keyboardd/Keyboardd.java) |
 | kingarthur | [King Arthur's Round Table](https://open.kattis.com/problems/kingarthur) | [Java](src/main/java/com/github/pareronia/kattis/kingarthur/KingArthursRoundTable.java) |
 | knightjump | [Knight Jump](https://open.kattis.com/problems/knightjump) | [Java](src/main/java/com/github/pareronia/kattis/knightjump/KnightJump.java) |
+| kvedja | [Kveðja](https://open.kattis.com/problems/kvedja) | [Java](src/main/java/com/github/pareronia/kattis/kvedja/Kvedja.java) |
 | ladder | [Ladder](https://open.kattis.com/problems/ladder) | [Java](src/main/java/com/github/pareronia/kattis/ladder/Ladder.java) |
 | leggjasaman | [Leggja saman](https://open.kattis.com/problems/leggjasaman) | [Java](src/main/java/com/github/pareronia/kattis/leggjasaman/LeggjaSaman.java) |
 | leidangur | [Leiðangur](https://open.kattis.com/problems/leidangur) | [Java](src/main/java/com/github/pareronia/kattis/leidangur/Leidangur.java) |
