@@ -39,6 +39,7 @@ https://open.kattis.com/
 | bluetooth | [Bluetooth](https://open.kattis.com/problems/bluetooth) | [Java](src/main/java/com/github/pareronia/kattis/bluetooth/Bluetooth.java) |
 | bobby | [Bobby's Bet](https://open.kattis.com/problems/bobby) | [Java](src/main/java/com/github/pareronia/kattis/bobby/BobbysBet.java) |
 | brokencalculator | [Broken Calculator](https://open.kattis.com/problems/brokencalculator) | [Java](src/main/java/com/github/pareronia/kattis/brokencalculator/BrokenCalculator.java) |
+| buildinghighways | [Building Highways](https://open.kattis.com/problems/buildinghighways) | [Java](src/main/java/com/github/pareronia/kattis/buildinghighways/BuildingHighways.java) |
 | calculatingdartscores | [Calculating Dart Scores](https://open.kattis.com/problems/calculatingdartscores) | [Java](src/main/java/com/github/pareronia/kattis/calculatingdartscores/CalculatingDartScores.java) |
 | cardtrick2 | [Card Trick](https://open.kattis.com/problems/cardtrick2) | [Java](src/main/java/com/github/pareronia/kattis/cardtrick2/CardTrick.java) |
 | carousel | [Carousel Rides](https://open.kattis.com/problems/carousel) | [Java](src/main/java/com/github/pareronia/kattis/carousel/CarouselRides.java) |
