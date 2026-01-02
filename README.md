@@ -155,6 +155,7 @@ https://open.kattis.com/
 | speedlimit | [Speed Limit](https://open.kattis.com/problems/speedlimit) | [Java](src/main/java/com/github/pareronia/kattis/speedlimit/SpeedLimit.java) |
 | stafur | [Stafur](https://open.kattis.com/problems/stafur) | [Java](src/main/java/com/github/pareronia/kattis/stafur/Stafur.java) |
 | stockbroker | [Daydreaming Stockbroker](https://open.kattis.com/problems/stockbroker) | [Java](src/main/java/com/github/pareronia/kattis/stockbroker/DaydreamingStockbroker.java) |
+| stokigalistor | [Messy lists](https://open.kattis.com/problems/stokigalistor) | [Java](src/main/java/com/github/pareronia/kattis/stokigalistor/MessyLists.java) |
 | stopwatch | [Stopwatch](https://open.kattis.com/problems/stopwatch) | [Java](src/main/java/com/github/pareronia/kattis/stopwatch/Stopwatch.java) |
 | stringmatching | [String Matching](https://open.kattis.com/problems/stringmatching) | [Java](src/main/java/com/github/pareronia/kattis/stringmatching/StringMatching.java) |
 | superyatzy | [Superyatzy](https://open.kattis.com/problems/superyatzy) | [Java](src/main/java/com/github/pareronia/kattis/superyatzy/Superyatzy.java) |
