@@ -105,6 +105,7 @@ https://open.kattis.com/
 | ladder | [Ladder](https://open.kattis.com/problems/ladder) | [Java](src/main/java/com/github/pareronia/kattis/ladder/Ladder.java) |
 | leggjasaman | [Leggja saman](https://open.kattis.com/problems/leggjasaman) | [Java](src/main/java/com/github/pareronia/kattis/leggjasaman/LeggjaSaman.java) |
 | lyklagangriti | [Keystrokes](https://open.kattis.com/problems/lyklagangriti) | [Java](src/main/java/com/github/pareronia/kattis/lyklagangriti/Keystrokes.java) |
+| midi | [Miði](https://open.kattis.com/problems/midi) | [Java](src/main/java/com/github/pareronia/kattis/midi/Midi.java) |
 | minimumscalar | [Minimum Scalar Product](https://open.kattis.com/problems/minimumscalar) | [Java](src/main/java/com/github/pareronia/kattis/minimumscalar/MinimumScalarProduct.java) |
 | namethatpermutation | [Name That Permutation](https://open.kattis.com/problems/namethatpermutation) | [Java](src/main/java/com/github/pareronia/kattis/namethatpermutation/NameThatPermutation.java) |
 | nastyhacks | [Nasty Hacks](https://open.kattis.com/problems/nastyhacks) | [Java](src/main/java/com/github/pareronia/kattis/nastyhacks/NastyHacks.java) |
