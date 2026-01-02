@@ -36,6 +36,7 @@ https://open.kattis.com/
 | beekeeper | [Beekeeper](https://open.kattis.com/problems/beekeeper) | [Java](src/main/java/com/github/pareronia/kattis/beekeeper/Beekeeper.java) |
 | bela | [Bela](https://open.kattis.com/problems/bela) | [Java](src/main/java/com/github/pareronia/kattis/bela/Bela.java) |
 | bijele | [Bijele](https://open.kattis.com/problems/bijele) | [Java](src/main/java/com/github/pareronia/kattis/bijele/Bijele.java) |
+| bluetooth | [Bluetooth](https://open.kattis.com/problems/bluetooth) | [Java](src/main/java/com/github/pareronia/kattis/bluetooth/Bluetooth.java) |
 | bobby | [Bobby's Bet](https://open.kattis.com/problems/bobby) | [Java](src/main/java/com/github/pareronia/kattis/bobby/BobbysBet.java) |
 | brokencalculator | [Broken Calculator](https://open.kattis.com/problems/brokencalculator) | [Java](src/main/java/com/github/pareronia/kattis/brokencalculator/BrokenCalculator.java) |
 | calculatingdartscores | [Calculating Dart Scores](https://open.kattis.com/problems/calculatingdartscores) | [Java](src/main/java/com/github/pareronia/kattis/calculatingdartscores/CalculatingDartScores.java) |
