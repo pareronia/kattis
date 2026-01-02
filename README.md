@@ -147,6 +147,7 @@ https://open.kattis.com/
 | simanumer | [Símanúmer](https://open.kattis.com/problems/simanumer) | [Java](src/main/java/com/github/pareronia/kattis/simanumer/Simanumer.java) |
 | simone | [Simone](https://open.kattis.com/problems/simone) | [Java](src/main/java/com/github/pareronia/kattis/simone/Simone.java) |
 | skener | [Skener](https://open.kattis.com/problems/skener) | [Java](src/main/java/com/github/pareronia/kattis/skener/Skener.java) |
+| skeytasaman | [Concatenate](https://open.kattis.com/problems/skeytasaman) | [Java](src/main/java/com/github/pareronia/kattis/skeytasaman/Concatenate.java) |
 | skolavslutningen | [Graduation](https://open.kattis.com/problems/skolavslutningen) | [Java](src/main/java/com/github/pareronia/kattis/skolavslutningen/Graduation.java) |
 | smil | [SMIL](https://open.kattis.com/problems/smil) | [Java](src/main/java/com/github/pareronia/kattis/smil/SMIL.java) |
 | sortofsorting | [Sort of Sorting](https://open.kattis.com/problems/sortofsorting) | [Java](src/main/java/com/github/pareronia/kattis/sortofsorting/SortOfSorting.java) |
