@@ -57,6 +57,7 @@ https://open.kattis.com/
 | cups | [Stacking Cups](https://open.kattis.com/problems/cups) | [Java](src/main/java/com/github/pareronia/kattis/cups/StackingCups.java) |
 | cursethedarkness | [Curse the Darkness](https://open.kattis.com/problems/cursethedarkness) | [Java](src/main/java/com/github/pareronia/kattis/cursethedarkness/CurseTheDarkness.java) |
 | datum | [Datum](https://open.kattis.com/problems/datum) | [Java](src/main/java/com/github/pareronia/kattis/datum/Datum.java) |
+| desiigner | [Desiigner strengir](https://open.kattis.com/problems/desiigner) | [Java](src/main/java/com/github/pareronia/kattis/desiigner/DesiignerStrengir.java) |
 | detaileddifferences | [Detailed Differences](https://open.kattis.com/problems/detaileddifferences) | [Java](src/main/java/com/github/pareronia/kattis/detaileddifferences/DetailedDifferences.java) |
 | dicecup | [Dice Cup](https://open.kattis.com/problems/dicecup) | [Java](src/main/java/com/github/pareronia/kattis/dicecup/DiceCup.java) |
 | dragafra | [Draga Frá](https://open.kattis.com/problems/dragafra) | [Java](src/main/java/com/github/pareronia/kattis/dragafra/DragaFra.java) |
