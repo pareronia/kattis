@@ -123,6 +123,7 @@ https://open.kattis.com/
 | paths | [Paths](https://open.kattis.com/problems/paths) | [Java](src/main/java/com/github/pareronia/kattis/paths/Paths.java) |
 | patuljci | [Patuljci](https://open.kattis.com/problems/patuljci) | [Java](src/main/java/com/github/pareronia/kattis/patuljci/Patuljci.java) |
 | pet | [Pet](https://open.kattis.com/problems/pet) | [Java](src/main/java/com/github/pareronia/kattis/pet/Pet.java) |
+| piglatin | [Pig Latin](https://open.kattis.com/problems/piglatin) | [Java](src/main/java/com/github/pareronia/kattis/piglatin/PigLatin.java) |
 | pinnifraendi | [Pinni Frændi](https://open.kattis.com/problems/pinnifraendi) | [Java](src/main/java/com/github/pareronia/kattis/pinnifraendi/PinniFraendi.java) |
 | planina | [Planina](https://open.kattis.com/problems/planina) | [Java](src/main/java/com/github/pareronia/kattis/planina/Planina.java) |
 | polygonarea | [Polygon Area](https://open.kattis.com/problems/polygonarea) | [Java](src/main/java/com/github/pareronia/kattis/polygonarea/PolygonArea.java) |
