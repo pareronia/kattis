@@ -55,6 +55,7 @@ https://open.kattis.com/
 | commercials | [Radio Commercials](https://open.kattis.com/problems/commercials) | [Java](src/main/java/com/github/pareronia/kattis/commercials/RadioCommercials.java) |
 | conteststruggles | [Contest Struggles](https://open.kattis.com/problems/conteststruggles) | [Java](src/main/java/com/github/pareronia/kattis/conteststruggles/ContestStruggles.java) |
 | conundrum | [Cryptographer's Conundrum](https://open.kattis.com/problems/conundrum) | [Java](src/main/java/com/github/pareronia/kattis/conundrum/CryptographersConundrum.java) |
+| conversationlog | [Conversation Log](https://open.kattis.com/problems/conversationlog) | [Java](src/main/java/com/github/pareronia/kattis/conversationlog/ConversationLog.java) |
 | cups | [Stacking Cups](https://open.kattis.com/problems/cups) | [Java](src/main/java/com/github/pareronia/kattis/cups/StackingCups.java) |
 | cursethedarkness | [Curse the Darkness](https://open.kattis.com/problems/cursethedarkness) | [Java](src/main/java/com/github/pareronia/kattis/cursethedarkness/CurseTheDarkness.java) |
 | datum | [Datum](https://open.kattis.com/problems/datum) | [Java](src/main/java/com/github/pareronia/kattis/datum/Datum.java) |
