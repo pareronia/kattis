@@ -13,6 +13,7 @@ https://open.kattis.com/
 | 4thought | [4 thought](https://open.kattis.com/problems/4thought) | [Java](src/main/java/com/github/pareronia/kattis/_4thought/Thought.java) |
 | addtwonumbers | [](https://open.kattis.com/problems/addtwonumbers) | [Java](src/main/java/com/github/pareronia/kattis/addtwonumbers/AddTwoNumbers.java) |
 | akcija | [Akcija](https://open.kattis.com/problems/akcija) | [Java](src/main/java/com/github/pareronia/kattis/akcija/Akcija.java) |
+| aldursrodun | [Aldursröðun](https://open.kattis.com/problems/aldursrodun) | [Java](src/main/java/com/github/pareronia/kattis/aldursrodun/Aldursrodun.java) |
 | aleidibio | [Á leið í bíó](https://open.kattis.com/problems/aleidibio) | [Java](src/main/java/com/github/pareronia/kattis/aleidibio/ALeidiBio.java) |
 | alphabetsoup | [Alphabet Soup](https://open.kattis.com/problems/alphabetsoup) | [Java](src/main/java/com/github/pareronia/kattis/alphabetsoup/AlphabetSoup.java) |
 | alphabetspam | [Alphabet Spam](https://open.kattis.com/problems/alphabetspam) | [Java](src/main/java/com/github/pareronia/kattis/alphabetspam/AlphabetSpam.java) |
