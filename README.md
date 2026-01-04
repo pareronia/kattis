@@ -110,6 +110,7 @@ https://open.kattis.com/
 | kattissquest | [Kattis's Quest](https://open.kattis.com/problems/kattissquest) | [Java](src/main/java/com/github/pareronia/kattis/kattissquest/KattissQuest.java) |
 | keyboardd | [Keyboardd](https://open.kattis.com/problems/keyboardd) | [Java](src/main/java/com/github/pareronia/kattis/keyboardd/Keyboardd.java) |
 | kingarthur | [King Arthur's Round Table](https://open.kattis.com/problems/kingarthur) | [Java](src/main/java/com/github/pareronia/kattis/kingarthur/KingArthursRoundTable.java) |
+| klosettrod | [Klósettröð](https://open.kattis.com/problems/klosettrod) | [Java](src/main/java/com/github/pareronia/kattis/klosettrod/Klosettrod.java) |
 | knightjump | [Knight Jump](https://open.kattis.com/problems/knightjump) | [Java](src/main/java/com/github/pareronia/kattis/knightjump/KnightJump.java) |
 | kvedja | [Kveðja](https://open.kattis.com/problems/kvedja) | [Java](src/main/java/com/github/pareronia/kattis/kvedja/Kvedja.java) |
 | ladder | [Ladder](https://open.kattis.com/problems/ladder) | [Java](src/main/java/com/github/pareronia/kattis/ladder/Ladder.java) |
