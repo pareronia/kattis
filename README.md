@@ -95,6 +95,7 @@ https://open.kattis.com/
 | hiptobesquare | [It's Hip to Be Square](https://open.kattis.com/problems/hiptobesquare) | [Java](src/main/java/com/github/pareronia/kattis/hiptobesquare/ItsHipToBeSquare.java) |
 | hissingmicrophone | [Hissing Microphone](https://open.kattis.com/problems/hissingmicrophone) | [Java](src/main/java/com/github/pareronia/kattis/hissingmicrophone/HissingMicrophone.java) |
 | hnappasetningaskipti | [Hnappasetningaskipti](https://open.kattis.com/problems/hnappasetningaskipti) | [Java](src/main/java/com/github/pareronia/kattis/hnappasetningaskipti/Hnappasetningaskipti.java) |
+| hornrett | [Hornrétt](https://open.kattis.com/problems/hornrett) | [Java](src/main/java/com/github/pareronia/kattis/hornrett/Hornrett.java) |
 | hothike | [Hot Hike](https://open.kattis.com/problems/hothike) | [Java](src/main/java/com/github/pareronia/kattis/hothike/HotHike.java) |
 | hotspot | [Hot Spot](https://open.kattis.com/problems/hotspot) | [Java](src/main/java/com/github/pareronia/kattis/hotspot/HotSpot.java) |
 | humancannonball2 | [The Amazing Human Cannonball](https://open.kattis.com/problems/humancannonball2) | [Java](src/main/java/com/github/pareronia/kattis/humancannonball2/TheAmazingHumanCannonball.java) |
