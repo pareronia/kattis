@@ -157,6 +157,7 @@ https://open.kattis.com/
 | rockpaperscissors | [Rock-Paper-Scissors Tournament](https://open.kattis.com/problems/rockpaperscissors) | [Java](src/main/java/com/github/pareronia/kattis/rockpaperscissors/RockPaperScissorsTournament.java) |
 | server | [Server](https://open.kattis.com/problems/server) | [Java](src/main/java/com/github/pareronia/kattis/server/Server.java) |
 | shatteredcake | [Shattered Cake](https://open.kattis.com/problems/shatteredcake) | [Java](src/main/java/com/github/pareronia/kattis/shatteredcake/ShatteredCake.java) |
+| shortestpath1 | [Single source shortest path, non-negative weights](https://open.kattis.com/problems/shortestpath1) | [Java](src/main/java/com/github/pareronia/kattis/shortestpath1/SingleSourceShortestPathNonNegativeWeights.java) |
 | shortsell | [Short Sell](https://open.kattis.com/problems/shortsell) | [Java](src/main/java/com/github/pareronia/kattis/shortsell/ShortSell.java) |
 | sibice | [Sibice](https://open.kattis.com/problems/sibice) | [Java](src/main/java/com/github/pareronia/kattis/sibice/Sibice.java) |
 | sidewayssorting | [Sideways Sorting](https://open.kattis.com/problems/sidewayssorting) | [Java](src/main/java/com/github/pareronia/kattis/sidewayssorting/SidewaysSorting.java) |
