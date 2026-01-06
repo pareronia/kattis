@@ -192,6 +192,7 @@ https://open.kattis.com/
 | usbkeyboard | [USB Keyboard](https://open.kattis.com/problems/usbkeyboard) | [Java](src/main/java/com/github/pareronia/kattis/usbkeyboard/USBKeyboard.java) |
 | vajningsplikt | [Right-of-Way](https://open.kattis.com/problems/vajningsplikt) | [Java](src/main/java/com/github/pareronia/kattis/vajningsplikt/RightOfWay.java) |
 | velkomin | [Velkomin!](https://open.kattis.com/problems/velkomin) | [Java](src/main/java/com/github/pareronia/kattis/velkomin/Velkomin.java) |
+| verditheradgodu | [Enjoy Your Repast!](https://open.kattis.com/problems/verditheradgodu) | [Java](src/main/java/com/github/pareronia/kattis/verditheradgodu/EnjoyYourRepast.java) |
 | vidsnuningur | [Viðsnúningur](https://open.kattis.com/problems/vidsnuningur) | [Java](src/main/java/com/github/pareronia/kattis/vidsnuningur/Visnningur.java) |
 | wheresmyinternet | [Where's My Internet??](https://open.kattis.com/problems/wheresmyinternet) | [Java](src/main/java/com/github/pareronia/kattis/wheresmyinternet/WheresMyInternet.java) |
 | wordcloud | [Word Cloud](https://open.kattis.com/problems/wordcloud) | [Java](src/main/java/com/github/pareronia/kattis/wordcloud/WordCloud.java) |
