@@ -115,6 +115,7 @@ https://open.kattis.com/
 | klippaprotein | [Cutting Proteins](https://open.kattis.com/problems/klippaprotein) | [Java](src/main/java/com/github/pareronia/kattis/klippaprotein/CuttingProteins.java) |
 | klosettrod | [Klósettröð](https://open.kattis.com/problems/klosettrod) | [Java](src/main/java/com/github/pareronia/kattis/klosettrod/Klosettrod.java) |
 | knightjump | [Knight Jump](https://open.kattis.com/problems/knightjump) | [Java](src/main/java/com/github/pareronia/kattis/knightjump/KnightJump.java) |
+| knightsearch | [Knight Search](https://open.kattis.com/problems/knightsearch) | [Java](src/main/java/com/github/pareronia/kattis/knightsearch/KnightSearch.java) |
 | kvedja | [Kveðja](https://open.kattis.com/problems/kvedja) | [Java](src/main/java/com/github/pareronia/kattis/kvedja/Kvedja.java) |
 | ladder | [Ladder](https://open.kattis.com/problems/ladder) | [Java](src/main/java/com/github/pareronia/kattis/ladder/Ladder.java) |
 | leggjasaman | [Leggja saman](https://open.kattis.com/problems/leggjasaman) | [Java](src/main/java/com/github/pareronia/kattis/leggjasaman/LeggjaSaman.java) |
