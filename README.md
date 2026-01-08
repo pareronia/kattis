@@ -68,6 +68,7 @@ https://open.kattis.com/
 | dicecup | [Dice Cup](https://open.kattis.com/problems/dicecup) | [Java](src/main/java/com/github/pareronia/kattis/dicecup/DiceCup.java) |
 | dragafra | [Draga Frá](https://open.kattis.com/problems/dragafra) | [Java](src/main/java/com/github/pareronia/kattis/dragafra/DragaFra.java) |
 | dragonsinadungeon | [Dragons in a Dungeon](https://open.kattis.com/problems/dragonsinadungeon) | [Java](src/main/java/com/github/pareronia/kattis/dragonsinadungeon/DragonsInADungeon.java) |
+| drinkingsong | [Drinking Song](https://open.kattis.com/problems/drinkingsong) | [Java](src/main/java/com/github/pareronia/kattis/drinkingsong/DrinkingSong.java) |
 | dungeon | [Dungeon master](https://open.kattis.com/problems/dungeon) | [Java](src/main/java/com/github/pareronia/kattis/dungeon/DungeonMaster.java) |
 | echoechoecho | [Echo Echo Echo](https://open.kattis.com/problems/echoechoecho) | [Java](src/main/java/com/github/pareronia/kattis/echoechoecho/EchoEchoEcho.java) |
 | eenymeeny | [Eeny Meeny](https://open.kattis.com/problems/eenymeeny) | [Java](src/main/java/com/github/pareronia/kattis/eenymeeny/EenyMeeny.java) |
