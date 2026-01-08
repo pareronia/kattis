@@ -109,6 +109,7 @@ https://open.kattis.com/
 | humancannonball2 | [The Amazing Human Cannonball](https://open.kattis.com/problems/humancannonball2) | [Java](src/main/java/com/github/pareronia/kattis/humancannonball2/TheAmazingHumanCannonball.java) |
 | industrialspy | [An Industrial Spy](https://open.kattis.com/problems/industrialspy) | [Java](src/main/java/com/github/pareronia/kattis/industrialspy/AnIndustrialSpy.java) |
 | inputmaxxing | [Inputmaxxing](https://open.kattis.com/problems/inputmaxxing) | [Java](src/main/java/com/github/pareronia/kattis/inputmaxxing/Inputmaxxing.java) |
+| instagraph | [Instagraph](https://open.kattis.com/problems/instagraph) | [Java](src/main/java/com/github/pareronia/kattis/instagraph/Instagraph.java) |
 | isithalloween | [IsItHalloween.com](https://open.kattis.com/problems/isithalloween) | [Java](src/main/java/com/github/pareronia/kattis/isithalloween/IsItHalloweencom.java) |
 | jackolanternjuxtaposition | [Jack-O'-Lantern Juxtaposition](https://open.kattis.com/problems/jackolanternjuxtaposition) | [Java](src/main/java/com/github/pareronia/kattis/jackolanternjuxtaposition/JackOLanternJuxtaposition.java) |
 | jage | [Tag](https://open.kattis.com/problems/jage) | [Java](src/main/java/com/github/pareronia/kattis/jage/Tag.java) |
