@@ -87,6 +87,7 @@ https://open.kattis.com/
 | flowshop | [Flow Shop](https://open.kattis.com/problems/flowshop) | [Java](src/main/java/com/github/pareronia/kattis/flowshop/FlowShop.java) |
 | fodelsedagsmemorisering | [Birthday Memorization](https://open.kattis.com/problems/fodelsedagsmemorisering) | [Java](src/main/java/com/github/pareronia/kattis/fodelsedagsmemorisering/BirthdayMemorization.java) |
 | fridge | [Fridge](https://open.kattis.com/problems/fridge) | [Java](src/main/java/com/github/pareronia/kattis/fridge/Fridge.java) |
+| gottacatchemtwice | [Gotta Catch 'Em Twice](https://open.kattis.com/problems/gottacatchemtwice) | [Java](src/main/java/com/github/pareronia/kattis/gottacatchemtwice/GottaCatchEmTwice.java) |
 | grassseed | [Grass Seed Inc.](https://open.kattis.com/problems/grassseed) | [Java](src/main/java/com/github/pareronia/kattis/grassseed/GrassSeedInc.java) |
 | greetings2 | [](https://open.kattis.com/problems/greetings2) | [Java](src/main/java/com/github/pareronia/kattis/greetings2/Greetings2.java) |
 | guess | [Guess the Number](https://open.kattis.com/problems/guess) | [Java](src/main/java/com/github/pareronia/kattis/guess/GuessTheNumber.java) |
