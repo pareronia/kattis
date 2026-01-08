@@ -126,6 +126,7 @@ https://open.kattis.com/
 | lyklagangriti | [Keystrokes](https://open.kattis.com/problems/lyklagangriti) | [Java](src/main/java/com/github/pareronia/kattis/lyklagangriti/Keystrokes.java) |
 | midi | [Miði](https://open.kattis.com/problems/midi) | [Java](src/main/java/com/github/pareronia/kattis/midi/Midi.java) |
 | minimumscalar | [Minimum Scalar Product](https://open.kattis.com/problems/minimumscalar) | [Java](src/main/java/com/github/pareronia/kattis/minimumscalar/MinimumScalarProduct.java) |
+| namegeneration | [Name Generation](https://open.kattis.com/problems/namegeneration) | [Java](src/main/java/com/github/pareronia/kattis/namegeneration/NameGeneration.java) |
 | namethatpermutation | [Name That Permutation](https://open.kattis.com/problems/namethatpermutation) | [Java](src/main/java/com/github/pareronia/kattis/namethatpermutation/NameThatPermutation.java) |
 | nastyhacks | [Nasty Hacks](https://open.kattis.com/problems/nastyhacks) | [Java](src/main/java/com/github/pareronia/kattis/nastyhacks/NastyHacks.java) |
 | natrij | [Natrij](https://open.kattis.com/problems/natrij) | [Java](src/main/java/com/github/pareronia/kattis/natrij/Natrij.java) |
