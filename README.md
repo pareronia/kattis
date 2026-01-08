@@ -51,6 +51,7 @@ https://open.kattis.com/
 | chartingprogress | [Charting Progress](https://open.kattis.com/problems/chartingprogress) | [Java](src/main/java/com/github/pareronia/kattis/chartingprogress/ChartingProgress.java) |
 | chopin | [Chopin](https://open.kattis.com/problems/chopin) | [Java](src/main/java/com/github/pareronia/kattis/chopin/Chopin.java) |
 | circuitmath | [Circuit Math](https://open.kattis.com/problems/circuitmath) | [Java](src/main/java/com/github/pareronia/kattis/circuitmath/CircuitMath.java) |
+| clockcatchup | [Clock Catchup](https://open.kattis.com/problems/clockcatchup) | [Java](src/main/java/com/github/pareronia/kattis/clockcatchup/ClockCatchup.java) |
 | coast | [Coast Length](https://open.kattis.com/problems/coast) | [Java](src/main/java/com/github/pareronia/kattis/coast/CoastLength.java) |
 | codecleanups | [Code Cleanups](https://open.kattis.com/problems/codecleanups) | [Java](src/main/java/com/github/pareronia/kattis/codecleanups/CodeCleanups.java) |
 | cold | [Cold-puter Science](https://open.kattis.com/problems/cold) | [Java](src/main/java/com/github/pareronia/kattis/cold/ColdPuterScience.java) |
