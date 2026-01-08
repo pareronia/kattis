@@ -160,6 +160,7 @@ https://open.kattis.com/
 | register | [Primary Register](https://open.kattis.com/problems/register) | [Java](src/main/java/com/github/pareronia/kattis/register/PrimaryRegister.java) |
 | reversebinary | [Reversed Binary Numbers](https://open.kattis.com/problems/reversebinary) | [Java](src/main/java/com/github/pareronia/kattis/reversebinary/ReversedBinaryNumbers.java) |
 | rockpaperscissors | [Rock-Paper-Scissors Tournament](https://open.kattis.com/problems/rockpaperscissors) | [Java](src/main/java/com/github/pareronia/kattis/rockpaperscissors/RockPaperScissorsTournament.java) |
+| savingdaylight | [Saving Daylight](https://open.kattis.com/problems/savingdaylight) | [Java](src/main/java/com/github/pareronia/kattis/savingdaylight/SavingDaylight.java) |
 | server | [Server](https://open.kattis.com/problems/server) | [Java](src/main/java/com/github/pareronia/kattis/server/Server.java) |
 | shatteredcake | [Shattered Cake](https://open.kattis.com/problems/shatteredcake) | [Java](src/main/java/com/github/pareronia/kattis/shatteredcake/ShatteredCake.java) |
 | shortestpath1 | [Single source shortest path, non-negative weights](https://open.kattis.com/problems/shortestpath1) | [Java](src/main/java/com/github/pareronia/kattis/shortestpath1/SingleSourceShortestPathNonNegativeWeights.java) |
