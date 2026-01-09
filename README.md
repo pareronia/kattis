@@ -22,6 +22,7 @@ https://open.kattis.com/
 | apaxiaaans | [Apaxiaaaaaaaaaaaans!](https://open.kattis.com/problems/apaxiaaans) | [Java](src/main/java/com/github/pareronia/kattis/apaxiaaans/Apaxiaaaaaaaaaaaans.java) |
 | apaxianparent | [Honour Thy (Apaxian) Parent](https://open.kattis.com/problems/apaxianparent) | [Java](src/main/java/com/github/pareronia/kattis/apaxianparent/HonourThyApaxianParent.java) |
 | apples | [Falling Apples](https://open.kattis.com/problems/apples) | [Java](src/main/java/com/github/pareronia/kattis/apples/FallingApples.java) |
+| armystrengtheasy | [Army Strength (Easy)](https://open.kattis.com/problems/armystrengtheasy) | [Java](src/main/java/com/github/pareronia/kattis/armystrengtheasy/ArmyStrengthEasy.java) |
 | asciifigurerotation | [ASCII Figure Rotation](https://open.kattis.com/problems/asciifigurerotation) | [Java](src/main/java/com/github/pareronia/kattis/asciifigurerotation/ASCIIFigureRotation.java) |
 | autori | [Autori](https://open.kattis.com/problems/autori) | [Java](src/main/java/com/github/pareronia/kattis/autori/Autori.java) |
 | averagecharacter | [Average Character](https://open.kattis.com/problems/averagecharacter) | [Java](src/main/java/com/github/pareronia/kattis/averagecharacter/AverageCharacter.java) |
