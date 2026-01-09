@@ -129,6 +129,7 @@ https://open.kattis.com/
 | ladder | [Ladder](https://open.kattis.com/problems/ladder) | [Java](src/main/java/com/github/pareronia/kattis/ladder/Ladder.java) |
 | leggjasaman | [Leggja saman](https://open.kattis.com/problems/leggjasaman) | [Java](src/main/java/com/github/pareronia/kattis/leggjasaman/LeggjaSaman.java) |
 | leidangur | [Leiðangur](https://open.kattis.com/problems/leidangur) | [Java](src/main/java/com/github/pareronia/kattis/leidangur/Leidangur.java) |
+| loowater | [The Dragon of Loowater](https://open.kattis.com/problems/loowater) | [Java](src/main/java/com/github/pareronia/kattis/loowater/TheDragonOfLoowater.java) |
 | lyklagangriti | [Keystrokes](https://open.kattis.com/problems/lyklagangriti) | [Java](src/main/java/com/github/pareronia/kattis/lyklagangriti/Keystrokes.java) |
 | midi | [Miði](https://open.kattis.com/problems/midi) | [Java](src/main/java/com/github/pareronia/kattis/midi/Midi.java) |
 | minimumscalar | [Minimum Scalar Product](https://open.kattis.com/problems/minimumscalar) | [Java](src/main/java/com/github/pareronia/kattis/minimumscalar/MinimumScalarProduct.java) |
