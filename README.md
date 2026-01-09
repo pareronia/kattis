@@ -76,6 +76,7 @@ https://open.kattis.com/
 | electricaloutlets | [Electrical Outlets](https://open.kattis.com/problems/electricaloutlets) | [Java](src/main/java/com/github/pareronia/kattis/electricaloutlets/ElectricalOutlets.java) |
 | enduro | [Enduro](https://open.kattis.com/problems/enduro) | [Java](src/main/java/com/github/pareronia/kattis/enduro/Enduro.java) |
 | engineeringenglish | [Engineering English](https://open.kattis.com/problems/engineeringenglish) | [Java](src/main/java/com/github/pareronia/kattis/engineeringenglish/EngineeringEnglish.java) |
+| eszett | [Eszett](https://open.kattis.com/problems/eszett) | [Java](src/main/java/com/github/pareronia/kattis/eszett/Eszett.java) |
 | evenup | [Even Up Solitaire](https://open.kattis.com/problems/evenup) | [Java](src/main/java/com/github/pareronia/kattis/evenup/EvenUpSolitaire.java) |
 | everywhere | [I've Been Everywhere, Man](https://open.kattis.com/problems/everywhere) | [Java](src/main/java/com/github/pareronia/kattis/everywhere/IveBeenEverywhereMan.java) |
 | faktor | [Faktor](https://open.kattis.com/problems/faktor) | [Java](src/main/java/com/github/pareronia/kattis/faktor/Faktor.java) |
