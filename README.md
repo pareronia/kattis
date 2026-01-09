@@ -74,6 +74,7 @@ https://open.kattis.com/
 | drinkingsong | [Drinking Song](https://open.kattis.com/problems/drinkingsong) | [Java](src/main/java/com/github/pareronia/kattis/drinkingsong/DrinkingSong.java) |
 | dungeon | [Dungeon master](https://open.kattis.com/problems/dungeon) | [Java](src/main/java/com/github/pareronia/kattis/dungeon/DungeonMaster.java) |
 | earlytermination | [Early Termination](https://open.kattis.com/problems/earlytermination) | [Java](src/main/java/com/github/pareronia/kattis/earlytermination/EarlyTermination.java) |
+| easiest | [The Easiest Problem Is This One](https://open.kattis.com/problems/easiest) | [Java](src/main/java/com/github/pareronia/kattis/easiest/TheEasiestProblemIsThisOne.java) |
 | echoechoecho | [Echo Echo Echo](https://open.kattis.com/problems/echoechoecho) | [Java](src/main/java/com/github/pareronia/kattis/echoechoecho/EchoEchoEcho.java) |
 | eenymeeny | [Eeny Meeny](https://open.kattis.com/problems/eenymeeny) | [Java](src/main/java/com/github/pareronia/kattis/eenymeeny/EenyMeeny.java) |
 | electionparadox | [Election Paradox](https://open.kattis.com/problems/electionparadox) | [Java](src/main/java/com/github/pareronia/kattis/electionparadox/ElectionParadox.java) |
