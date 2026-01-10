@@ -137,6 +137,7 @@ https://open.kattis.com/
 | loowater | [The Dragon of Loowater](https://open.kattis.com/problems/loowater) | [Java](src/main/java/com/github/pareronia/kattis/loowater/TheDragonOfLoowater.java) |
 | lyklagangriti | [Keystrokes](https://open.kattis.com/problems/lyklagangriti) | [Java](src/main/java/com/github/pareronia/kattis/lyklagangriti/Keystrokes.java) |
 | midi | [Miði](https://open.kattis.com/problems/midi) | [Java](src/main/java/com/github/pareronia/kattis/midi/Midi.java) |
+| millifaersla | [Millifærsla](https://open.kattis.com/problems/millifaersla) | [Java](src/main/java/com/github/pareronia/kattis/millifaersla/Millifaersla.java) |
 | minimumscalar | [Minimum Scalar Product](https://open.kattis.com/problems/minimumscalar) | [Java](src/main/java/com/github/pareronia/kattis/minimumscalar/MinimumScalarProduct.java) |
 | namegeneration | [Name Generation](https://open.kattis.com/problems/namegeneration) | [Java](src/main/java/com/github/pareronia/kattis/namegeneration/NameGeneration.java) |
 | namethatpermutation | [Name That Permutation](https://open.kattis.com/problems/namethatpermutation) | [Java](src/main/java/com/github/pareronia/kattis/namethatpermutation/NameThatPermutation.java) |
