@@ -79,6 +79,7 @@ https://open.kattis.com/
 | easiest | [The Easiest Problem Is This One](https://open.kattis.com/problems/easiest) | [Java](src/main/java/com/github/pareronia/kattis/easiest/TheEasiestProblemIsThisOne.java) |
 | echoechoecho | [Echo Echo Echo](https://open.kattis.com/problems/echoechoecho) | [Java](src/main/java/com/github/pareronia/kattis/echoechoecho/EchoEchoEcho.java) |
 | eenymeeny | [Eeny Meeny](https://open.kattis.com/problems/eenymeeny) | [Java](src/main/java/com/github/pareronia/kattis/eenymeeny/EenyMeeny.java) |
+| eldspytur | [Eldspýtur](https://open.kattis.com/problems/eldspytur) | [Java](src/main/java/com/github/pareronia/kattis/eldspytur/Eldspytur.java) |
 | electionparadox | [Election Paradox](https://open.kattis.com/problems/electionparadox) | [Java](src/main/java/com/github/pareronia/kattis/electionparadox/ElectionParadox.java) |
 | electricaloutlets | [Electrical Outlets](https://open.kattis.com/problems/electricaloutlets) | [Java](src/main/java/com/github/pareronia/kattis/electricaloutlets/ElectricalOutlets.java) |
 | enduro | [Enduro](https://open.kattis.com/problems/enduro) | [Java](src/main/java/com/github/pareronia/kattis/enduro/Enduro.java) |
