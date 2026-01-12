@@ -61,6 +61,7 @@ https://open.kattis.com/
 | codecleanups | [Code Cleanups](https://open.kattis.com/problems/codecleanups) | [Java](src/main/java/com/github/pareronia/kattis/codecleanups/CodeCleanups.java) |
 | cold | [Cold-puter Science](https://open.kattis.com/problems/cold) | [Java](src/main/java/com/github/pareronia/kattis/cold/ColdPuterScience.java) |
 | commercials | [Radio Commercials](https://open.kattis.com/problems/commercials) | [Java](src/main/java/com/github/pareronia/kattis/commercials/RadioCommercials.java) |
+| congaline | [Conga Line](https://open.kattis.com/problems/congaline) | [Java](src/main/java/com/github/pareronia/kattis/congaline/CongaLine.java) |
 | conteststruggles | [Contest Struggles](https://open.kattis.com/problems/conteststruggles) | [Java](src/main/java/com/github/pareronia/kattis/conteststruggles/ContestStruggles.java) |
 | conundrum | [Cryptographer's Conundrum](https://open.kattis.com/problems/conundrum) | [Java](src/main/java/com/github/pareronia/kattis/conundrum/CryptographersConundrum.java) |
 | conversationlog | [Conversation Log](https://open.kattis.com/problems/conversationlog) | [Java](src/main/java/com/github/pareronia/kattis/conversationlog/ConversationLog.java) |
