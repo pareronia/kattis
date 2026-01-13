@@ -161,6 +161,7 @@ https://open.kattis.com/
 | pet | [Pet](https://open.kattis.com/problems/pet) | [Java](src/main/java/com/github/pareronia/kattis/pet/Pet.java) |
 | piglatin | [Pig Latin](https://open.kattis.com/problems/piglatin) | [Java](src/main/java/com/github/pareronia/kattis/piglatin/PigLatin.java) |
 | pinnifraendi | [Pinni Frændi](https://open.kattis.com/problems/pinnifraendi) | [Java](src/main/java/com/github/pareronia/kattis/pinnifraendi/PinniFraendi.java) |
+| pizzubestun | [Pizzubestun](https://open.kattis.com/problems/pizzubestun) | [Java](src/main/java/com/github/pareronia/kattis/pizzubestun/Pizzubestun.java) |
 | planina | [Planina](https://open.kattis.com/problems/planina) | [Java](src/main/java/com/github/pareronia/kattis/planina/Planina.java) |
 | polygonarea | [Polygon Area](https://open.kattis.com/problems/polygonarea) | [Java](src/main/java/com/github/pareronia/kattis/polygonarea/PolygonArea.java) |
 | pot | [Pot](https://open.kattis.com/problems/pot) | [Java](src/main/java/com/github/pareronia/kattis/pot/Pot.java) |
