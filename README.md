@@ -140,6 +140,7 @@ https://open.kattis.com/
 | leidangur | [Leiðangur](https://open.kattis.com/problems/leidangur) | [Java](src/main/java/com/github/pareronia/kattis/leidangur/Leidangur.java) |
 | loowater | [The Dragon of Loowater](https://open.kattis.com/problems/loowater) | [Java](src/main/java/com/github/pareronia/kattis/loowater/TheDragonOfLoowater.java) |
 | lubbilaerir | [Lubbi Lærir](https://open.kattis.com/problems/lubbilaerir) | [Java](src/main/java/com/github/pareronia/kattis/lubbilaerir/LubbiLaerir.java) |
+| lvable | ["lv"-able](https://open.kattis.com/problems/lvable) | [Java](src/main/java/com/github/pareronia/kattis/lvable/LvAble.java) |
 | lyklagangriti | [Keystrokes](https://open.kattis.com/problems/lyklagangriti) | [Java](src/main/java/com/github/pareronia/kattis/lyklagangriti/Keystrokes.java) |
 | midi | [Miði](https://open.kattis.com/problems/midi) | [Java](src/main/java/com/github/pareronia/kattis/midi/Midi.java) |
 | millifaersla | [Millifærsla](https://open.kattis.com/problems/millifaersla) | [Java](src/main/java/com/github/pareronia/kattis/millifaersla/Millifaersla.java) |
