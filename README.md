@@ -195,6 +195,7 @@ https://open.kattis.com/
 | smil | [SMIL](https://open.kattis.com/problems/smil) | [Java](src/main/java/com/github/pareronia/kattis/smil/SMIL.java) |
 | sortofsorting | [Sort of Sorting](https://open.kattis.com/problems/sortofsorting) | [Java](src/main/java/com/github/pareronia/kattis/sortofsorting/SortOfSorting.java) |
 | speedlimit | [Speed Limit](https://open.kattis.com/problems/speedlimit) | [Java](src/main/java/com/github/pareronia/kattis/speedlimit/SpeedLimit.java) |
+| speedrun | [Speedrun](https://open.kattis.com/problems/speedrun) | [Java](src/main/java/com/github/pareronia/kattis/speedrun/Speedrun.java) |
 | stafur | [Stafur](https://open.kattis.com/problems/stafur) | [Java](src/main/java/com/github/pareronia/kattis/stafur/Stafur.java) |
 | stockbroker | [Daydreaming Stockbroker](https://open.kattis.com/problems/stockbroker) | [Java](src/main/java/com/github/pareronia/kattis/stockbroker/DaydreamingStockbroker.java) |
 | stokigalistor | [Messy lists](https://open.kattis.com/problems/stokigalistor) | [Java](src/main/java/com/github/pareronia/kattis/stokigalistor/MessyLists.java) |
