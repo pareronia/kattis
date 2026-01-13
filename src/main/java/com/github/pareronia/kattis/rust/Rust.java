@@ -14,10 +14,11 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
+import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 /**
- * Rust - TLE
+ * Rust
  * @see <a href="https://open.kattis.com/problems/rust">https://open.kattis.com/problems/rust</a>
  */
 public class Rust {
@@ -35,33 +36,58 @@ public class Rust {
         final int n = sc.nextInt();
         final int k = sc.nextInt();
         final char[][] a = new char[n][n];
+        final int[][] p = new int[n + 1][n + 1];
         for (int j = 0; j < n; j++) {
             a[j] = sc.next().toCharArray();
+            for (int j1 = 0; j1 < n; j1++) {
+                p[j + 1][j1 + 1] =
+                        (a[j][j1] == '.' ? 0 : a[j][j1] == '#' ? 0 : a[j][j1] - '0')
+                            + p[j + 1][j1] + p[j][j1 + 1] - p[j][j1];
+            }
         }
-        int ans = 0;
-        for (int r = 0; r <= n - k; r++) {
-            for (int c = 0; c <= n - k; c++) {
-                if (!allDots(a, r, c, k) || !allDots(a, r + k - 1, c, k)) {
+        final PriorityQueue<int[]> q
+                = new PriorityQueue<>((a1, a2) -> -Integer.compare(a1[0], a2[0]));
+        for (int r = 1; r < n - (k - 2); r++) {
+            for (int c = 1; c < n - (k - 2); c++) {
+                final int sum = sumRegion(p, r, c, r + k - 3, c + k - 3);
+                if (sum > 0)
+                {
+                    q.add(new int[] { sum, r, c });
+                }
+            }
+        }
+        if (q.isEmpty()) {
+            this.out.println(0);
+            return;
+        } else {
+            int ans = 0;
+            while (!q.isEmpty()) {
+                final int[] v = q.poll();
+                final int r = v[1];
+                final int c = v[2];
+                if (!allDots(a, r - 1, c - 1, k) || !allDots(a, r - 1 + k - 1, c - 1, k)) {
                     continue;
                 }
                 boolean ok = true;
                 for (int j = 1; j < k - 1; j++) {
-                    if (a[r + j][c] != '.' || a[r + j][c + k - 1] != '.') {
+                    if (a[r - 1 + j][c - 1] != '.' || a[r - 1 + j][c - 1 + k - 1] != '.') {
                         ok = false;
                         break;
                     }
                 }
                 if (!ok) {
                     continue;
+                } else {
+                    ans = v[0];
+                    break;
                 }
-                int val = 0;
-                for (int j = 1; j < k - 1; j++) {
-                    val += value(a, r + j, c, k);
-                }
-                ans = Math.max(ans, val);
             }
+            this.out.println(ans);
         }
-        this.out.println(ans);
+    }
+
+    private int sumRegion(final int[][] p, final int r1, final int c1, final int r2, final int c2) {
+        return p[r2 + 1][c2 + 1] - p[r1][c2 + 1] - p[r2 + 1][c1] + p[r1][c1];
     }
 
     private boolean allDots(final char[][] a, final int row, final int col, final int len) {
@@ -71,17 +97,6 @@ public class Rust {
             }
         }
         return true;
-    }
-
-    private int value(final char[][] a, final int row, final int col, final int len) {
-        int ans = 0;
-        for (int j = 1; j < len - 1; j++) {
-            final char ch = a[row][col + j];
-            if (ch != '.' && ch != '#') {
-                ans += ch - '0';
-            }
-        }
-        return ans;
     }
 
     public void solve() {
