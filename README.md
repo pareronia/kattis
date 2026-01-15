@@ -108,6 +108,7 @@ https://open.kattis.com/
 | heartrate | [Heart Rate](https://open.kattis.com/problems/heartrate) | [Java](src/main/java/com/github/pareronia/kattis/heartrate/HeartRate.java) |
 | heimavinna | [Homework](https://open.kattis.com/problems/heimavinna) | [Java](src/main/java/com/github/pareronia/kattis/heimavinna/Homework.java) |
 | hello | [](https://open.kattis.com/problems/hello) | [Java](src/main/java/com/github/pareronia/kattis/hello/Hello.java) |
+| helpme | [Help Me With The Game](https://open.kattis.com/problems/helpme) | [Java](src/main/java/com/github/pareronia/kattis/helpme/HelpMeWithTheGame.java) |
 | herman | [Herman](https://open.kattis.com/problems/herman) | [Java](src/main/java/com/github/pareronia/kattis/herman/Herman.java) |
 | hillclimbracing | [Hill Climb Racing](https://open.kattis.com/problems/hillclimbracing) | [Java](src/main/java/com/github/pareronia/kattis/hillclimbracing/HillClimbRacing.java) |
 | hipphipp | [Hipp Hipp](https://open.kattis.com/problems/hipphipp) | [Java](src/main/java/com/github/pareronia/kattis/hipphipp/HippHipp.java) |
