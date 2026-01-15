@@ -135,6 +135,7 @@ https://open.kattis.com/
 | klosettrod | [Klósettröð](https://open.kattis.com/problems/klosettrod) | [Java](src/main/java/com/github/pareronia/kattis/klosettrod/Klosettrod.java) |
 | knightjump | [Knight Jump](https://open.kattis.com/problems/knightjump) | [Java](src/main/java/com/github/pareronia/kattis/knightjump/KnightJump.java) |
 | knightsearch | [Knight Search](https://open.kattis.com/problems/knightsearch) | [Java](src/main/java/com/github/pareronia/kattis/knightsearch/KnightSearch.java) |
+| knightwalk | [Knight Walk](https://open.kattis.com/problems/knightwalk) | [Java](src/main/java/com/github/pareronia/kattis/knightwalk/KnightWalk.java) |
 | kvedja | [Kveðja](https://open.kattis.com/problems/kvedja) | [Java](src/main/java/com/github/pareronia/kattis/kvedja/Kvedja.java) |
 | ladder | [Ladder](https://open.kattis.com/problems/ladder) | [Java](src/main/java/com/github/pareronia/kattis/ladder/Ladder.java) |
 | laptopstickers | [Laptop Stickers](https://open.kattis.com/problems/laptopstickers) | [Java](src/main/java/com/github/pareronia/kattis/laptopstickers/LaptopStickers.java) |
