@@ -136,6 +136,7 @@ https://open.kattis.com/
 | knightsearch | [Knight Search](https://open.kattis.com/problems/knightsearch) | [Java](src/main/java/com/github/pareronia/kattis/knightsearch/KnightSearch.java) |
 | kvedja | [Kveðja](https://open.kattis.com/problems/kvedja) | [Java](src/main/java/com/github/pareronia/kattis/kvedja/Kvedja.java) |
 | ladder | [Ladder](https://open.kattis.com/problems/ladder) | [Java](src/main/java/com/github/pareronia/kattis/ladder/Ladder.java) |
+| laptopstickers | [Laptop Stickers](https://open.kattis.com/problems/laptopstickers) | [Java](src/main/java/com/github/pareronia/kattis/laptopstickers/LaptopStickers.java) |
 | leggjasaman | [Leggja saman](https://open.kattis.com/problems/leggjasaman) | [Java](src/main/java/com/github/pareronia/kattis/leggjasaman/LeggjaSaman.java) |
 | leidangur | [Leiðangur](https://open.kattis.com/problems/leidangur) | [Java](src/main/java/com/github/pareronia/kattis/leidangur/Leidangur.java) |
 | loowater | [The Dragon of Loowater](https://open.kattis.com/problems/loowater) | [Java](src/main/java/com/github/pareronia/kattis/loowater/TheDragonOfLoowater.java) |
