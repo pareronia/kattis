@@ -208,6 +208,7 @@ https://open.kattis.com/
 | superyatzy | [Superyatzy](https://open.kattis.com/problems/superyatzy) | [Java](src/main/java/com/github/pareronia/kattis/superyatzy/Superyatzy.java) |
 | symmetricorder | [Symmetric Order](https://open.kattis.com/problems/symmetricorder) | [Java](src/main/java/com/github/pareronia/kattis/symmetricorder/SymmetricOrder.java) |
 | tarifa | [Tarifa](https://open.kattis.com/problems/tarifa) | [Java](src/main/java/com/github/pareronia/kattis/tarifa/Tarifa.java) |
+| telja | [Telja](https://open.kattis.com/problems/telja) | [Java](src/main/java/com/github/pareronia/kattis/telja/Telja.java) |
 | temperatureconfusion | [Temperature Confusion](https://open.kattis.com/problems/temperatureconfusion) | [Java](src/main/java/com/github/pareronia/kattis/temperatureconfusion/TemperatureConfusion.java) |
 | ternarianweights | [Ternarian Weights](https://open.kattis.com/problems/ternarianweights) | [Java](src/main/java/com/github/pareronia/kattis/ternarianweights/TernarianWeights.java) |
 | testingleds | [Testing LEDs](https://open.kattis.com/problems/testingleds) | [Java](src/main/java/com/github/pareronia/kattis/testingleds/TestingLEDs.java) |
