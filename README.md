@@ -193,6 +193,7 @@ https://open.kattis.com/
 | siffrid | [Siffrid's Digit Sum](https://open.kattis.com/problems/siffrid) | [Java](src/main/java/com/github/pareronia/kattis/siffrid/SiffridsDigitSum.java) |
 | simanumer | [Símanúmer](https://open.kattis.com/problems/simanumer) | [Java](src/main/java/com/github/pareronia/kattis/simanumer/Simanumer.java) |
 | simone | [Simone](https://open.kattis.com/problems/simone) | [Java](src/main/java/com/github/pareronia/kattis/simone/Simone.java) |
+| simplearithmetic | [Simple Arithmetic](https://open.kattis.com/problems/simplearithmetic) | [Java](src/main/java/com/github/pareronia/kattis/simplearithmetic/SimpleArithmetic.java) |
 | skener | [Skener](https://open.kattis.com/problems/skener) | [Java](src/main/java/com/github/pareronia/kattis/skener/Skener.java) |
 | skeytasaman | [Concatenate](https://open.kattis.com/problems/skeytasaman) | [Java](src/main/java/com/github/pareronia/kattis/skeytasaman/Concatenate.java) |
 | skolavslutningen | [Graduation](https://open.kattis.com/problems/skolavslutningen) | [Java](src/main/java/com/github/pareronia/kattis/skolavslutningen/Graduation.java) |
