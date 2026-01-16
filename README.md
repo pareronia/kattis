@@ -11,6 +11,7 @@ https://open.kattis.com/
 | --- | --- | --- |
 | 10kindsofpeople | [10 Kinds of People - TLE](https://open.kattis.com/problems/10kindsofpeople) | [Java](src/main/java/com/github/pareronia/kattis/_10kindsofpeople/KindsOfPeople.java) |
 | 13floors | [13 Floors](https://open.kattis.com/problems/13floors) | [Java](src/main/java/com/github/pareronia/kattis/_13floors/ThirteenFloors.java) |
+| 3puzzle | [3-Puzzle](https://open.kattis.com/problems/3puzzle) | [Java](src/main/java/com/github/pareronia/kattis/_3puzzle/ThreePuzzle.java) |
 | 4thought | [4 thought](https://open.kattis.com/problems/4thought) | [Java](src/main/java/com/github/pareronia/kattis/_4thought/Thought.java) |
 | addtwonumbers | [](https://open.kattis.com/problems/addtwonumbers) | [Java](src/main/java/com/github/pareronia/kattis/addtwonumbers/AddTwoNumbers.java) |
 | akcija | [Akcija](https://open.kattis.com/problems/akcija) | [Java](src/main/java/com/github/pareronia/kattis/akcija/Akcija.java) |
