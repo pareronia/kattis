@@ -175,6 +175,7 @@ https://open.kattis.com/
 | polygonarea | [Polygon Area](https://open.kattis.com/problems/polygonarea) | [Java](src/main/java/com/github/pareronia/kattis/polygonarea/PolygonArea.java) |
 | pot | [Pot](https://open.kattis.com/problems/pot) | [Java](src/main/java/com/github/pareronia/kattis/pot/Pot.java) |
 | prerequisites | [Prerequisites?](https://open.kattis.com/problems/prerequisites) | [Java](src/main/java/com/github/pareronia/kattis/prerequisites/Prerequisites.java) |
+| pripreme | [Pripreme](https://open.kattis.com/problems/pripreme) | [Java](src/main/java/com/github/pareronia/kattis/pripreme/Pripreme.java) |
 | qaly | [Quality-Adjusted Life-Year](https://open.kattis.com/problems/qaly) | [Java](src/main/java/com/github/pareronia/kattis/qaly/QualityAdjustedLifeYear.java) |
 | quadrant | [Quadrant Selection](https://open.kattis.com/problems/quadrant) | [Java](src/main/java/com/github/pareronia/kattis/quadrant/QuadrantSelection.java) |
 | queens | [Verify This, Your Majesty](https://open.kattis.com/problems/queens) | [Java](src/main/java/com/github/pareronia/kattis/queens/VerifyThisYourMajesty.java) |
