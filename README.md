@@ -118,6 +118,7 @@ https://open.kattis.com/
 | hornrett | [Hornrétt](https://open.kattis.com/problems/hornrett) | [Java](src/main/java/com/github/pareronia/kattis/hornrett/Hornrett.java) |
 | hothike | [Hot Hike](https://open.kattis.com/problems/hothike) | [Java](src/main/java/com/github/pareronia/kattis/hothike/HotHike.java) |
 | hotspot | [Hot Spot](https://open.kattis.com/problems/hotspot) | [Java](src/main/java/com/github/pareronia/kattis/hotspot/HotSpot.java) |
+| hradgreining | [Hraðgreining](https://open.kattis.com/problems/hradgreining) | [Java](src/main/java/com/github/pareronia/kattis/hradgreining/Hradgreining.java) |
 | humancannonball2 | [The Amazing Human Cannonball](https://open.kattis.com/problems/humancannonball2) | [Java](src/main/java/com/github/pareronia/kattis/humancannonball2/TheAmazingHumanCannonball.java) |
 | industrialspy | [An Industrial Spy](https://open.kattis.com/problems/industrialspy) | [Java](src/main/java/com/github/pareronia/kattis/industrialspy/AnIndustrialSpy.java) |
 | inputmaxxing | [Inputmaxxing](https://open.kattis.com/problems/inputmaxxing) | [Java](src/main/java/com/github/pareronia/kattis/inputmaxxing/Inputmaxxing.java) |
