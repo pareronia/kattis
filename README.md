@@ -206,6 +206,7 @@ https://open.kattis.com/
 | skeytasaman | [Concatenate](https://open.kattis.com/problems/skeytasaman) | [Java](src/main/java/com/github/pareronia/kattis/skeytasaman/Concatenate.java) |
 | skolavslutningen | [Graduation](https://open.kattis.com/problems/skolavslutningen) | [Java](src/main/java/com/github/pareronia/kattis/skolavslutningen/Graduation.java) |
 | skotleikur | [Skotleikur](https://open.kattis.com/problems/skotleikur) | [Java](src/main/java/com/github/pareronia/kattis/skotleikur/Skotleikur.java) |
+| smartphone | [Smart Phone](https://open.kattis.com/problems/smartphone) | [Java](src/main/java/com/github/pareronia/kattis/smartphone/SmartPhone.java) |
 | smil | [SMIL](https://open.kattis.com/problems/smil) | [Java](src/main/java/com/github/pareronia/kattis/smil/SMIL.java) |
 | sortofsorting | [Sort of Sorting](https://open.kattis.com/problems/sortofsorting) | [Java](src/main/java/com/github/pareronia/kattis/sortofsorting/SortOfSorting.java) |
 | speedlimit | [Speed Limit](https://open.kattis.com/problems/speedlimit) | [Java](src/main/java/com/github/pareronia/kattis/speedlimit/SpeedLimit.java) |
