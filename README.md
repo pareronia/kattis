@@ -229,6 +229,7 @@ https://open.kattis.com/
 | ternarianweights | [Ternarian Weights](https://open.kattis.com/problems/ternarianweights) | [Java](src/main/java/com/github/pareronia/kattis/ternarianweights/TernarianWeights.java) |
 | testingleds | [Testing LEDs](https://open.kattis.com/problems/testingleds) | [Java](src/main/java/com/github/pareronia/kattis/testingleds/TestingLEDs.java) |
 | thelastproblem | [The Last Problem](https://open.kattis.com/problems/thelastproblem) | [Java](src/main/java/com/github/pareronia/kattis/thelastproblem/TheLastProblem.java) |
+| thirstycow | [Thirsty Cow](https://open.kattis.com/problems/thirstycow) | [Java](src/main/java/com/github/pareronia/kattis/thirstycow/ThirstyCow.java) |
 | thisaintyourgrandpascheckerboard | [This Ain't Your Grandpa's Checkerboard](https://open.kattis.com/problems/thisaintyourgrandpascheckerboard) | [Java](src/main/java/com/github/pareronia/kattis/thisaintyourgrandpascheckerboard/ThisAintYourGrandpasCheckerboard.java) |
 | tilhamingju | [Til hamingju](https://open.kattis.com/problems/tilhamingju) | [Java](src/main/java/com/github/pareronia/kattis/tilhamingju/TilHamingju.java) |
 | timeloop | [Stuck In A Time Loop](https://open.kattis.com/problems/timeloop) | [Java](src/main/java/com/github/pareronia/kattis/timeloop/StuckInATimeLoop.java) |
