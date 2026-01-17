@@ -182,6 +182,7 @@ https://open.kattis.com/
 | queens | [Verify This, Your Majesty](https://open.kattis.com/problems/queens) | [Java](src/main/java/com/github/pareronia/kattis/queens/VerifyThisYourMajesty.java) |
 | quickbrownfox | [Quick Brown Fox](https://open.kattis.com/problems/quickbrownfox) | [Java](src/main/java/com/github/pareronia/kattis/quickbrownfox/QuickBrownFox.java) |
 | r2 | [R2](https://open.kattis.com/problems/r2) | [Java](src/main/java/com/github/pareronia/kattis/r2/R2.java) |
+| radir | [Raðir](https://open.kattis.com/problems/radir) | [Java](src/main/java/com/github/pareronia/kattis/radir/Radir.java) |
 | raidteams | [Raid Teams](https://open.kattis.com/problems/raidteams) | [Java](src/main/java/com/github/pareronia/kattis/raidteams/RaidTeams.java) |
 | ratingproblems | [Rating Problems](https://open.kattis.com/problems/ratingproblems) | [Java](src/main/java/com/github/pareronia/kattis/ratingproblems/RatingProblems.java) |
 | reachableroads | [Reachable Roads](https://open.kattis.com/problems/reachableroads) | [Java](src/main/java/com/github/pareronia/kattis/reachableroads/ReachableRoads.java) |
