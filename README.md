@@ -150,6 +150,7 @@ https://open.kattis.com/
 | lubbilaerir | [Lubbi Lærir](https://open.kattis.com/problems/lubbilaerir) | [Java](src/main/java/com/github/pareronia/kattis/lubbilaerir/LubbiLaerir.java) |
 | lvable | ["lv"-able](https://open.kattis.com/problems/lvable) | [Java](src/main/java/com/github/pareronia/kattis/lvable/LvAble.java) |
 | lyklagangriti | [Keystrokes](https://open.kattis.com/problems/lyklagangriti) | [Java](src/main/java/com/github/pareronia/kattis/lyklagangriti/Keystrokes.java) |
+| metronome | [Metronome](https://open.kattis.com/problems/metronome) | [Java](src/main/java/com/github/pareronia/kattis/metronome/Metronome.java) |
 | midi | [Miði](https://open.kattis.com/problems/midi) | [Java](src/main/java/com/github/pareronia/kattis/midi/Midi.java) |
 | millifaersla | [Millifærsla](https://open.kattis.com/problems/millifaersla) | [Java](src/main/java/com/github/pareronia/kattis/millifaersla/Millifaersla.java) |
 | minimumscalar | [Minimum Scalar Product](https://open.kattis.com/problems/minimumscalar) | [Java](src/main/java/com/github/pareronia/kattis/minimumscalar/MinimumScalarProduct.java) |
