@@ -14,6 +14,7 @@ https://open.kattis.com/
 | 3dprinter | [3D Printed Statues](https://open.kattis.com/problems/3dprinter) | [Java](src/main/java/com/github/pareronia/kattis/_3dprinter/ThreeDPrintedStatues.java) |
 | 3puzzle | [3-Puzzle](https://open.kattis.com/problems/3puzzle) | [Java](src/main/java/com/github/pareronia/kattis/_3puzzle/ThreePuzzle.java) |
 | 4thought | [4 thought](https://open.kattis.com/problems/4thought) | [Java](src/main/java/com/github/pareronia/kattis/_4thought/Thought.java) |
+| 99problems | [99 Problems](https://open.kattis.com/problems/99problems) | [Java](src/main/java/com/github/pareronia/kattis/_99problems/NinetyNineProblems.java) |
 | addtwonumbers | [](https://open.kattis.com/problems/addtwonumbers) | [Java](src/main/java/com/github/pareronia/kattis/addtwonumbers/AddTwoNumbers.java) |
 | akcija | [Akcija](https://open.kattis.com/problems/akcija) | [Java](src/main/java/com/github/pareronia/kattis/akcija/Akcija.java) |
 | aldursrodun | [Aldursröðun](https://open.kattis.com/problems/aldursrodun) | [Java](src/main/java/com/github/pareronia/kattis/aldursrodun/Aldursrodun.java) |
