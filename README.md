@@ -240,6 +240,7 @@ https://open.kattis.com/
 | trailingdigits2 | [Trailing Digits - TLE](https://open.kattis.com/problems/trailingdigits2) | [Java](src/main/java/com/github/pareronia/kattis/trailingdigits2/TrailingDigits.java) |
 | transitwoes | [Transit Woes](https://open.kattis.com/problems/transitwoes) | [Java](src/main/java/com/github/pareronia/kattis/transitwoes/TransitWoes.java) |
 | tri | [Tri](https://open.kattis.com/problems/tri) | [Java](src/main/java/com/github/pareronia/kattis/tri/Tri.java) |
+| triangelfabriken | [The Triangle Factory](https://open.kattis.com/problems/triangelfabriken) | [Java](src/main/java/com/github/pareronia/kattis/triangelfabriken/TheTriangleFactory.java) |
 | twostones | [Take Two Stones](https://open.kattis.com/problems/twostones) | [Java](src/main/java/com/github/pareronia/kattis/twostones/TakeTwoStones.java) |
 | usbkeyboard | [USB Keyboard](https://open.kattis.com/problems/usbkeyboard) | [Java](src/main/java/com/github/pareronia/kattis/usbkeyboard/USBKeyboard.java) |
 | vajningsplikt | [Right-of-Way](https://open.kattis.com/problems/vajningsplikt) | [Java](src/main/java/com/github/pareronia/kattis/vajningsplikt/RightOfWay.java) |
