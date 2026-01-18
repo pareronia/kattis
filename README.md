@@ -16,6 +16,7 @@ https://open.kattis.com/
 | 4thought | [4 thought](https://open.kattis.com/problems/4thought) | [Java](src/main/java/com/github/pareronia/kattis/_4thought/Thought.java) |
 | 99problems | [99 Problems](https://open.kattis.com/problems/99problems) | [Java](src/main/java/com/github/pareronia/kattis/_99problems/NinetyNineProblems.java) |
 | 99problems2 | [99 Problems - TLE](https://open.kattis.com/problems/99problems2) | [Java](src/main/java/com/github/pareronia/kattis/_99problems2/NinetyNineProblems.java) |
+| acappellarecording | [A Cappella Recording](https://open.kattis.com/problems/acappellarecording) | [Java](src/main/java/com/github/pareronia/kattis/acappellarecording/ACappellaRecording.java) |
 | addtwonumbers | [](https://open.kattis.com/problems/addtwonumbers) | [Java](src/main/java/com/github/pareronia/kattis/addtwonumbers/AddTwoNumbers.java) |
 | akcija | [Akcija](https://open.kattis.com/problems/akcija) | [Java](src/main/java/com/github/pareronia/kattis/akcija/Akcija.java) |
 | aldursrodun | [Aldursröðun](https://open.kattis.com/problems/aldursrodun) | [Java](src/main/java/com/github/pareronia/kattis/aldursrodun/Aldursrodun.java) |
