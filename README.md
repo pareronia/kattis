@@ -75,6 +75,7 @@ https://open.kattis.com/
 | datum | [Datum](https://open.kattis.com/problems/datum) | [Java](src/main/java/com/github/pareronia/kattis/datum/Datum.java) |
 | desiigner | [Desiigner strengir](https://open.kattis.com/problems/desiigner) | [Java](src/main/java/com/github/pareronia/kattis/desiigner/DesiignerStrengir.java) |
 | detaileddifferences | [Detailed Differences](https://open.kattis.com/problems/detaileddifferences) | [Java](src/main/java/com/github/pareronia/kattis/detaileddifferences/DetailedDifferences.java) |
+| dfyrirdreki | [D Fyrir Dreki](https://open.kattis.com/problems/dfyrirdreki) | [Java](src/main/java/com/github/pareronia/kattis/dfyrirdreki/DFyrirDreki.java) |
 | dicecup | [Dice Cup](https://open.kattis.com/problems/dicecup) | [Java](src/main/java/com/github/pareronia/kattis/dicecup/DiceCup.java) |
 | dragafra | [Draga Frá](https://open.kattis.com/problems/dragafra) | [Java](src/main/java/com/github/pareronia/kattis/dragafra/DragaFra.java) |
 | dragonsinadungeon | [Dragons in a Dungeon](https://open.kattis.com/problems/dragonsinadungeon) | [Java](src/main/java/com/github/pareronia/kattis/dragonsinadungeon/DragonsInADungeon.java) |
