@@ -66,6 +66,7 @@ https://open.kattis.com/
 | circuitmath | [Circuit Math](https://open.kattis.com/problems/circuitmath) | [Java](src/main/java/com/github/pareronia/kattis/circuitmath/CircuitMath.java) |
 | clockcatchup | [Clock Catchup](https://open.kattis.com/problems/clockcatchup) | [Java](src/main/java/com/github/pareronia/kattis/clockcatchup/ClockCatchup.java) |
 | coast | [Coast Length](https://open.kattis.com/problems/coast) | [Java](src/main/java/com/github/pareronia/kattis/coast/CoastLength.java) |
+| cocktail | [A Furious Cocktail](https://open.kattis.com/problems/cocktail) | [Java](src/main/java/com/github/pareronia/kattis/cocktail/AFuriousCocktail.java) |
 | codecleanups | [Code Cleanups](https://open.kattis.com/problems/codecleanups) | [Java](src/main/java/com/github/pareronia/kattis/codecleanups/CodeCleanups.java) |
 | cold | [Cold-puter Science](https://open.kattis.com/problems/cold) | [Java](src/main/java/com/github/pareronia/kattis/cold/ColdPuterScience.java) |
 | commercials | [Radio Commercials](https://open.kattis.com/problems/commercials) | [Java](src/main/java/com/github/pareronia/kattis/commercials/RadioCommercials.java) |
