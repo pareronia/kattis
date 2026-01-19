@@ -82,6 +82,7 @@ https://open.kattis.com/
 | desiigner | [Desiigner strengir](https://open.kattis.com/problems/desiigner) | [Java](src/main/java/com/github/pareronia/kattis/desiigner/DesiignerStrengir.java) |
 | detaileddifferences | [Detailed Differences](https://open.kattis.com/problems/detaileddifferences) | [Java](src/main/java/com/github/pareronia/kattis/detaileddifferences/DetailedDifferences.java) |
 | dfyrirdreki | [D Fyrir Dreki](https://open.kattis.com/problems/dfyrirdreki) | [Java](src/main/java/com/github/pareronia/kattis/dfyrirdreki/DFyrirDreki.java) |
+| diallingdigits | [Dialling Digits](https://open.kattis.com/problems/diallingdigits) | [Java](src/main/java/com/github/pareronia/kattis/diallingdigits/DiallingDigits.java) |
 | dicecup | [Dice Cup](https://open.kattis.com/problems/dicecup) | [Java](src/main/java/com/github/pareronia/kattis/dicecup/DiceCup.java) |
 | different | [A Different Problem](https://open.kattis.com/problems/different) | [Java](src/main/java/com/github/pareronia/kattis/different/ADifferentProblem.java) |
 | doctorkattis | [Doctor Kattis - TLE](https://open.kattis.com/problems/doctorkattis) | [Java](src/main/java/com/github/pareronia/kattis/doctorkattis/DoctorKattis.java) |
