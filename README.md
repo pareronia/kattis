@@ -197,6 +197,7 @@ https://open.kattis.com/
 | raidteams | [Raid Teams](https://open.kattis.com/problems/raidteams) | [Java](src/main/java/com/github/pareronia/kattis/raidteams/RaidTeams.java) |
 | ratingproblems | [Rating Problems](https://open.kattis.com/problems/ratingproblems) | [Java](src/main/java/com/github/pareronia/kattis/ratingproblems/RatingProblems.java) |
 | reachableroads | [Reachable Roads](https://open.kattis.com/problems/reachableroads) | [Java](src/main/java/com/github/pareronia/kattis/reachableroads/ReachableRoads.java) |
+| receptet | [The Recipe](https://open.kattis.com/problems/receptet) | [Java](src/main/java/com/github/pareronia/kattis/receptet/TheRecipe.java) |
 | reducedidnumbers | [Reduced ID Numbers](https://open.kattis.com/problems/reducedidnumbers) | [Java](src/main/java/com/github/pareronia/kattis/reducedidnumbers/ReducedIDNumbers.java) |
 | reduplikation | [Reduplication](https://open.kattis.com/problems/reduplikation) | [Java](src/main/java/com/github/pareronia/kattis/reduplikation/Reduplication.java) |
 | register | [Primary Register](https://open.kattis.com/problems/register) | [Java](src/main/java/com/github/pareronia/kattis/register/PrimaryRegister.java) |
