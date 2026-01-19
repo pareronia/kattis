@@ -84,6 +84,7 @@ https://open.kattis.com/
 | dfyrirdreki | [D Fyrir Dreki](https://open.kattis.com/problems/dfyrirdreki) | [Java](src/main/java/com/github/pareronia/kattis/dfyrirdreki/DFyrirDreki.java) |
 | dicecup | [Dice Cup](https://open.kattis.com/problems/dicecup) | [Java](src/main/java/com/github/pareronia/kattis/dicecup/DiceCup.java) |
 | different | [A Different Problem](https://open.kattis.com/problems/different) | [Java](src/main/java/com/github/pareronia/kattis/different/ADifferentProblem.java) |
+| doctorkattis | [Doctor Kattis - TLE](https://open.kattis.com/problems/doctorkattis) | [Java](src/main/java/com/github/pareronia/kattis/doctorkattis/DoctorKattis.java) |
 | dragafra | [Draga Frá](https://open.kattis.com/problems/dragafra) | [Java](src/main/java/com/github/pareronia/kattis/dragafra/DragaFra.java) |
 | dragonsinadungeon | [Dragons in a Dungeon](https://open.kattis.com/problems/dragonsinadungeon) | [Java](src/main/java/com/github/pareronia/kattis/dragonsinadungeon/DragonsInADungeon.java) |
 | drinkingsong | [Drinking Song](https://open.kattis.com/problems/drinkingsong) | [Java](src/main/java/com/github/pareronia/kattis/drinkingsong/DrinkingSong.java) |
