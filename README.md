@@ -76,6 +76,7 @@ https://open.kattis.com/
 | conversationlog | [Conversation Log](https://open.kattis.com/problems/conversationlog) | [Java](src/main/java/com/github/pareronia/kattis/conversationlog/ConversationLog.java) |
 | cups | [Stacking Cups](https://open.kattis.com/problems/cups) | [Java](src/main/java/com/github/pareronia/kattis/cups/StackingCups.java) |
 | cursethedarkness | [Curse the Darkness](https://open.kattis.com/problems/cursethedarkness) | [Java](src/main/java/com/github/pareronia/kattis/cursethedarkness/CurseTheDarkness.java) |
+| dagatal | [Dagatal](https://open.kattis.com/problems/dagatal) | [Java](src/main/java/com/github/pareronia/kattis/dagatal/Dagatal.java) |
 | dartscores | [Darts](https://open.kattis.com/problems/dartscores) | [Java](src/main/java/com/github/pareronia/kattis/dartscores/Darts.java) |
 | datum | [Datum](https://open.kattis.com/problems/datum) | [Java](src/main/java/com/github/pareronia/kattis/datum/Datum.java) |
 | desiigner | [Desiigner strengir](https://open.kattis.com/problems/desiigner) | [Java](src/main/java/com/github/pareronia/kattis/desiigner/DesiignerStrengir.java) |
