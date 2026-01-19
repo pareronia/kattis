@@ -46,6 +46,7 @@ https://open.kattis.com/
 | base2palindrome | [Base-2 Palindromes](https://open.kattis.com/problems/base2palindrome) | [Java](src/main/java/com/github/pareronia/kattis/base2palindrome/Base2Palindromes.java) |
 | basicprogramming2 | [Basic Programming 2](https://open.kattis.com/problems/basicprogramming2) | [Java](src/main/java/com/github/pareronia/kattis/basicprogramming2/BasicProgramming2.java) |
 | batterup | [Batter Up](https://open.kattis.com/problems/batterup) | [Java](src/main/java/com/github/pareronia/kattis/batterup/BatterUp.java) |
+| battleofnieuwpoort | [Battle of Nieuwpoort](https://open.kattis.com/problems/battleofnieuwpoort) | [Java](src/main/java/com/github/pareronia/kattis/battleofnieuwpoort/BattleOfNieuwpoort.java) |
 | beekeeper | [Beekeeper](https://open.kattis.com/problems/beekeeper) | [Java](src/main/java/com/github/pareronia/kattis/beekeeper/Beekeeper.java) |
 | bela | [Bela](https://open.kattis.com/problems/bela) | [Java](src/main/java/com/github/pareronia/kattis/bela/Bela.java) |
 | bergmal | [BergMál](https://open.kattis.com/problems/bergmal) | [Java](src/main/java/com/github/pareronia/kattis/bergmal/BergMal.java) |
