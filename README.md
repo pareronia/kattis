@@ -183,6 +183,7 @@ https://open.kattis.com/
 | namethatpermutation | [Name That Permutation](https://open.kattis.com/problems/namethatpermutation) | [Java](src/main/java/com/github/pareronia/kattis/namethatpermutation/NameThatPermutation.java) |
 | nastyhacks | [Nasty Hacks](https://open.kattis.com/problems/nastyhacks) | [Java](src/main/java/com/github/pareronia/kattis/nastyhacks/NastyHacks.java) |
 | natrij | [Natrij](https://open.kattis.com/problems/natrij) | [Java](src/main/java/com/github/pareronia/kattis/natrij/Natrij.java) |
+| nineknights | [Nine Knights](https://open.kattis.com/problems/nineknights) | [Java](src/main/java/com/github/pareronia/kattis/nineknights/NineKnights.java) |
 | nodup | [No Duplicates](https://open.kattis.com/problems/nodup) | [Java](src/main/java/com/github/pareronia/kattis/nodup/NoDuplicates.java) |
 | oddecho | [Odd Echo](https://open.kattis.com/problems/oddecho) | [Java](src/main/java/com/github/pareronia/kattis/oddecho/OddEcho.java) |
 | oddities | [Oddities](https://open.kattis.com/problems/oddities) | [Java](src/main/java/com/github/pareronia/kattis/oddities/Oddities.java) |
