@@ -112,6 +112,7 @@ https://open.kattis.com/
 | findingana | [Finding An A](https://open.kattis.com/problems/findingana) | [Java](src/main/java/com/github/pareronia/kattis/findingana/FindingAnA.java) |
 | fizzbuzz | [FizzBuzz](https://open.kattis.com/problems/fizzbuzz) | [Java](src/main/java/com/github/pareronia/kattis/fizzbuzz/FizzBuzz.java) |
 | flatbokuveisla | [Flatbökuveisla](https://open.kattis.com/problems/flatbokuveisla) | [Java](src/main/java/com/github/pareronia/kattis/flatbokuveisla/Flatbokuveisla.java) |
+| fleytitala | [Fleytitala](https://open.kattis.com/problems/fleytitala) | [Java](src/main/java/com/github/pareronia/kattis/fleytitala/Fleytitala.java) |
 | flowshop | [Flow Shop](https://open.kattis.com/problems/flowshop) | [Java](src/main/java/com/github/pareronia/kattis/flowshop/FlowShop.java) |
 | fodelsedagsmemorisering | [Birthday Memorization](https://open.kattis.com/problems/fodelsedagsmemorisering) | [Java](src/main/java/com/github/pareronia/kattis/fodelsedagsmemorisering/BirthdayMemorization.java) |
 | fridge | [Fridge](https://open.kattis.com/problems/fridge) | [Java](src/main/java/com/github/pareronia/kattis/fridge/Fridge.java) |
