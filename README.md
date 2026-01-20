@@ -240,6 +240,7 @@ https://open.kattis.com/
 | skotleikur | [Skotleikur](https://open.kattis.com/problems/skotleikur) | [Java](src/main/java/com/github/pareronia/kattis/skotleikur/Skotleikur.java) |
 | smartphone | [Smart Phone](https://open.kattis.com/problems/smartphone) | [Java](src/main/java/com/github/pareronia/kattis/smartphone/SmartPhone.java) |
 | smil | [SMIL](https://open.kattis.com/problems/smil) | [Java](src/main/java/com/github/pareronia/kattis/smil/SMIL.java) |
+| snakeystring | [Snakey String](https://open.kattis.com/problems/snakeystring) | [Java](src/main/java/com/github/pareronia/kattis/snakeystring/SnakeyString.java) |
 | sortofsorting | [Sort of Sorting](https://open.kattis.com/problems/sortofsorting) | [Java](src/main/java/com/github/pareronia/kattis/sortofsorting/SortOfSorting.java) |
 | speedlimit | [Speed Limit](https://open.kattis.com/problems/speedlimit) | [Java](src/main/java/com/github/pareronia/kattis/speedlimit/SpeedLimit.java) |
 | speedrun | [Speedrun](https://open.kattis.com/problems/speedrun) | [Java](src/main/java/com/github/pareronia/kattis/speedrun/Speedrun.java) |
