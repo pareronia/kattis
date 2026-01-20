@@ -193,6 +193,7 @@ https://open.kattis.com/
 | pizzubestun | [Pizzubestun](https://open.kattis.com/problems/pizzubestun) | [Java](src/main/java/com/github/pareronia/kattis/pizzubestun/Pizzubestun.java) |
 | planina | [Planina](https://open.kattis.com/problems/planina) | [Java](src/main/java/com/github/pareronia/kattis/planina/Planina.java) |
 | polygonarea | [Polygon Area](https://open.kattis.com/problems/polygonarea) | [Java](src/main/java/com/github/pareronia/kattis/polygonarea/PolygonArea.java) |
+| popkorn | [Popcorn](https://open.kattis.com/problems/popkorn) | [Java](src/main/java/com/github/pareronia/kattis/popkorn/Popcorn.java) |
 | pot | [Pot](https://open.kattis.com/problems/pot) | [Java](src/main/java/com/github/pareronia/kattis/pot/Pot.java) |
 | prerequisites | [Prerequisites?](https://open.kattis.com/problems/prerequisites) | [Java](src/main/java/com/github/pareronia/kattis/prerequisites/Prerequisites.java) |
 | pripreme | [Pripreme](https://open.kattis.com/problems/pripreme) | [Java](src/main/java/com/github/pareronia/kattis/pripreme/Pripreme.java) |
