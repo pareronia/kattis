@@ -218,6 +218,7 @@ https://open.kattis.com/
 | rust | [Rust](https://open.kattis.com/problems/rust) | [Java](src/main/java/com/github/pareronia/kattis/rust/Rust.java) |
 | savingdaylight | [Saving Daylight](https://open.kattis.com/problems/savingdaylight) | [Java](src/main/java/com/github/pareronia/kattis/savingdaylight/SavingDaylight.java) |
 | server | [Server](https://open.kattis.com/problems/server) | [Java](src/main/java/com/github/pareronia/kattis/server/Server.java) |
+| sevenwonders | [Seven Wonders](https://open.kattis.com/problems/sevenwonders) | [Java](src/main/java/com/github/pareronia/kattis/sevenwonders/SevenWonders.java) |
 | shatteredcake | [Shattered Cake](https://open.kattis.com/problems/shatteredcake) | [Java](src/main/java/com/github/pareronia/kattis/shatteredcake/ShatteredCake.java) |
 | shortcuttowhat | [A Shortcut to What?](https://open.kattis.com/problems/shortcuttowhat) | [Java](src/main/java/com/github/pareronia/kattis/shortcuttowhat/AShortcutToWhat.java) |
 | shortestpath1 | [Single source shortest path, non-negative weights](https://open.kattis.com/problems/shortestpath1) | [Java](src/main/java/com/github/pareronia/kattis/shortestpath1/SingleSourceShortestPathNonNegativeWeights.java) |
