@@ -151,6 +151,7 @@ https://open.kattis.com/
 | jage | [Tag](https://open.kattis.com/problems/jage) | [Java](src/main/java/com/github/pareronia/kattis/jage/Tag.java) |
 | jobexpenses | [Job Expenses](https://open.kattis.com/problems/jobexpenses) | [Java](src/main/java/com/github/pareronia/kattis/jobexpenses/JobExpenses.java) |
 | jollyjumpers | [Jolly Jumpers](https://open.kattis.com/problems/jollyjumpers) | [Java](src/main/java/com/github/pareronia/kattis/jollyjumpers/JollyJumpers.java) |
+| jumbojavelin | [Jumbo Javelin](https://open.kattis.com/problems/jumbojavelin) | [Java](src/main/java/com/github/pareronia/kattis/jumbojavelin/JumboJavelin.java) |
 | kastenlauf | [Kastenlauf](https://open.kattis.com/problems/kastenlauf) | [Java](src/main/java/com/github/pareronia/kattis/kastenlauf/Kastenlauf.java) |
 | kattissquest | [Kattis's Quest](https://open.kattis.com/problems/kattissquest) | [Java](src/main/java/com/github/pareronia/kattis/kattissquest/KattissQuest.java) |
 | keyboardd | [Keyboardd](https://open.kattis.com/problems/keyboardd) | [Java](src/main/java/com/github/pareronia/kattis/keyboardd/Keyboardd.java) |
