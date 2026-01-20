@@ -145,6 +145,7 @@ https://open.kattis.com/
 | industrialspy | [An Industrial Spy](https://open.kattis.com/problems/industrialspy) | [Java](src/main/java/com/github/pareronia/kattis/industrialspy/AnIndustrialSpy.java) |
 | inputmaxxing | [Inputmaxxing](https://open.kattis.com/problems/inputmaxxing) | [Java](src/main/java/com/github/pareronia/kattis/inputmaxxing/Inputmaxxing.java) |
 | instagraph | [Instagraph](https://open.kattis.com/problems/instagraph) | [Java](src/main/java/com/github/pareronia/kattis/instagraph/Instagraph.java) |
+| intervals0 | [Intervals](https://open.kattis.com/problems/intervals0) | [Java](src/main/java/com/github/pareronia/kattis/intervals0/Intervals.java) |
 | isithalloween | [IsItHalloween.com](https://open.kattis.com/problems/isithalloween) | [Java](src/main/java/com/github/pareronia/kattis/isithalloween/IsItHalloweencom.java) |
 | ith | [God Save the i-th Queen](https://open.kattis.com/problems/ith) | [Java](src/main/java/com/github/pareronia/kattis/ith/GodSaveTheIThQueen.java) |
 | jackolanternjuxtaposition | [Jack-O'-Lantern Juxtaposition](https://open.kattis.com/problems/jackolanternjuxtaposition) | [Java](src/main/java/com/github/pareronia/kattis/jackolanternjuxtaposition/JackOLanternJuxtaposition.java) |
