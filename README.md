@@ -195,6 +195,7 @@ https://open.kattis.com/
 | pinnifraendi | [Pinni Frændi](https://open.kattis.com/problems/pinnifraendi) | [Java](src/main/java/com/github/pareronia/kattis/pinnifraendi/PinniFraendi.java) |
 | pizzubestun | [Pizzubestun](https://open.kattis.com/problems/pizzubestun) | [Java](src/main/java/com/github/pareronia/kattis/pizzubestun/Pizzubestun.java) |
 | planina | [Planina](https://open.kattis.com/problems/planina) | [Java](src/main/java/com/github/pareronia/kattis/planina/Planina.java) |
+| plantingtrees | [Planting Trees](https://open.kattis.com/problems/plantingtrees) | [Java](src/main/java/com/github/pareronia/kattis/plantingtrees/PlantingTrees.java) |
 | polygonarea | [Polygon Area](https://open.kattis.com/problems/polygonarea) | [Java](src/main/java/com/github/pareronia/kattis/polygonarea/PolygonArea.java) |
 | popkorn | [Popcorn](https://open.kattis.com/problems/popkorn) | [Java](src/main/java/com/github/pareronia/kattis/popkorn/Popcorn.java) |
 | pot | [Pot](https://open.kattis.com/problems/pot) | [Java](src/main/java/com/github/pareronia/kattis/pot/Pot.java) |
