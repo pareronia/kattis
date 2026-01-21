@@ -140,6 +140,7 @@ https://open.kattis.com/
 | hipphipphurra | [Hipp Hipp Húrra](https://open.kattis.com/problems/hipphipphurra) | [Java](src/main/java/com/github/pareronia/kattis/hipphipphurra/HippHippHurra.java) |
 | hiptobesquare | [It's Hip to Be Square](https://open.kattis.com/problems/hiptobesquare) | [Java](src/main/java/com/github/pareronia/kattis/hiptobesquare/ItsHipToBeSquare.java) |
 | hissingmicrophone | [Hissing Microphone](https://open.kattis.com/problems/hissingmicrophone) | [Java](src/main/java/com/github/pareronia/kattis/hissingmicrophone/HissingMicrophone.java) |
+| histogram | [Histogram](https://open.kattis.com/problems/histogram) | [Java](src/main/java/com/github/pareronia/kattis/histogram/Histogram.java) |
 | hnappasetningaskipti | [Hnappasetningaskipti](https://open.kattis.com/problems/hnappasetningaskipti) | [Java](src/main/java/com/github/pareronia/kattis/hnappasetningaskipti/Hnappasetningaskipti.java) |
 | hornrett | [Hornrétt](https://open.kattis.com/problems/hornrett) | [Java](src/main/java/com/github/pareronia/kattis/hornrett/Hornrett.java) |
 | hothike | [Hot Hike](https://open.kattis.com/problems/hothike) | [Java](src/main/java/com/github/pareronia/kattis/hothike/HotHike.java) |
