@@ -282,6 +282,7 @@ https://open.kattis.com/
 | verditheradgodu | [Enjoy Your Repast!](https://open.kattis.com/problems/verditheradgodu) | [Java](src/main/java/com/github/pareronia/kattis/verditheradgodu/EnjoyYourRepast.java) |
 | vidsnuningur | [Viðsnúningur](https://open.kattis.com/problems/vidsnuningur) | [Java](src/main/java/com/github/pareronia/kattis/vidsnuningur/Visnningur.java) |
 | wheresmyinternet | [Where's My Internet??](https://open.kattis.com/problems/wheresmyinternet) | [Java](src/main/java/com/github/pareronia/kattis/wheresmyinternet/WheresMyInternet.java) |
+| whichisgreater | [Which is Greater?](https://open.kattis.com/problems/whichisgreater) | [Java](src/main/java/com/github/pareronia/kattis/whichisgreater/WhichIsGreater.java) |
 | wordcloud | [Word Cloud](https://open.kattis.com/problems/wordcloud) | [Java](src/main/java/com/github/pareronia/kattis/wordcloud/WordCloud.java) |
 | xorsist | [XORsistinn](https://open.kattis.com/problems/xorsist) | [Java](src/main/java/com/github/pareronia/kattis/xorsist/XORsistinn.java) |
 | yoda | [Yoda](https://open.kattis.com/problems/yoda) | [Java](src/main/java/com/github/pareronia/kattis/yoda/Yoda.java) |
