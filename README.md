@@ -149,6 +149,7 @@ https://open.kattis.com/
 | hradgreining | [Hraðgreining](https://open.kattis.com/problems/hradgreining) | [Java](src/main/java/com/github/pareronia/kattis/hradgreining/Hradgreining.java) |
 | humancannonball2 | [The Amazing Human Cannonball](https://open.kattis.com/problems/humancannonball2) | [Java](src/main/java/com/github/pareronia/kattis/humancannonball2/TheAmazingHumanCannonball.java) |
 | humanpyramid | [Human Pyramid](https://open.kattis.com/problems/humanpyramid) | [Java](src/main/java/com/github/pareronia/kattis/humanpyramid/HumanPyramid.java) |
+| icegrowth | [Ice Growth](https://open.kattis.com/problems/icegrowth) | [Java](src/main/java/com/github/pareronia/kattis/icegrowth/IceGrowth.java) |
 | industrialspy | [An Industrial Spy](https://open.kattis.com/problems/industrialspy) | [Java](src/main/java/com/github/pareronia/kattis/industrialspy/AnIndustrialSpy.java) |
 | inputmaxxing | [Inputmaxxing](https://open.kattis.com/problems/inputmaxxing) | [Java](src/main/java/com/github/pareronia/kattis/inputmaxxing/Inputmaxxing.java) |
 | instagraph | [Instagraph](https://open.kattis.com/problems/instagraph) | [Java](src/main/java/com/github/pareronia/kattis/instagraph/Instagraph.java) |
