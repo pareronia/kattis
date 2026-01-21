@@ -134,6 +134,7 @@ https://open.kattis.com/
 | hidden | [Hidden Password](https://open.kattis.com/problems/hidden) | [Java](src/main/java/com/github/pareronia/kattis/hidden/HiddenPassword.java) |
 | hillclimbracing | [Hill Climb Racing](https://open.kattis.com/problems/hillclimbracing) | [Java](src/main/java/com/github/pareronia/kattis/hillclimbracing/HillClimbRacing.java) |
 | hipphipp | [Hipp Hipp](https://open.kattis.com/problems/hipphipp) | [Java](src/main/java/com/github/pareronia/kattis/hipphipp/HippHipp.java) |
+| hipphipphurra | [Hipp Hipp Húrra](https://open.kattis.com/problems/hipphipphurra) | [Java](src/main/java/com/github/pareronia/kattis/hipphipphurra/HippHippHurra.java) |
 | hiptobesquare | [It's Hip to Be Square](https://open.kattis.com/problems/hiptobesquare) | [Java](src/main/java/com/github/pareronia/kattis/hiptobesquare/ItsHipToBeSquare.java) |
 | hissingmicrophone | [Hissing Microphone](https://open.kattis.com/problems/hissingmicrophone) | [Java](src/main/java/com/github/pareronia/kattis/hissingmicrophone/HissingMicrophone.java) |
 | hnappasetningaskipti | [Hnappasetningaskipti](https://open.kattis.com/problems/hnappasetningaskipti) | [Java](src/main/java/com/github/pareronia/kattis/hnappasetningaskipti/Hnappasetningaskipti.java) |
