@@ -61,6 +61,7 @@ https://open.kattis.com/
 | buildinghighways | [Building Highways](https://open.kattis.com/problems/buildinghighways) | [Java](src/main/java/com/github/pareronia/kattis/buildinghighways/BuildingHighways.java) |
 | busnumbers | [Bus Numbers](https://open.kattis.com/problems/busnumbers) | [Java](src/main/java/com/github/pareronia/kattis/busnumbers/BusNumbers.java) |
 | calculatingdartscores | [Calculating Dart Scores](https://open.kattis.com/problems/calculatingdartscores) | [Java](src/main/java/com/github/pareronia/kattis/calculatingdartscores/CalculatingDartScores.java) |
+| candycontribution | [Candy Contribution](https://open.kattis.com/problems/candycontribution) | [Java](src/main/java/com/github/pareronia/kattis/candycontribution/CandyContribution.java) |
 | cardtrick2 | [Card Trick](https://open.kattis.com/problems/cardtrick2) | [Java](src/main/java/com/github/pareronia/kattis/cardtrick2/CardTrick.java) |
 | carousel | [Carousel Rides](https://open.kattis.com/problems/carousel) | [Java](src/main/java/com/github/pareronia/kattis/carousel/CarouselRides.java) |
 | carrots | [Solving for Carrots](https://open.kattis.com/problems/carrots) | [Java](src/main/java/com/github/pareronia/kattis/carrots/SolvingForCarrots.java) |
