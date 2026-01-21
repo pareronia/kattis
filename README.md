@@ -57,6 +57,7 @@ https://open.kattis.com/
 | bluetooth | [Bluetooth](https://open.kattis.com/problems/bluetooth) | [Java](src/main/java/com/github/pareronia/kattis/bluetooth/Bluetooth.java) |
 | bobby | [Bobby's Bet](https://open.kattis.com/problems/bobby) | [Java](src/main/java/com/github/pareronia/kattis/bobby/BobbysBet.java) |
 | brokencalculator | [Broken Calculator](https://open.kattis.com/problems/brokencalculator) | [Java](src/main/java/com/github/pareronia/kattis/brokencalculator/BrokenCalculator.java) |
+| bufferedbuffet | [Buffered Buffet](https://open.kattis.com/problems/bufferedbuffet) | [Java](src/main/java/com/github/pareronia/kattis/bufferedbuffet/BufferedBuffet.java) |
 | buildinghighways | [Building Highways](https://open.kattis.com/problems/buildinghighways) | [Java](src/main/java/com/github/pareronia/kattis/buildinghighways/BuildingHighways.java) |
 | busnumbers | [Bus Numbers](https://open.kattis.com/problems/busnumbers) | [Java](src/main/java/com/github/pareronia/kattis/busnumbers/BusNumbers.java) |
 | calculatingdartscores | [Calculating Dart Scores](https://open.kattis.com/problems/calculatingdartscores) | [Java](src/main/java/com/github/pareronia/kattis/calculatingdartscores/CalculatingDartScores.java) |
