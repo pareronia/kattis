@@ -207,6 +207,7 @@ https://open.kattis.com/
 | piglatin | [Pig Latin](https://open.kattis.com/problems/piglatin) | [Java](src/main/java/com/github/pareronia/kattis/piglatin/PigLatin.java) |
 | pinnifraendi | [Pinni Frændi](https://open.kattis.com/problems/pinnifraendi) | [Java](src/main/java/com/github/pareronia/kattis/pinnifraendi/PinniFraendi.java) |
 | pizzubestun | [Pizzubestun](https://open.kattis.com/problems/pizzubestun) | [Java](src/main/java/com/github/pareronia/kattis/pizzubestun/Pizzubestun.java) |
+| planets2 | [Planets](https://open.kattis.com/problems/planets2) | [Java](src/main/java/com/github/pareronia/kattis/planets2/Planets.java) |
 | planina | [Planina](https://open.kattis.com/problems/planina) | [Java](src/main/java/com/github/pareronia/kattis/planina/Planina.java) |
 | plantingtrees | [Planting Trees](https://open.kattis.com/problems/plantingtrees) | [Java](src/main/java/com/github/pareronia/kattis/plantingtrees/PlantingTrees.java) |
 | polygonarea | [Polygon Area](https://open.kattis.com/problems/polygonarea) | [Java](src/main/java/com/github/pareronia/kattis/polygonarea/PolygonArea.java) |
