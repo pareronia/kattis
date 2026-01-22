@@ -292,6 +292,7 @@ https://open.kattis.com/
 | umferd | [Umferð](https://open.kattis.com/problems/umferd) | [Java](src/main/java/com/github/pareronia/kattis/umferd/Umferd.java) |
 | usbkeyboard | [USB Keyboard](https://open.kattis.com/problems/usbkeyboard) | [Java](src/main/java/com/github/pareronia/kattis/usbkeyboard/USBKeyboard.java) |
 | vajningsplikt | [Right-of-Way](https://open.kattis.com/problems/vajningsplikt) | [Java](src/main/java/com/github/pareronia/kattis/vajningsplikt/RightOfWay.java) |
+| variablearithmetic | [Variable Arithmetic](https://open.kattis.com/problems/variablearithmetic) | [Java](src/main/java/com/github/pareronia/kattis/variablearithmetic/VariableArithmetic.java) |
 | velkomin | [Velkomin!](https://open.kattis.com/problems/velkomin) | [Java](src/main/java/com/github/pareronia/kattis/velkomin/Velkomin.java) |
 | verditheradgodu | [Enjoy Your Repast!](https://open.kattis.com/problems/verditheradgodu) | [Java](src/main/java/com/github/pareronia/kattis/verditheradgodu/EnjoyYourRepast.java) |
 | vidsnuningur | [Viðsnúningur](https://open.kattis.com/problems/vidsnuningur) | [Java](src/main/java/com/github/pareronia/kattis/vidsnuningur/Visnningur.java) |
