@@ -297,6 +297,7 @@ https://open.kattis.com/
 | variablearithmetic | [Variable Arithmetic](https://open.kattis.com/problems/variablearithmetic) | [Java](src/main/java/com/github/pareronia/kattis/variablearithmetic/VariableArithmetic.java) |
 | velkomin | [Velkomin!](https://open.kattis.com/problems/velkomin) | [Java](src/main/java/com/github/pareronia/kattis/velkomin/Velkomin.java) |
 | verditheradgodu | [Enjoy Your Repast!](https://open.kattis.com/problems/verditheradgodu) | [Java](src/main/java/com/github/pareronia/kattis/verditheradgodu/EnjoyYourRepast.java) |
+| videogames | [Video Games](https://open.kattis.com/problems/videogames) | [Java](src/main/java/com/github/pareronia/kattis/videogames/VideoGames.java) |
 | vidsnuningur | [Viðsnúningur](https://open.kattis.com/problems/vidsnuningur) | [Java](src/main/java/com/github/pareronia/kattis/vidsnuningur/Visnningur.java) |
 | wheresmyinternet | [Where's My Internet??](https://open.kattis.com/problems/wheresmyinternet) | [Java](src/main/java/com/github/pareronia/kattis/wheresmyinternet/WheresMyInternet.java) |
 | whichisgreater | [Which is Greater?](https://open.kattis.com/problems/whichisgreater) | [Java](src/main/java/com/github/pareronia/kattis/whichisgreater/WhichIsGreater.java) |
