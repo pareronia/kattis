@@ -133,6 +133,7 @@ https://open.kattis.com/
 | greetings2 | [](https://open.kattis.com/problems/greetings2) | [Java](src/main/java/com/github/pareronia/kattis/greetings2/Greetings2.java) |
 | guess | [Guess the Number](https://open.kattis.com/problems/guess) | [Java](src/main/java/com/github/pareronia/kattis/guess/GuessTheNumber.java) |
 | hangman | [Hangman](https://open.kattis.com/problems/hangman) | [Java](src/main/java/com/github/pareronia/kattis/hangman/Hangman.java) |
+| happyprime | [Happy Happy Prime Prime](https://open.kattis.com/problems/happyprime) | [Java](src/main/java/com/github/pareronia/kattis/happyprime/HappyHappyPrimePrime.java) |
 | hardware | [Hardware](https://open.kattis.com/problems/hardware) | [Java](src/main/java/com/github/pareronia/kattis/hardware/Hardware.java) |
 | harshadnumbers | [Harshad Numbers](https://open.kattis.com/problems/harshadnumbers) | [Java](src/main/java/com/github/pareronia/kattis/harshadnumbers/HarshadNumbers.java) |
 | heartrate | [Heart Rate](https://open.kattis.com/problems/heartrate) | [Java](src/main/java/com/github/pareronia/kattis/heartrate/HeartRate.java) |
