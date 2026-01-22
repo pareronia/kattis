@@ -233,6 +233,7 @@ https://open.kattis.com/
 | register | [Primary Register](https://open.kattis.com/problems/register) | [Java](src/main/java/com/github/pareronia/kattis/register/PrimaryRegister.java) |
 | reversebinary | [Reversed Binary Numbers](https://open.kattis.com/problems/reversebinary) | [Java](src/main/java/com/github/pareronia/kattis/reversebinary/ReversedBinaryNumbers.java) |
 | rockpaperscissors | [Rock-Paper-Scissors Tournament](https://open.kattis.com/problems/rockpaperscissors) | [Java](src/main/java/com/github/pareronia/kattis/rockpaperscissors/RockPaperScissorsTournament.java) |
+| roompainting | [Room Painting](https://open.kattis.com/problems/roompainting) | [Java](src/main/java/com/github/pareronia/kattis/roompainting/RoomPainting.java) |
 | rust | [Rust](https://open.kattis.com/problems/rust) | [Java](src/main/java/com/github/pareronia/kattis/rust/Rust.java) |
 | savingdaylight | [Saving Daylight](https://open.kattis.com/problems/savingdaylight) | [Java](src/main/java/com/github/pareronia/kattis/savingdaylight/SavingDaylight.java) |
 | server | [Server](https://open.kattis.com/problems/server) | [Java](src/main/java/com/github/pareronia/kattis/server/Server.java) |
