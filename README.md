@@ -181,6 +181,7 @@ https://open.kattis.com/
 | ladder | [Ladder](https://open.kattis.com/problems/ladder) | [Java](src/main/java/com/github/pareronia/kattis/ladder/Ladder.java) |
 | laptopstickers | [Laptop Stickers](https://open.kattis.com/problems/laptopstickers) | [Java](src/main/java/com/github/pareronia/kattis/laptopstickers/LaptopStickers.java) |
 | lastfactorialdigit | [Last Factorial Digit](https://open.kattis.com/problems/lastfactorialdigit) | [Java](src/main/java/com/github/pareronia/kattis/lastfactorialdigit/LastFactorialDigit.java) |
+| lastminute | [Last Minute](https://open.kattis.com/problems/lastminute) | [Java](src/main/java/com/github/pareronia/kattis/lastminute/LastMinute.java) |
 | lawfullimits | [Lawful Limits](https://open.kattis.com/problems/lawfullimits) | [Java](src/main/java/com/github/pareronia/kattis/lawfullimits/LawfulLimits.java) |
 | leggjasaman | [Leggja saman](https://open.kattis.com/problems/leggjasaman) | [Java](src/main/java/com/github/pareronia/kattis/leggjasaman/LeggjaSaman.java) |
 | leidangur | [Leiðangur](https://open.kattis.com/problems/leidangur) | [Java](src/main/java/com/github/pareronia/kattis/leidangur/Leidangur.java) |
