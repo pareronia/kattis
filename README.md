@@ -55,6 +55,7 @@ https://open.kattis.com/
 | bestagjofin | [Besta gjöfin](https://open.kattis.com/problems/bestagjofin) | [Java](src/main/java/com/github/pareronia/kattis/bestagjofin/BestaGjofin.java) |
 | bidendalausbid | [Bið, endalaus bið](https://open.kattis.com/problems/bidendalausbid) | [Java](src/main/java/com/github/pareronia/kattis/bidendalausbid/BidEndalausBid.java) |
 | bijele | [Bijele](https://open.kattis.com/problems/bijele) | [Java](src/main/java/com/github/pareronia/kattis/bijele/Bijele.java) |
+| bladra2 | [Blaðra](https://open.kattis.com/problems/bladra2) | [Java](src/main/java/com/github/pareronia/kattis/bladra2/Bladra.java) |
 | bluetooth | [Bluetooth](https://open.kattis.com/problems/bluetooth) | [Java](src/main/java/com/github/pareronia/kattis/bluetooth/Bluetooth.java) |
 | bobby | [Bobby's Bet](https://open.kattis.com/problems/bobby) | [Java](src/main/java/com/github/pareronia/kattis/bobby/BobbysBet.java) |
 | brokencalculator | [Broken Calculator](https://open.kattis.com/problems/brokencalculator) | [Java](src/main/java/com/github/pareronia/kattis/brokencalculator/BrokenCalculator.java) |
