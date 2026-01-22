@@ -295,6 +295,7 @@ https://open.kattis.com/
 | usbkeyboard | [USB Keyboard](https://open.kattis.com/problems/usbkeyboard) | [Java](src/main/java/com/github/pareronia/kattis/usbkeyboard/USBKeyboard.java) |
 | vajningsplikt | [Right-of-Way](https://open.kattis.com/problems/vajningsplikt) | [Java](src/main/java/com/github/pareronia/kattis/vajningsplikt/RightOfWay.java) |
 | variablearithmetic | [Variable Arithmetic](https://open.kattis.com/problems/variablearithmetic) | [Java](src/main/java/com/github/pareronia/kattis/variablearithmetic/VariableArithmetic.java) |
+| vedurvindhradi | [Veður - Vindhraði](https://open.kattis.com/problems/vedurvindhradi) | [Java](src/main/java/com/github/pareronia/kattis/vedurvindhradi/VedurVindhradi.java) |
 | velkomin | [Velkomin!](https://open.kattis.com/problems/velkomin) | [Java](src/main/java/com/github/pareronia/kattis/velkomin/Velkomin.java) |
 | verditheradgodu | [Enjoy Your Repast!](https://open.kattis.com/problems/verditheradgodu) | [Java](src/main/java/com/github/pareronia/kattis/verditheradgodu/EnjoyYourRepast.java) |
 | videogames | [Video Games](https://open.kattis.com/problems/videogames) | [Java](src/main/java/com/github/pareronia/kattis/videogames/VideoGames.java) |
