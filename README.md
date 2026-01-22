@@ -72,6 +72,7 @@ https://open.kattis.com/
 | cetvrta | [Cetvrta](https://open.kattis.com/problems/cetvrta) | [Java](src/main/java/com/github/pareronia/kattis/cetvrta/Cetvrta.java) |
 | chanukah | [Chanukah Challenge](https://open.kattis.com/problems/chanukah) | [Java](src/main/java/com/github/pareronia/kattis/chanukah/ChanukahChallenge.java) |
 | chartingprogress | [Charting Progress](https://open.kattis.com/problems/chartingprogress) | [Java](src/main/java/com/github/pareronia/kattis/chartingprogress/ChartingProgress.java) |
+| chess | [Chess](https://open.kattis.com/problems/chess) | [Java](src/main/java/com/github/pareronia/kattis/chess/Chess.java) |
 | chopin | [Chopin](https://open.kattis.com/problems/chopin) | [Java](src/main/java/com/github/pareronia/kattis/chopin/Chopin.java) |
 | circuitmath | [Circuit Math](https://open.kattis.com/problems/circuitmath) | [Java](src/main/java/com/github/pareronia/kattis/circuitmath/CircuitMath.java) |
 | clockcatchup | [Clock Catchup](https://open.kattis.com/problems/clockcatchup) | [Java](src/main/java/com/github/pareronia/kattis/clockcatchup/ClockCatchup.java) |
