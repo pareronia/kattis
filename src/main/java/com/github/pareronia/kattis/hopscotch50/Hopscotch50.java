@@ -22,7 +22,7 @@ import java.util.Set;
 import java.util.StringTokenizer;
 
 /**
- * Hopscotch 50 - TLE
+ * Hopscotch 50
  * @see <a href="https://open.kattis.com/problems/hopscotch50">https://open.kattis.com/problems/hopscotch50</a>
  */
 public class Hopscotch50 {

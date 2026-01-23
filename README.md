@@ -150,7 +150,7 @@ https://open.kattis.com/
 | hissingmicrophone | [Hissing Microphone](https://open.kattis.com/problems/hissingmicrophone) | [Java](src/main/java/com/github/pareronia/kattis/hissingmicrophone/HissingMicrophone.java) |
 | histogram | [Histogram](https://open.kattis.com/problems/histogram) | [Java](src/main/java/com/github/pareronia/kattis/histogram/Histogram.java) |
 | hnappasetningaskipti | [Hnappasetningaskipti](https://open.kattis.com/problems/hnappasetningaskipti) | [Java](src/main/java/com/github/pareronia/kattis/hnappasetningaskipti/Hnappasetningaskipti.java) |
-| hopscotch50 | [Hopscotch 50 - TLE](https://open.kattis.com/problems/hopscotch50) | [Java](src/main/java/com/github/pareronia/kattis/hopscotch50/Hopscotch50.java) |
+| hopscotch50 | [Hopscotch 50](https://open.kattis.com/problems/hopscotch50) | [Java](src/main/java/com/github/pareronia/kattis/hopscotch50/Hopscotch50.java) |
 | hornrett | [Hornrétt](https://open.kattis.com/problems/hornrett) | [Java](src/main/java/com/github/pareronia/kattis/hornrett/Hornrett.java) |
 | hothike | [Hot Hike](https://open.kattis.com/problems/hothike) | [Java](src/main/java/com/github/pareronia/kattis/hothike/HotHike.java) |
 | hotspot | [Hot Spot](https://open.kattis.com/problems/hotspot) | [Java](src/main/java/com/github/pareronia/kattis/hotspot/HotSpot.java) |
