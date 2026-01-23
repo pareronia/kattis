@@ -20,6 +20,7 @@ import java.util.function.Supplier;
 import java.util.stream.Stream;
 
 /**
+ * Greetings!
  * @see <a href="https://open.kattis.com/problems/greetings2">https://open.kattis.com/problems/greetings2</a>
  */
 public class Greetings2 {

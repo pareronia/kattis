@@ -20,6 +20,7 @@ import java.util.function.Supplier;
 import java.util.stream.Stream;
 
 /**
+ * Add Two Numbers
  * @see <a href="https://open.kattis.com/problems/addtwonumbers">https://open.kattis.com/problems/addtwonumbers</a>
  */
 public class AddTwoNumbers {

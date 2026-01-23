@@ -18,7 +18,7 @@ https://open.kattis.com/
 | 99problems2 | [99 Problems - TLE](https://open.kattis.com/problems/99problems2) | [Java](src/main/java/com/github/pareronia/kattis/_99problems2/NinetyNineProblems.java) |
 | acappellarecording | [A Cappella Recording](https://open.kattis.com/problems/acappellarecording) | [Java](src/main/java/com/github/pareronia/kattis/acappellarecording/ACappellaRecording.java) |
 | addingwords | [Adding Words](https://open.kattis.com/problems/addingwords) | [Java](src/main/java/com/github/pareronia/kattis/addingwords/AddingWords.java) |
-| addtwonumbers | [](https://open.kattis.com/problems/addtwonumbers) | [Java](src/main/java/com/github/pareronia/kattis/addtwonumbers/AddTwoNumbers.java) |
+| addtwonumbers | [Add Two Numbers](https://open.kattis.com/problems/addtwonumbers) | [Java](src/main/java/com/github/pareronia/kattis/addtwonumbers/AddTwoNumbers.java) |
 | akcija | [Akcija](https://open.kattis.com/problems/akcija) | [Java](src/main/java/com/github/pareronia/kattis/akcija/Akcija.java) |
 | aldursrodun | [Aldursröðun](https://open.kattis.com/problems/aldursrodun) | [Java](src/main/java/com/github/pareronia/kattis/aldursrodun/Aldursrodun.java) |
 | aleidibio | [Á leið í bíó](https://open.kattis.com/problems/aleidibio) | [Java](src/main/java/com/github/pareronia/kattis/aleidibio/ALeidiBio.java) |
@@ -131,7 +131,7 @@ https://open.kattis.com/
 | goggi | [Gluttonous George](https://open.kattis.com/problems/goggi) | [Java](src/main/java/com/github/pareronia/kattis/goggi/GluttonousGeorge.java) |
 | gottacatchemtwice | [Gotta Catch 'Em Twice](https://open.kattis.com/problems/gottacatchemtwice) | [Java](src/main/java/com/github/pareronia/kattis/gottacatchemtwice/GottaCatchEmTwice.java) |
 | grassseed | [Grass Seed Inc.](https://open.kattis.com/problems/grassseed) | [Java](src/main/java/com/github/pareronia/kattis/grassseed/GrassSeedInc.java) |
-| greetings2 | [](https://open.kattis.com/problems/greetings2) | [Java](src/main/java/com/github/pareronia/kattis/greetings2/Greetings2.java) |
+| greetings2 | [Greetings!](https://open.kattis.com/problems/greetings2) | [Java](src/main/java/com/github/pareronia/kattis/greetings2/Greetings2.java) |
 | guess | [Guess the Number](https://open.kattis.com/problems/guess) | [Java](src/main/java/com/github/pareronia/kattis/guess/GuessTheNumber.java) |
 | hangman | [Hangman](https://open.kattis.com/problems/hangman) | [Java](src/main/java/com/github/pareronia/kattis/hangman/Hangman.java) |
 | happyprime | [Happy Happy Prime Prime](https://open.kattis.com/problems/happyprime) | [Java](src/main/java/com/github/pareronia/kattis/happyprime/HappyHappyPrimePrime.java) |
@@ -139,7 +139,7 @@ https://open.kattis.com/
 | harshadnumbers | [Harshad Numbers](https://open.kattis.com/problems/harshadnumbers) | [Java](src/main/java/com/github/pareronia/kattis/harshadnumbers/HarshadNumbers.java) |
 | heartrate | [Heart Rate](https://open.kattis.com/problems/heartrate) | [Java](src/main/java/com/github/pareronia/kattis/heartrate/HeartRate.java) |
 | heimavinna | [Homework](https://open.kattis.com/problems/heimavinna) | [Java](src/main/java/com/github/pareronia/kattis/heimavinna/Homework.java) |
-| hello | [](https://open.kattis.com/problems/hello) | [Java](src/main/java/com/github/pareronia/kattis/hello/Hello.java) |
+| hello | [Hello World!](https://open.kattis.com/problems/hello) | [Java](src/main/java/com/github/pareronia/kattis/hello/Hello.java) |
 | helpme | [Help Me With The Game](https://open.kattis.com/problems/helpme) | [Java](src/main/java/com/github/pareronia/kattis/helpme/HelpMeWithTheGame.java) |
 | herman | [Herman](https://open.kattis.com/problems/herman) | [Java](src/main/java/com/github/pareronia/kattis/herman/Herman.java) |
 | hidden | [Hidden Password](https://open.kattis.com/problems/hidden) | [Java](src/main/java/com/github/pareronia/kattis/hidden/HiddenPassword.java) |

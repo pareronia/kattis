@@ -9,6 +9,7 @@ import java.net.URISyntaxException;
 import java.util.List;
 
 /**
+ * Hello World!
  * @see <a href="https://open.kattis.com/problems/hello">https://open.kattis.com/problems/hello</a>
  */
 public class Hello {
