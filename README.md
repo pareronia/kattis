@@ -120,6 +120,7 @@ https://open.kattis.com/
 | fifa | [Framtíðar FIFA](https://open.kattis.com/problems/fifa) | [Java](src/main/java/com/github/pareronia/kattis/fifa/FramtarFIFA.java) |
 | filip | [Filip](https://open.kattis.com/problems/filip) | [Java](src/main/java/com/github/pareronia/kattis/filip/Filip.java) |
 | findingana | [Finding An A](https://open.kattis.com/problems/findingana) | [Java](src/main/java/com/github/pareronia/kattis/findingana/FindingAnA.java) |
+| firefly | [Firefly](https://open.kattis.com/problems/firefly) | [Java](src/main/java/com/github/pareronia/kattis/firefly/Firefly.java) |
 | fizzbuzz | [FizzBuzz](https://open.kattis.com/problems/fizzbuzz) | [Java](src/main/java/com/github/pareronia/kattis/fizzbuzz/FizzBuzz.java) |
 | flatbokuveisla | [Flatbökuveisla](https://open.kattis.com/problems/flatbokuveisla) | [Java](src/main/java/com/github/pareronia/kattis/flatbokuveisla/Flatbokuveisla.java) |
 | fleytitala | [Fleytitala](https://open.kattis.com/problems/fleytitala) | [Java](src/main/java/com/github/pareronia/kattis/fleytitala/Fleytitala.java) |
