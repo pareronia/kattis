@@ -59,6 +59,7 @@ https://open.kattis.com/
 | bijele | [Bijele](https://open.kattis.com/problems/bijele) | [Java](src/main/java/com/github/pareronia/kattis/bijele/Bijele.java) |
 | bladra | [Blaðra](https://open.kattis.com/problems/bladra) | [Java](src/main/java/com/github/pareronia/kattis/bladra/Bladra.java) |
 | bladra2 | [Blaðra](https://open.kattis.com/problems/bladra2) | [Java](src/main/java/com/github/pareronia/kattis/bladra2/Bladra.java) |
+| blandadbest | [Blandað Best](https://open.kattis.com/problems/blandadbest) | [Java](src/main/java/com/github/pareronia/kattis/blandadbest/BlandadBest.java) |
 | bluetooth | [Bluetooth](https://open.kattis.com/problems/bluetooth) | [Java](src/main/java/com/github/pareronia/kattis/bluetooth/Bluetooth.java) |
 | bobby | [Bobby's Bet](https://open.kattis.com/problems/bobby) | [Java](src/main/java/com/github/pareronia/kattis/bobby/BobbysBet.java) |
 | brokencalculator | [Broken Calculator](https://open.kattis.com/problems/brokencalculator) | [Java](src/main/java/com/github/pareronia/kattis/brokencalculator/BrokenCalculator.java) |
