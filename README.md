@@ -20,6 +20,7 @@ https://open.kattis.com/
 | addingwords | [Adding Words](https://open.kattis.com/problems/addingwords) | [Java](src/main/java/com/github/pareronia/kattis/addingwords/AddingWords.java) |
 | addtwonumbers | [Add Two Numbers](https://open.kattis.com/problems/addtwonumbers) | [Java](src/main/java/com/github/pareronia/kattis/addtwonumbers/AddTwoNumbers.java) |
 | akcija | [Akcija](https://open.kattis.com/problems/akcija) | [Java](src/main/java/com/github/pareronia/kattis/akcija/Akcija.java) |
+| aldur | [Aldur](https://open.kattis.com/problems/aldur) | [Java](src/main/java/com/github/pareronia/kattis/aldur/Aldur.java) |
 | aldursrodun | [Aldursröðun](https://open.kattis.com/problems/aldursrodun) | [Java](src/main/java/com/github/pareronia/kattis/aldursrodun/Aldursrodun.java) |
 | aleidibio | [Á leið í bíó](https://open.kattis.com/problems/aleidibio) | [Java](src/main/java/com/github/pareronia/kattis/aleidibio/ALeidiBio.java) |
 | alphabetsoup | [Alphabet Soup](https://open.kattis.com/problems/alphabetsoup) | [Java](src/main/java/com/github/pareronia/kattis/alphabetsoup/AlphabetSoup.java) |
