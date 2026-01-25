@@ -303,6 +303,7 @@ https://open.kattis.com/
 | tri | [Tri](https://open.kattis.com/problems/tri) | [Java](src/main/java/com/github/pareronia/kattis/tri/Tri.java) |
 | triangelfabriken | [The Triangle Factory](https://open.kattis.com/problems/triangelfabriken) | [Java](src/main/java/com/github/pareronia/kattis/triangelfabriken/TheTriangleFactory.java) |
 | twostones | [Take Two Stones](https://open.kattis.com/problems/twostones) | [Java](src/main/java/com/github/pareronia/kattis/twostones/TakeTwoStones.java) |
+| twosum | [Two-sum](https://open.kattis.com/problems/twosum) | [Java](src/main/java/com/github/pareronia/kattis/twosum/TwoSum.java) |
 | umferd | [Umferð](https://open.kattis.com/problems/umferd) | [Java](src/main/java/com/github/pareronia/kattis/umferd/Umferd.java) |
 | usbkeyboard | [USB Keyboard](https://open.kattis.com/problems/usbkeyboard) | [Java](src/main/java/com/github/pareronia/kattis/usbkeyboard/USBKeyboard.java) |
 | vajningsplikt | [Right-of-Way](https://open.kattis.com/problems/vajningsplikt) | [Java](src/main/java/com/github/pareronia/kattis/vajningsplikt/RightOfWay.java) |
