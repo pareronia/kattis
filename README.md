@@ -229,6 +229,7 @@ https://open.kattis.com/
 | popkorn | [Popcorn](https://open.kattis.com/problems/popkorn) | [Java](src/main/java/com/github/pareronia/kattis/popkorn/Popcorn.java) |
 | pot | [Pot](https://open.kattis.com/problems/pot) | [Java](src/main/java/com/github/pareronia/kattis/pot/Pot.java) |
 | prerequisites | [Prerequisites?](https://open.kattis.com/problems/prerequisites) | [Java](src/main/java/com/github/pareronia/kattis/prerequisites/Prerequisites.java) |
+| primepath | [Prime Path](https://open.kattis.com/problems/primepath) | [Java](src/main/java/com/github/pareronia/kattis/primepath/PrimePath.java) |
 | pripreme | [Pripreme](https://open.kattis.com/problems/pripreme) | [Java](src/main/java/com/github/pareronia/kattis/pripreme/Pripreme.java) |
 | qaly | [Quality-Adjusted Life-Year](https://open.kattis.com/problems/qaly) | [Java](src/main/java/com/github/pareronia/kattis/qaly/QualityAdjustedLifeYear.java) |
 | quadrant | [Quadrant Selection](https://open.kattis.com/problems/quadrant) | [Java](src/main/java/com/github/pareronia/kattis/quadrant/QuadrantSelection.java) |
