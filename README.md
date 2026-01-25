@@ -93,6 +93,7 @@ https://open.kattis.com/
 | dagatal | [Dagatal](https://open.kattis.com/problems/dagatal) | [Java](src/main/java/com/github/pareronia/kattis/dagatal/Dagatal.java) |
 | dartscores | [Darts](https://open.kattis.com/problems/dartscores) | [Java](src/main/java/com/github/pareronia/kattis/dartscores/Darts.java) |
 | datum | [Datum](https://open.kattis.com/problems/datum) | [Java](src/main/java/com/github/pareronia/kattis/datum/Datum.java) |
+| decimaldeletion | [Decimal deletion](https://open.kattis.com/problems/decimaldeletion) | [Java](src/main/java/com/github/pareronia/kattis/decimaldeletion/DecimalDeletion.java) |
 | desiigner | [Desiigner strengir](https://open.kattis.com/problems/desiigner) | [Java](src/main/java/com/github/pareronia/kattis/desiigner/DesiignerStrengir.java) |
 | detaileddifferences | [Detailed Differences](https://open.kattis.com/problems/detaileddifferences) | [Java](src/main/java/com/github/pareronia/kattis/detaileddifferences/DetailedDifferences.java) |
 | dfyrirdreki | [D Fyrir Dreki](https://open.kattis.com/problems/dfyrirdreki) | [Java](src/main/java/com/github/pareronia/kattis/dfyrirdreki/DFyrirDreki.java) |
